@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-12 1] EN Business | Office English: Formal or informal?</title>
+      <guid isPermaLink="false">2026-10-12:urn:bbc:podcast:p0p3qgy5</guid>
+      <pubDate>Mon, 12 Oct 2026 06:00:00 +0900</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0p3qgy5</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p3qfd7.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>540</itunes:duration>
+    </item>
+    <item>
+      <title>[10-12 2] EN All Ears | AEE: What is Lookism and What Can We Do About It?</title>
+      <guid isPermaLink="false">2026-10-12:90f502e4-b238-11f1-89bf-9be592f3c61d</guid>
+      <pubDate>Mon, 12 Oct 2026 05:00:00 +0900</pubDate>
+      <link>https://www.allearsenglish.com/fluencyscore</link>
+      <enclosure url="https://traffic.megaphone.fm/ALLE1779391053.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1200</itunes:duration>
+    </item>
+    <item>
+      <title>[10-12 3] JP Beginner | #2どのくらい日本語を勉強していますか？について！</title>
+      <guid isPermaLink="false">2026-10-12:http://nihongoconteppei.com/?p=48</guid>
+      <pubDate>Mon, 12 Oct 2026 04:00:00 +0900</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/04/2%e3%81%a9%e3%81%ae%e3%81%8f%e3%82%89%e3%81%84%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%92%e5%8b%89%e5%bc%b7%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei2.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-11 1] EN Business | Office English: Plans and strategies</title>
       <guid isPermaLink="false">2026-10-11:urn:bbc:podcast:p0p4yd48</guid>
       <pubDate>Sun, 11 Oct 2026 06:00:00 +0900</pubDate>

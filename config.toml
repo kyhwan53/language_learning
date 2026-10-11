@@ -59,30 +59,36 @@ mode = "newest"
 
 # --- 읽기용 외신 기사 (RSS의 제목/요약/원문 링크만 사용, 전문은 복사하지 않음) ---
 # 매일 articles_per_day개를 소스를 돌려가며 고릅니다. 추가는 아래 블록을 복사해 쓰면 됩니다.
+# 순서가 중요: 2개씩 짝지어 돌아갑니다 (경제 → 국제정세, 경제 → 국제정세 ...). 짝수 개수를 유지하세요.
 [[article]]
-key = "guardian_env"
-label = "Guardian Environment"
-rss = "https://www.theguardian.com/environment/rss"
-
-[[article]]
-key = "carbonbrief"
-label = "Carbon Brief"
-rss = "https://carbonbrief.org/feed/"
-
-[[article]]
-key = "icn"
-label = "Inside Climate News"
-rss = "https://insideclimatenews.org/feed/"
-
-[[article]]
-key = "bbc_sci"
-label = "BBC Science & Environment"
-rss = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+key = "bbc_business"
+label = "BBC Business"
+rss = "https://feeds.bbci.co.uk/news/business/rss.xml"
 
 [[article]]
 key = "bbc_world"
 label = "BBC World"
 rss = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
+[[article]]
+key = "npr_economy"
+label = "NPR Economy"
+rss = "https://feeds.npr.org/1017/rss.xml"
+
+[[article]]
+key = "npr_world"
+label = "NPR World"
+rss = "https://feeds.npr.org/1004/rss.xml"
+
+[[article]]
+key = "guardian_business"
+label = "Guardian Business"
+rss = "https://www.theguardian.com/uk/business/rss"
+
+[[article]]
+key = "guardian_world"
+label = "Guardian World"
+rss = "https://www.theguardian.com/world/rss"
 
 # --- 요일별 편성 (위에서 정의한 key 사용, 순서대로 재생) ---
 [schedule]
