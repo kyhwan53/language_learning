@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>My Daily Language Queue</title>
+    <link>https://kyhwan53.github.io/language-learning</link>
+    <language>en</language>
+    <description>Personal daily listening queue (links to original podcasts).</description>
+    <item>
+      <title>[10-11 1] EN Business | Office English: Plans and strategies</title>
+      <guid isPermaLink="false">2026-10-11:urn:bbc:podcast:p0p4yd48</guid>
+      <pubDate>Sun, 11 Oct 2026 06:00:00 +0900</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0p4yd48</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p4ybmp.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>480</itunes:duration>
+    </item>
+    <item>
+      <title>[10-11 2] EN Talk | The three words that saved my life | Blake Mycoskie</title>
+      <guid isPermaLink="false">2026-10-11:6ac7af6ae2a72faefc1e8d10</guid>
+      <pubDate>Sun, 11 Oct 2026 05:00:00 +0900</pubDate>
+      <link>http://go.ted.com/blakemycoskie</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7af6ae2a72faefc1e8d10/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1140</itunes:duration>
+    </item>
+    <item>
+      <title>[10-11 3] JP Beginner | #1元気ですか？について！</title>
+      <guid isPermaLink="false">2026-10-11:http://nihongoconteppei.com/?p=9</guid>
+      <pubDate>Sun, 11 Oct 2026 04:00:00 +0900</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/04/%e5%85%83%e6%b0%97%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei1.mp3" type="audio/mpeg" length="0" />
+    </item>
+  </channel>
+</rss>

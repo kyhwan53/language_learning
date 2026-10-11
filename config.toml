@@ -1,0 +1,55 @@
+# ===== 여기만 고치면 됩니다 =====
+# 소스 추가/삭제는 `python manage.py add/remove`로도 가능하고, 이 파일을 직접 편집해도 됩니다.
+# 변경 후에는 `python manage.py check`로 피드가 살아 있는지 확인하세요.
+
+[settings]
+max_minutes = 30                       # 하루 큐 최대 길이(분)
+feed_days = 7                          # 개인 피드에 남길 일수
+recipient = ""                         # 아침 메일 수신 주소 (비우면 GMAIL_USER 환경변수 사용; 공개 저장소라 주소를 적지 않음)
+base_url = "https://kyhwan53.github.io/language-learning"  # GitHub Pages 주소
+
+# --- 소스 목록 ---
+# key   : 아래 schedule에서 쓰는 짧은 이름 (영문/숫자)
+# label : 메일/피드에 표시될 이름
+# rss   : 팟캐스트 RSS 주소
+# mode  : "newest" = 최신 에피소드부터, "oldest" = 가장 오래된 것부터 순서대로(입문 커리큘럼용)
+
+[[source]]
+key = "biz"
+label = "EN Business"
+rss = "https://podcasts.files.bbci.co.uk/p0h6ffwg.rss"   # BBC Learning English For Work
+mode = "newest"
+
+[[source]]
+key = "easy"
+label = "EN Easy"
+rss = "https://podcasts.files.bbci.co.uk/p02pc9tn.rss"   # BBC 6 Minute English
+mode = "newest"
+
+[[source]]
+key = "sci"
+label = "EN Science"
+rss = "https://feeds.npr.org/510351/podcast.xml"         # NPR Short Wave
+mode = "newest"
+
+[[source]]
+key = "talk"
+label = "EN Talk"
+rss = "https://feeds.feedburner.com/tedtalks_audio"      # TED Talks Daily
+mode = "newest"
+
+[[source]]
+key = "jp"
+label = "JP Beginner"
+rss = "https://nihongoconteppei.com/feed/podcast/"       # Nihongo con Teppei
+mode = "oldest"
+
+# --- 요일별 편성 (위에서 정의한 key 사용, 순서대로 재생) ---
+[schedule]
+mon = ["biz", "sci", "jp"]
+tue = ["easy", "talk", "jp"]
+wed = ["biz", "talk", "jp"]
+thu = ["easy", "sci", "jp"]
+fri = ["biz", "talk", "jp"]
+sat = ["easy", "sci", "jp"]
+sun = ["biz", "talk", "jp"]
