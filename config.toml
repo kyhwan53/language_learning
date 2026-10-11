@@ -6,7 +6,7 @@
 max_minutes = 30                       # 하루 큐 최대 길이(분)
 feed_days = 7                          # 개인 피드에 남길 일수
 recipient = ""                         # 아침 메일 수신 주소 (비우면 GMAIL_USER 환경변수 사용; 공개 저장소라 주소를 적지 않음)
-base_url = "https://kyhwan53.github.io/language-learning"  # GitHub Pages 주소
+base_url = "https://kyhwan53.github.io/language_learning"  # GitHub Pages 주소
 
 # --- 소스 목록 ---
 # key   : 아래 schedule에서 쓰는 짧은 이름 (영문/숫자)
