@@ -5,6 +5,7 @@
 [settings]
 max_minutes = 30                       # 하루 큐 최대 길이(분)
 feed_days = 7                          # 개인 피드에 남길 일수
+articles_per_day = 2                   # 하루에 읽을 외신 기사 수
 recipient = ""                         # 아침 메일 수신 주소 (비우면 GMAIL_USER 환경변수 사용; 공개 저장소라 주소를 적지 않음)
 base_url = "https://kyhwan53.github.io/language_learning"  # GitHub Pages 주소
 
@@ -44,12 +45,51 @@ label = "JP Beginner"
 rss = "https://nihongoconteppei.com/feed/podcast/"       # Nihongo con Teppei
 mode = "oldest"
 
+[[source]]
+key = "lifekit"
+label = "EN Life Kit"
+rss = "https://feeds.npr.org/510338/podcast.xml"
+mode = "newest"
+
+[[source]]
+key = "aee"
+label = "EN All Ears"
+rss = "https://allearsenglish.libsyn.com/rss"
+mode = "newest"
+
+# --- 읽기용 외신 기사 (RSS의 제목/요약/원문 링크만 사용, 전문은 복사하지 않음) ---
+# 매일 articles_per_day개를 소스를 돌려가며 고릅니다. 추가는 아래 블록을 복사해 쓰면 됩니다.
+[[article]]
+key = "guardian_env"
+label = "Guardian Environment"
+rss = "https://www.theguardian.com/environment/rss"
+
+[[article]]
+key = "carbonbrief"
+label = "Carbon Brief"
+rss = "https://carbonbrief.org/feed/"
+
+[[article]]
+key = "icn"
+label = "Inside Climate News"
+rss = "https://insideclimatenews.org/feed/"
+
+[[article]]
+key = "bbc_sci"
+label = "BBC Science & Environment"
+rss = "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+
+[[article]]
+key = "bbc_world"
+label = "BBC World"
+rss = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
 # --- 요일별 편성 (위에서 정의한 key 사용, 순서대로 재생) ---
 [schedule]
-mon = ["biz", "sci", "jp"]
+mon = ["biz", "aee", "jp"]
 tue = ["easy", "talk", "jp"]
 wed = ["biz", "talk", "jp"]
-thu = ["easy", "sci", "jp"]
+thu = ["easy", "aee", "jp"]
 fri = ["biz", "talk", "jp"]
-sat = ["easy", "sci", "jp"]
-sun = ["biz", "talk", "jp"]
+sat = ["easy", "lifekit", "jp"]
+sun = ["biz", "lifekit", "jp"]

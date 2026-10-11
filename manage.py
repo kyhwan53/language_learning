@@ -67,7 +67,7 @@ def cmd_add(key, label, rss, mode="newest"):
     print("testing feed:", summarize(rss))
     block = f'[[source]]\nkey = "{key}"\nlabel = "{label}"\nrss = "{rss}"\nmode = "{mode}"\n\n'
     text = _text()
-    marker = "# --- 요일별"
+    marker = "# --- 읽기용"
     if marker not in text:
         sys.exit("config.toml: schedule marker not found; add the block by hand")
     _save(text.replace(marker, block + marker, 1))

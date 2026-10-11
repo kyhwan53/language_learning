@@ -15,6 +15,11 @@ def load():
     with open(CONFIG_PATH, "rb") as f:
         cfg = tomllib.load(f)
     sources = cfg.get("source", [])
+    articles = cfg.get("article", [])
+    for a in articles:
+        missing = {"key", "label", "rss"} - a.keys()
+        if missing:
+            raise ConfigError(f"config.toml: article {a.get('key', '?')} missing {sorted(missing)}")
     keys = [s.get("key") for s in sources]
     for s in sources:
         missing = {"key", "label", "rss", "mode"} - s.keys()
@@ -32,6 +37,8 @@ def load():
     st = cfg.get("settings", {})
     return {
         "sources": sources,
+        "articles": articles,
+        "articles_per_day": cfg.get("settings", {}).get("articles_per_day", 2),
         "schedule": {i: schedule.get(d, []) for i, d in enumerate(DAYS)},  # Mon=0
         "max_minutes": st.get("max_minutes", 30),
         "feed_days": st.get("feed_days", 7),
@@ -42,6 +49,8 @@ def load():
 
 _cfg = load()
 SOURCES = _cfg["sources"]
+ARTICLES = _cfg["articles"]
+ARTICLES_PER_DAY = _cfg["articles_per_day"]
 SCHEDULE = _cfg["schedule"]
 MAX_MINUTES = _cfg["max_minutes"]
 FEED_DAYS = _cfg["feed_days"]
