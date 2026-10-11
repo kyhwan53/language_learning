@@ -12,6 +12,7 @@ import smtplib
 import ssl
 import urllib.request
 import xml.etree.ElementTree as ET
+from urllib.parse import quote
 from datetime import date, datetime
 from email.message import EmailMessage
 from email.utils import format_datetime, parsedate_to_datetime
@@ -125,7 +126,8 @@ def render_email(queue, day):
         f"<tr><td style='padding:8px'><b>{escape(e['label'])}</b></td>"
         f"<td style='padding:8px'><a href='{escape(e['audio'])}'>{escape(e['title'])}</a>"
         f"{' · ' + str(e['minutes']) + ' min' if e['minutes'] else ''}"
-        f"{' · <a href=' + repr(escape(e['page'])) + '>page/transcript</a>' if e['page'] else ''}</td></tr>"
+        f"{' · <a href=' + repr(escape(e['page'])) + '>page/transcript</a>' if e['page'] else ''}"
+        f" · <a href='https://music.youtube.com/search?q={quote(e['title'])}'>YouTube Music</a></td></tr>"
         for e in queue
     )
     return (
