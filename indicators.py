@@ -9,6 +9,8 @@ Sources (free, no API key):
 import csv
 import io
 import json
+import time
+import urllib.error
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 from html import escape
@@ -18,9 +20,18 @@ UA = {"User-Agent": "language-learning-queue/1.0"}
 CAL_CURRENCIES = {"USD", "EUR", "GBP", "JPY", "CNY"}
 
 
-def _get(url, timeout=20):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-        return r.read().decode("utf-8-sig")
+def _get(url, timeout=30, tries=3):
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
+                return r.read().decode("utf-8-sig")
+        except urllib.error.HTTPError as e:
+            if e.code == 429 or i == tries - 1:  # rate limited: retrying right away only makes it worse
+                raise
+        except Exception:  # noqa: BLE001 - timeouts / resets are worth a retry
+            if i == tries - 1:
+                raise
+        time.sleep(3 * (i + 1))
 
 
 def treasury_yields(day):

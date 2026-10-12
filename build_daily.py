@@ -10,6 +10,7 @@ import json
 import os
 import smtplib
 import ssl
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from urllib.parse import quote
@@ -214,9 +215,29 @@ def send_email(html, day):
     msg["From"], msg["To"] = user, RECIPIENT or user
     msg.set_content("HTML email")
     msg.add_alternative(html, subtype="html")
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as s:
-        s.login(user, pw)
-        s.send_message(msg)
+    # Gmail sometimes drops logins from cloud IPs: retry, alternating SSL(465) and STARTTLS(587).
+    last = None
+    for attempt in range(1, 7):
+        use_ssl = attempt % 2 == 1
+        try:
+            ctx = ssl.create_default_context()
+            if use_ssl:
+                s = smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx, timeout=30)
+            else:
+                s = smtplib.SMTP("smtp.gmail.com", 587, timeout=30)
+                s.starttls(context=ctx)
+            with s:
+                s.login(user, pw)
+                s.send_message(msg)
+            print(f"  email sent (attempt {attempt}, {'465 SSL' if use_ssl else '587 STARTTLS'})")
+            return
+        except (smtplib.SMTPAuthenticationError, smtplib.SMTPRecipientsRefused):
+            raise  # wrong credentials / address: retrying will not help
+        except Exception as e:  # noqa: BLE001
+            last = e
+            print(f"  email attempt {attempt} failed: {type(e).__name__}: {e}")
+            time.sleep(10 * attempt)
+    raise last
 
 
 def main():
