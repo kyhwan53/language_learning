@@ -17,10 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Check secrets are set (values are never printed)
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          [ -n "$GMAIL_USER" ] && echo "GMAIL_USER: set" || { echo "GMAIL_USER: MISSING"; exit 1; }
+          [ -n "$GMAIL_APP_PASSWORD" ] && echo "GMAIL_APP_PASSWORD: set (${#GMAIL_APP_PASSWORD} chars)" || { echo "GMAIL_APP_PASSWORD: MISSING"; exit 1; }
       - name: Build queue, update feed, send email
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
