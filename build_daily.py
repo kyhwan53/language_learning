@@ -20,6 +20,7 @@ import re
 from html import escape, unescape
 from pathlib import Path
 
+import indicators
 from sources import ARTICLES, ARTICLES_PER_DAY, BASE_URL, FEED_DAYS, MAX_MINUTES, RECIPIENT, SCHEDULE, SOURCES
 
 ROOT = Path(__file__).parent
@@ -168,7 +169,7 @@ def build_articles(day, state):
     return picks
 
 
-def render_email(queue, articles, day):
+def render_email(queue, articles, day, markets_html=""):
     total = sum(e["minutes"] or 0 for e in queue)
     card = "background:#fff;border:1px solid #e3e6ea;border-radius:10px;padding:14px 16px;margin:0 0 10px"
     tag = "display:inline-block;font-size:11px;font-weight:600;color:#fff;background:#2f6fed;border-radius:4px;padding:2px 7px"
@@ -199,6 +200,7 @@ def render_email(queue, articles, day):
         f"{listen}"
         "<div style='font-size:12px;font-weight:700;letter-spacing:.06em;color:#6b7280;margin:16px 0 6px'>READ</div>"
         f"{read or '<div style=color:#6b7280>No new articles today.</div>'}"
+        f"{markets_html}"
         "<div style='font-size:12px;color:#6b7280;margin-top:14px;line-height:1.5'>"
         "Tip: listen once without the transcript, then replay the hardest part. "
         "While reading, note 3 phrases you could reuse in a meeting or presentation.</div></div>"
@@ -220,7 +222,7 @@ def send_email(html, day):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--send", action="store_true")
-    ap.add_argument("--date", default=str(date.today()))
+    ap.add_argument("--date", default=str(datetime.now(indicators.KST).date()))  # KST, also on UTC runners
     args = ap.parse_args()
     day = date.fromisoformat(args.date)
 
@@ -228,7 +230,7 @@ def main():
     queue = build_queue(day, state)
     articles = build_articles(day, state)
     write_feed(state, day)
-    html = render_email(queue, articles, day)
+    html = render_email(queue, articles, day, indicators.render(indicators.snapshot(day, state.setdefault("calendar_cache", {}))))
     OUT.mkdir(exist_ok=True)
     (OUT / "email.html").write_text(html, encoding="utf-8")
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")

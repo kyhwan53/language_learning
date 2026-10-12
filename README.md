@@ -44,10 +44,19 @@
    ```
 5. **(선택) 진행 상태 이어받기**: `state.json`은 git에 올라가지 않습니다. 이전 컴퓨터의 `state.json`을 복사해 오면
    일본어 진도(1화부터 순서대로)와 중복 방지 기록이 이어집니다. 없으면 처음부터 시작합니다.
-6. **(선택) 매일 자동 실행**: 아직 설정 전입니다. 계획: 작업 스케줄러로 오전에
-   `python build_daily.py --send` 실행 후 `docs/feed.xml`을 commit/push. PC가 켜져 있어야 동작합니다.
+6. **매일 자동 실행은 GitHub Actions가 합니다** (`.github/workflows/daily.yml`, 매일 06:00 KST = 21:00 UTC, PC 불필요).
+   저장소 Settings → Secrets and variables → Actions에 `GMAIL_USER`, `GMAIL_APP_PASSWORD`를 등록해야 동작합니다.
+   수동 실행: 저장소 Actions 탭 → Daily language plan → Run workflow.
+   실행 결과(`docs/feed.xml`, `state.json`)는 봇이 저장소에 commit합니다.
 
-> 두 컴퓨터에서 동시에 돌리면 `docs/feed.xml`과 `state.json`이 어긋납니다. **자동 실행은 한 대에서만** 하세요.
+> **로컬에서 `--send`로 직접 보내지 마세요.** Actions가 `state.json`을 저장소에서 관리하므로, 로컬에서 실행하면 상태가 어긋납니다.
+> 로컬 테스트는 `python build_daily.py`(발송 없음)만 쓰고, 그 뒤 `git checkout state.json docs/feed.xml`로 되돌리거나 `git pull`로 최신 상태를 받으세요.
+
+## 시장 지표 / 경제 일정 (`indicators.py`)
+메일 하단에 미국채 2Y/10Y/30Y 금리와 10Y-2Y 스프레드(US Treasury 공식 CSV), USD/KRW·JPY·EUR(Frankfurter/ECB),
+앞으로 3일간 주요 통화(USD/EUR/GBP/JPY/CNY)의 고영향 경제지표 일정(Forex Factory 주간 JSON, KST 환산)을 넣습니다.
+모든 블록은 실패해도 메일이 나가도록 개별 처리됩니다. 경제 일정 서버는 요청 제한(429)이 엄격해서
+마지막 성공 결과를 `state.json`의 `calendar_cache`에 보관하고 실패 시 그것을 씁니다.
 
 ## 소스 바꾸기
 `config.toml`을 직접 편집하거나 CLI를 씁니다.

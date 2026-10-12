@@ -1,0 +1,129 @@
+{
+  "used": {
+    "biz": [
+      "urn:bbc:podcast:p0p4yd48",
+      "urn:bbc:podcast:p0p3qgy5"
+    ],
+    "talk": [
+      "6ac7af6ae2a72faefc1e8d10"
+    ],
+    "jp": [
+      "http://nihongoconteppei.com/?p=9",
+      "http://nihongoconteppei.com/?p=48"
+    ],
+    "aee": [
+      "ab8c190e-bb06-11f1-a7b8-839410de6b8c"
+    ]
+  },
+  "days": {
+    "2026-10-11": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0p4yd48",
+        "title": "Office English: Plans and strategies",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p4ybmp.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0p4yd48",
+        "minutes": 8
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6ac7af6ae2a72faefc1e8d10",
+        "title": "The three words that saved my life | Blake Mycoskie",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7af6ae2a72faefc1e8d10/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/blakemycoskie",
+        "minutes": 19
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=9",
+        "title": "#1元気ですか？について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei1.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/04/%e5%85%83%e6%b0%97%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null
+      }
+    ],
+    "2026-10-12": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0p3qgy5",
+        "title": "Office English: Formal or informal?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p3qfd7.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0p3qgy5",
+        "minutes": 9
+      },
+      {
+        "key": "aee",
+        "label": "EN All Ears",
+        "guid": "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
+        "title": "AEE 2702: Have the Last Laugh With These English Idioms",
+        "audio": "https://traffic.megaphone.fm/ALLE2494556127.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://www.allearsenglish.com/",
+        "minutes": 18
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=48",
+        "title": "#2どのくらい日本語を勉強していますか？について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei2.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/04/2%e3%81%a9%e3%81%ae%e3%81%8f%e3%82%89%e3%81%84%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%92%e5%8b%89%e5%bc%b7%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+        "minutes": null
+      }
+    ]
+  },
+  "articles": {
+    "2026-10-11": [
+      {
+        "label": "NPR Economy",
+        "guid": "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
+        "title": "Why American investors love European defense startups",
+        "link": "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
+        "summary": "As European defense spending takes off, just about half of the funding in Europe's defense tech industry is coming from American investors this year. One reason why: European investment firms have restrictions on how they can invest."
+      },
+      {
+        "label": "NPR World",
+        "guid": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+        "title": "Attack on Riyadh airport killed 12 people and wounded over 300 more, Saudi authorities say",
+        "link": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+        "summary": "Saudi authorities say the latest attack on the international airport in the capital, Riyadh, has killed 12 people and injured over 300. Their statement says the dead on Saturday included four Saudi citizens as well as two Bangladeshi nation…"
+      }
+    ],
+    "2026-10-12": [
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
+        "title": "Nobel prize for economics awarded to two Americans, Hall and Woodford, for work on New Keynesian models – business live",
+        "link": "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
+        "summary": "The Sveriges Riksbank Prize in Economic Sciences has been awarded to Robert Hall and Michael Woodford for developing the “microeconomic foundations of macroeconomic stabilisation” There’s some movement in the Nobel economics prize betting, …"
+      },
+      {
+        "label": "Guardian World",
+        "guid": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
+        "title": "Kremlin rejects 60-day truce offer and refuses to comment on Trump’s ‘energy ceasefire’ – Europe live",
+        "link": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
+        "summary": "Zelenskyy had proposed a 60-day total ceasefire to allow Ukraine to hold presidential elections Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’ Addressing the conference virtually, Ukrainian president…"
+      }
+    ]
+  },
+  "articles_used": [
+    "https://www.carbonbrief.org/?p=83641",
+    "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+    "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
+    "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
+    "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
+    "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+    "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+    "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
+  ],
+  "calendar_cache": {}
+}
