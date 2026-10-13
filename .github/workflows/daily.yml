@@ -26,8 +26,10 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
-          [ -n "$GMAIL_USER" ] && echo "GMAIL_USER: set" || { echo "GMAIL_USER: MISSING"; exit 1; }
-          [ -n "$GMAIL_APP_PASSWORD" ] && echo "GMAIL_APP_PASSWORD: set (${#GMAIL_APP_PASSWORD} chars)" || { echo "GMAIL_APP_PASSWORD: MISSING"; exit 1; }
+          bad=0
+          if [ -n "$GMAIL_USER" ]; then echo "GMAIL_USER: set (${#GMAIL_USER} chars)"; else echo "GMAIL_USER: MISSING"; bad=1; fi
+          if [ -n "$GMAIL_APP_PASSWORD" ]; then echo "GMAIL_APP_PASSWORD: set (${#GMAIL_APP_PASSWORD} chars)"; else echo "GMAIL_APP_PASSWORD: MISSING"; bad=1; fi
+          exit $bad
       - name: Build queue, update feed, send email
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
