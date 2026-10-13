@@ -5,14 +5,19 @@
       "urn:bbc:podcast:p0p3qgy5"
     ],
     "talk": [
-      "6ac7af6ae2a72faefc1e8d10"
+      "6ac7af6ae2a72faefc1e8d10",
+      "6ac7affae2a72faefc1e8d12"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
-      "http://nihongoconteppei.com/?p=48"
+      "http://nihongoconteppei.com/?p=48",
+      "http://nihongoconteppei.com/?p=50"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c"
+    ],
+    "easy": [
+      "urn:bbc:podcast:p0pflmn5"
     ]
   },
   "days": {
@@ -79,6 +84,38 @@
         "page": "https://nihongoconteppei.com/2019/07/04/2%e3%81%a9%e3%81%ae%e3%81%8f%e3%82%89%e3%81%84%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%92%e5%8b%89%e5%bc%b7%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
         "minutes": null
       }
+    ],
+    "2026-10-13": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0pflmn5",
+        "title": "Are people drinking less alcohol?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pfllv6.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0pflmn5",
+        "minutes": 7
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6ac7affae2a72faefc1e8d12",
+        "title": "How to make parenting less lonely | Stacey McLachlan",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7affae2a72faefc1e8d12/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/staceymclachlan",
+        "minutes": 20
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=50",
+        "title": "#3どこに住んでいますか？について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei3.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/04/3%e3%81%a9%e3%81%93%e3%81%ab%e4%bd%8f%e3%82%93%e3%81%a7%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null
+      }
     ]
   },
   "articles": {
@@ -113,9 +150,27 @@
         "link": "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates",
         "summary": "Zelenskyy had proposed a 60-day total ceasefire to allow Ukraine to hold presidential elections Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’ Addressing the conference virtually, Ukrainian president…"
       }
+    ],
+    "2026-10-13": [
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo#3",
+        "title": "Car finance compensation payments delayed until next year",
+        "link": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
+        "summary": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers."
+      },
+      {
+        "label": "BBC World",
+        "guid": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
+        "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+        "link": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+        "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say."
+      }
     ]
   },
   "articles_used": [
+    "https://www.bbc.co.uk/news/articles/c2l9vvj097lo#3",
+    "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
     "https://www.carbonbrief.org/?p=83641",
     "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
@@ -248,27 +303,11 @@
         "previous": ""
       },
       {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-10-13T04:03:00-04:00",
-        "impact": "Low",
-        "forecast": "7.5%",
-        "previous": "7.5%"
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-10-13T04:03:00-04:00",
-        "impact": "Low",
-        "forecast": "300B",
-        "previous": "60B"
-      },
-      {
         "title": "NFIB Small Business Index",
         "country": "USD",
         "date": "2026-10-13T06:00:00-04:00",
         "impact": "Low",
-        "forecast": "98.0",
+        "forecast": "98.1",
         "previous": "98.7"
       },
       {
@@ -284,7 +323,7 @@
         "country": "USD",
         "date": "2026-10-13T10:00:00-04:00",
         "impact": "Low",
-        "forecast": "3.96M",
+        "forecast": "3.95M",
         "previous": "3.98M"
       },
       {
@@ -302,14 +341,6 @@
         "impact": "Low",
         "forecast": "",
         "previous": "0.5%"
-      },
-      {
-        "title": "MPC Member Dhingra Speaks",
-        "country": "GBP",
-        "date": "2026-10-13T12:00:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": ""
       },
       {
         "title": "FOMC Member Barkin Speaks",
@@ -364,7 +395,7 @@
         "country": "CNY",
         "date": "2026-10-13T21:30:00-04:00",
         "impact": "Low",
-        "forecast": "4.5%",
+        "forecast": "4.4%",
         "previous": "3.8%"
       },
       {
@@ -372,7 +403,7 @@
         "country": "CNY",
         "date": "2026-10-13T22:03:00-04:00",
         "impact": "Low",
-        "forecast": "805B",
+        "forecast": "790B",
         "previous": "809B"
       },
       {
@@ -380,7 +411,7 @@
         "country": "CNY",
         "date": "2026-10-13T22:04:00-04:00",
         "impact": "Low",
-        "forecast": "118.1B",
+        "forecast": "116.8B",
         "previous": "119.1B"
       },
       {
@@ -412,7 +443,7 @@
         "country": "EUR",
         "date": "2026-10-14T02:00:00-04:00",
         "impact": "Low",
-        "forecast": "0.7%",
+        "forecast": "0.6%",
         "previous": "0.9%"
       },
       {
@@ -430,6 +461,22 @@
         "impact": "Medium",
         "forecast": "",
         "previous": ""
+      },
+      {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-10-14T04:03:00-04:00",
+        "impact": "Low",
+        "forecast": "7.4%",
+        "previous": "7.5%"
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-10-14T04:03:00-04:00",
+        "impact": "Low",
+        "forecast": "1025B",
+        "previous": "60B"
       },
       {
         "title": "ECB President Lagarde Speaks",
@@ -456,11 +503,19 @@
         "previous": ""
       },
       {
+        "title": "EU Economic Summit",
+        "country": "EUR",
+        "date": "2026-10-14T06:15:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": ""
+      },
+      {
         "title": "Building Permits m/m",
         "country": "CAD",
         "date": "2026-10-14T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "3.1%",
+        "forecast": "2.9%",
         "previous": "-17.3%"
       },
       {
@@ -540,7 +595,7 @@
         "country": "JPY",
         "date": "2026-10-14T19:50:00-04:00",
         "impact": "Low",
-        "forecast": "2.5%",
+        "forecast": "2.2%",
         "previous": "-3.7%"
       },
       {
@@ -548,7 +603,7 @@
         "country": "AUD",
         "date": "2026-10-14T20:30:00-04:00",
         "impact": "High",
-        "forecast": "20.0K",
+        "forecast": "19.6K",
         "previous": "39.5K"
       },
       {
@@ -620,7 +675,7 @@
         "country": "GBP",
         "date": "2026-10-15T02:00:00-04:00",
         "impact": "Low",
-        "forecast": "-21.8B",
+        "forecast": "-21.9B",
         "previous": "-21.0B"
       },
       {
@@ -628,7 +683,7 @@
         "country": "GBP",
         "date": "2026-10-15T02:00:00-04:00",
         "impact": "Low",
-        "forecast": "0.7%",
+        "forecast": "0.8%",
         "previous": "0.6%"
       },
       {
@@ -644,7 +699,7 @@
         "country": "GBP",
         "date": "2026-10-15T02:00:00-04:00",
         "impact": "Low",
-        "forecast": "0.1%",
+        "forecast": "-0.1%",
         "previous": "0.9%"
       },
       {
@@ -652,7 +707,7 @@
         "country": "CHF",
         "date": "2026-10-15T02:30:00-04:00",
         "impact": "Low",
-        "forecast": "0.5%",
+        "forecast": "0.6%",
         "previous": "0.7%"
       },
       {
@@ -700,8 +755,16 @@
         "country": "EUR",
         "date": "2026-10-15T05:00:00-04:00",
         "impact": "Low",
-        "forecast": "0.1%",
+        "forecast": "0.0%",
         "previous": "-0.1%"
+      },
+      {
+        "title": "EU Economic Summit",
+        "country": "EUR",
+        "date": "2026-10-15T06:15:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": ""
       },
       {
         "title": "Manufacturing Sales m/m",
@@ -716,7 +779,7 @@
         "country": "CAD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "-1.4%",
+        "forecast": "-1.5%",
         "previous": "0.3%"
       },
       {
@@ -732,7 +795,7 @@
         "country": "USD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "High",
-        "forecast": "0.5%",
+        "forecast": "0.6%",
         "previous": "1.4%"
       },
       {
@@ -740,7 +803,7 @@
         "country": "USD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "High",
-        "forecast": "0.5%",
+        "forecast": "0.6%",
         "previous": "0.4%"
       },
       {
@@ -756,7 +819,7 @@
         "country": "USD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "Medium",
-        "forecast": "26.5",
+        "forecast": "28.2",
         "previous": "37.8"
       },
       {
@@ -764,7 +827,7 @@
         "country": "USD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "Medium",
-        "forecast": "195K",
+        "forecast": "199K",
         "previous": "197K"
       },
       {
@@ -772,7 +835,7 @@
         "country": "USD",
         "date": "2026-10-15T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "3.2",
+        "forecast": "12.1",
         "previous": "7.6"
       },
       {
@@ -908,7 +971,7 @@
         "country": "CAD",
         "date": "2026-10-16T08:15:00-04:00",
         "impact": "Low",
-        "forecast": "230K",
+        "forecast": "234K",
         "previous": "229K"
       },
       {
@@ -924,7 +987,7 @@
         "country": "USD",
         "date": "2026-10-16T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "0.6%",
+        "forecast": "0.9%",
         "previous": "0.7%"
       },
       {
@@ -956,7 +1019,7 @@
         "country": "USD",
         "date": "2026-10-16T14:00:00-04:00",
         "impact": "Low",
-        "forecast": "75.3B",
+        "forecast": "-34.7B",
         "previous": "-166.8B"
       },
       {
@@ -964,7 +1027,7 @@
         "country": "USD",
         "date": "2026-10-16T16:00:00-04:00",
         "impact": "Low",
-        "forecast": "125.7B",
+        "forecast": "75.2B",
         "previous": "-27.9B"
       },
       {
