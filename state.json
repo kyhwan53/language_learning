@@ -2,16 +2,19 @@
   "used": {
     "biz": [
       "urn:bbc:podcast:p0p4yd48",
-      "urn:bbc:podcast:p0p3qgy5"
+      "urn:bbc:podcast:p0p3qgy5",
+      "urn:bbc:podcast:p0nm6yqj"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
-      "6ac7affae2a72faefc1e8d12"
+      "6ac7affae2a72faefc1e8d12",
+      "6acd4daa1882f45a244792a2"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
       "http://nihongoconteppei.com/?p=48",
-      "http://nihongoconteppei.com/?p=50"
+      "http://nihongoconteppei.com/?p=50",
+      "http://nihongoconteppei.com/?p=53"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c"
@@ -125,6 +128,44 @@
         "yt": "3UzJKnssuEM",
         "yt_title": "Japanese podcast for beginners (Nihongo con Teppei) #3 \"Where do you live?\""
       }
+    ],
+    "2026-10-14": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nm6yqj",
+        "show": "Learning English For Work",
+        "title": "Office English: Pitching",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm6xjw.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nm6yqj",
+        "minutes": 7,
+        "pub": "2026-07-20T07:00:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6acd4daa1882f45a244792a2",
+        "show": "TED Talks Daily",
+        "title": "Why it's so hard to listen when you disagree | Emily Kasriel",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acd4daa1882f45a244792a2/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/emilykasriel",
+        "minutes": 14,
+        "pub": "2026-10-13T15:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=53",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#4何時ですか？について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei4.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/04/4%e4%bd%95%e6%99%82%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-04T14:27:08+00:00"
+      }
     ]
   },
   "articles": {
@@ -175,6 +216,22 @@
         "link": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
         "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say."
       }
+    ],
+    "2026-10-14": [
+      {
+        "label": "NPR Economy",
+        "guid": "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",
+        "title": "Older Americans are struggling with food affordability",
+        "link": "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",
+        "summary": "High food prices are pushing some older adults to make difficult budget decisions when it comes to what's available to eat. That can mean scaling back on produce in favor of cheaper, processed foods and relying more on food pantries"
+      },
+      {
+        "label": "NPR World",
+        "guid": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
+        "title": "How will a diesel deal with Russia impact the U.S. market?",
+        "link": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
+        "summary": "The price of diesel hit an all-time high in the U.S. in September. Can President Trump's deal for Russia to release more diesel onto the market bring the price down?"
+      }
     ]
   },
   "articles_used": [
@@ -182,6 +239,8 @@
     "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
     "https://www.carbonbrief.org/?p=83641",
     "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
+    "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",
+    "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
