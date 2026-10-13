@@ -22,6 +22,7 @@ from html import escape, unescape
 from pathlib import Path
 
 import indicators
+import ytresolve
 from sources import ARTICLES, ARTICLES_PER_DAY, BASE_URL, FEED_DAYS, MAX_MINUTES, RECIPIENT, SCHEDULE, SOURCES
 
 ROOT = Path(__file__).parent
@@ -36,6 +37,7 @@ def fetch_episodes(rss):
     with urllib.request.urlopen(req, timeout=30) as resp:
         root = ET.fromstring(resp.read())
     eps = []
+    show = (root.find("channel").findtext("title") or "").strip()
     for item in root.find("channel").findall("item"):
         enc = item.find("enclosure")
         if enc is None:
@@ -43,6 +45,7 @@ def fetch_episodes(rss):
         pub = item.findtext("pubDate")
         eps.append({
             "guid": item.findtext("guid") or enc.get("url"),
+            "show": show,
             "title": (item.findtext("title") or "").strip(),
             "audio": enc.get("url"),
             "mime": enc.get("type") or "audio/mpeg",
@@ -93,9 +96,39 @@ def build_queue(day, state):
             continue
         total += ep["minutes"] or 0
         state["used"][key].append(ep["guid"])
-        queue.append({"key": key, "label": src["label"], **{k: ep[k] for k in ("guid", "title", "audio", "mime", "page", "minutes")}})
+        queue.append({"key": key, "label": src["label"], **{k: ep[k] for k in ("guid", "show", "title", "audio", "mime", "page", "minutes")},
+                      "pub": ep["pub"].isoformat() if ep["pub"] else ""})
     state["days"][str(day)] = queue
     return queue
+
+
+_show_cache = {}
+
+
+def show_name(e):
+    """Podcast title for an episode; queues saved before 'show' existed get it from the source feed."""
+    if e.get("show"):
+        return e["show"]
+    src = next((s for s in SOURCES if s["key"] == e["key"]), None)
+    if src is None:
+        return e["label"]
+    if src["rss"] not in _show_cache:
+        try:
+            _show_cache[src["rss"]] = (fetch_episodes(src["rss"]) or [{}])[0].get("show", "")
+        except Exception:  # noqa: BLE001
+            _show_cache[src["rss"]] = ""
+    return _show_cache[src["rss"]] or e["label"]
+
+
+def ensure_youtube(queue):
+    """Attach the matching YouTube video id ('' when none) once per episode; result is cached in state."""
+    for e in queue:
+        e["show"] = show_name(e)
+        if "yt" in e:
+            continue
+        pub = datetime.fromisoformat(e["pub"]) if e.get("pub") else None
+        hit = ytresolve.find_video(e["show"], e["title"], pub)
+        e["yt"], e["yt_title"] = hit if hit else ("", "")
 
 
 def write_feed(state, today):
@@ -181,7 +214,11 @@ def render_email(queue, articles, day, markets_html=""):
         f"<div style='font-size:13px;color:#6b7280'>{str(e['minutes']) + ' min' if e['minutes'] else 'length n/a'}</div>"
         f"<div style='font-size:13px;margin-top:8px'>"
         f"{'<a style=' + repr(link) + ' href=' + repr(escape(e['page'])) + '>Page &amp; transcript</a> &nbsp;|&nbsp; ' if e['page'] else ''}"
-        f"<a style='{link}' href='https://music.youtube.com/search?q={quote(e['title'])}'>Open in YouTube Music</a></div></div>"
+        + (f"<a style='{link}' href='https://music.youtube.com/watch?v={e['yt']}'>▶ Play this episode on YouTube Music</a>"
+           if e.get("yt") else
+           f"<a style='{link};opacity:.7' href='https://music.youtube.com/search?q={quote((e.get('show') or '') + ' ' + e['title'])}'>"
+           "Search YouTube Music (no exact video found)</a>")
+        + "</div></div>"
         for e in queue
     )
     read = "".join(
@@ -251,6 +288,7 @@ def main():
 
     state = load_state()
     queue = build_queue(day, state)
+    ensure_youtube(queue)
     articles = build_articles(day, state)
     write_feed(state, day)
     html = render_email(queue, articles, day, indicators.render(indicators.snapshot(day, state.setdefault("calendar_cache", {}))))
