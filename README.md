@@ -87,7 +87,9 @@ python manage.py schedule mon biz,aee,jp
 ## 결정 사항 (바꾸지 않기로 한 것)
 - Claude API 같은 유료 호출 금지: 구독료 이상의 지출 없음.
 - 메일에는 mp3 링크를 넣지 않음. 개인 피드는 팟캐스트 앱 자동 다운로드용으로 원본 오디오 URL을 유지.
-- YouTube Music에 개인 피드를 등록할 수 없음(소유권 인증 필요, 타사 콘텐츠). 대신 메일에 YouTube Music 검색 링크 제공.
+- 듣기는 안드로이드 **AntennaPod**에서 개인 피드를 구독해서 함 (Add podcast by RSS address → 위 피드 주소, 자동 다운로드/큐 추가 켜기).
+  YouTube Music에는 개인 피드를 등록할 수 없고(소유권 인증 필요, 타사 콘텐츠), 에피소드를 YouTube 영상에 매칭하는 방식은
+  정확도가 낮아 제거함. 메일에는 공식 페이지/대본 링크만 둠.
 - 수신 메일 주소는 공개 저장소라 config에 적지 않음 (`recipient`가 비어 있으면 `GMAIL_USER`로 발송).
 - Slow English 팟캐스트는 보류(동명 프로그램이 여럿이라 선택 필요).
 - 외신 기사는 제목/요약/링크만 사용하고 전문은 복사하지 않음.
