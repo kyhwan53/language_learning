@@ -94,7 +94,10 @@
         "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pfllv6.mp3",
         "mime": "audio/mpeg",
         "page": "http://www.bbc.co.uk/programmes/p0pflmn5",
-        "minutes": 7
+        "minutes": 7,
+        "show": "6 Minute English",
+        "yt": "",
+        "yt_title": ""
       },
       {
         "key": "talk",
@@ -104,7 +107,10 @@
         "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7affae2a72faefc1e8d12/media.mp3",
         "mime": "audio/mpeg",
         "page": "http://go.ted.com/staceymclachlan",
-        "minutes": 20
+        "minutes": 20,
+        "show": "TED Talks Daily",
+        "yt": "",
+        "yt_title": ""
       },
       {
         "key": "jp",
@@ -114,7 +120,10 @@
         "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei3.mp3",
         "mime": "audio/mpeg",
         "page": "https://nihongoconteppei.com/2019/07/04/3%e3%81%a9%e3%81%93%e3%81%ab%e4%bd%8f%e3%82%93%e3%81%a7%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
-        "minutes": null
+        "minutes": null,
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "yt": "3UzJKnssuEM",
+        "yt_title": "Japanese podcast for beginners (Nihongo con Teppei) #3 \"Where do you live?\""
       }
     ]
   },
