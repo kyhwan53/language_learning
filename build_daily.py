@@ -209,7 +209,9 @@ def render_email(queue, articles, day, markets_html=""):
 
 
 def send_email(html, day):
-    user, pw = os.environ["GMAIL_USER"], os.environ["GMAIL_APP_PASSWORD"]
+    # Strip BOM / zero-width chars / whitespace that sneak in when secrets are pasted or piped.
+    clean = lambda v: "".join(c for c in v if c.isprintable() and not c.isspace() and c != "﻿")  # noqa: E731
+    user, pw = clean(os.environ["GMAIL_USER"]), clean(os.environ["GMAIL_APP_PASSWORD"])
     msg = EmailMessage()
     msg["Subject"] = f"Daily Listening {day}"
     msg["From"], msg["To"] = user, RECIPIENT or user
