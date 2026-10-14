@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-15 1] EN Easy | Why does heartbreak hurt so much?</title>
+      <guid isPermaLink="false">2026-10-15:urn:bbc:podcast:p0pdc9cq</guid>
+      <pubDate>Thu, 15 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0pdc9cq</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pdc7mz.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[10-15 2] EN All Ears | AEE 2704: Are You Giving Fluency?</title>
+      <guid isPermaLink="false">2026-10-15:0442d272-bb07-11f1-b28e-d3f11b441d1b</guid>
+      <pubDate>Thu, 15 Oct 2026 05:00:00 +0000</pubDate>
+      <link>https://www.allearsenglish.com/</link>
+      <enclosure url="https://traffic.megaphone.fm/ALLE5548745138.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
+      <title>[10-15 3] JP Beginner | #5ひらがな、カタカナ、漢字について！</title>
+      <guid isPermaLink="false">2026-10-15:http://nihongoconteppei.com/?p=63</guid>
+      <pubDate>Thu, 15 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/05/5%e3%81%b2%e3%82%89%e3%81%8c%e3%81%aa%e3%80%81%e3%82%ab%e3%82%bf%e3%82%ab%e3%83%8a%e3%80%81%e6%bc%a2%e5%ad%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei5.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-14 1] EN Business | Office English: Pitching</title>
       <guid isPermaLink="false">2026-10-14:urn:bbc:podcast:p0nm6yqj</guid>
       <pubDate>Wed, 14 Oct 2026 06:00:00 +0000</pubDate>

@@ -14,13 +14,16 @@
       "http://nihongoconteppei.com/?p=9",
       "http://nihongoconteppei.com/?p=48",
       "http://nihongoconteppei.com/?p=50",
-      "http://nihongoconteppei.com/?p=53"
+      "http://nihongoconteppei.com/?p=53",
+      "http://nihongoconteppei.com/?p=63"
     ],
     "aee": [
-      "ab8c190e-bb06-11f1-a7b8-839410de6b8c"
+      "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
+      "0442d272-bb07-11f1-b28e-d3f11b441d1b"
     ],
     "easy": [
-      "urn:bbc:podcast:p0pflmn5"
+      "urn:bbc:podcast:p0pflmn5",
+      "urn:bbc:podcast:p0pdc9cq"
     ]
   },
   "days": {
@@ -166,6 +169,44 @@
         "minutes": null,
         "pub": "2019-07-04T14:27:08+00:00"
       }
+    ],
+    "2026-10-15": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0pdc9cq",
+        "show": "6 Minute English",
+        "title": "Why does heartbreak hurt so much?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pdc7mz.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0pdc9cq",
+        "minutes": 7,
+        "pub": "2026-10-01T09:47:00+00:00"
+      },
+      {
+        "key": "aee",
+        "label": "EN All Ears",
+        "guid": "0442d272-bb07-11f1-b28e-d3f11b441d1b",
+        "show": "All Ears English Podcast",
+        "title": "AEE 2704: Are You Giving Fluency?",
+        "audio": "https://traffic.megaphone.fm/ALLE5548745138.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://www.allearsenglish.com/",
+        "minutes": 17,
+        "pub": "2026-10-14T05:00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=63",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#5ひらがな、カタカナ、漢字について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei5.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/05/5%e3%81%b2%e3%82%89%e3%81%8c%e3%81%aa%e3%80%81%e3%82%ab%e3%82%bf%e3%82%ab%e3%83%8a%e3%80%81%e6%bc%a2%e5%ad%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-05T06:43:46+00:00"
+      }
     ]
   },
   "articles": {
@@ -232,6 +273,22 @@
         "link": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
         "summary": "The price of diesel hit an all-time high in the U.S. in September. Can President Trump's deal for Russia to release more diesel onto the market bring the price down?"
       }
+    ],
+    "2026-10-15": [
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
+        "title": "The UK energy secretary is flirting with a bad idea for bills – the ‘rising block tariff’",
+        "link": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
+        "summary": "There are many reasons to reject this affordability ‘solution’, not least it being complex and fiddly. Just keep things simple ‘My mark of failure or success is whether I can get bills down or not. That’s the only thing I’m in this job to d…"
+      },
+      {
+        "label": "Guardian World",
+        "guid": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+        "title": "Student protests in Albania turn violent as demonstrators clash with police",
+        "link": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+        "summary": "Dozens of people detained after government building and two banks set on fire as tens of thousands march over education costs and corruption Tens of thousands of students have taken to the streets of Tirana, the Albanian capital, setting al…"
+      }
     ]
   },
   "articles_used": [
@@ -243,9 +300,11 @@
     "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
+    "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
     "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
+    "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
     "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
   ],
   "calendar_cache": {
@@ -467,9 +526,17 @@
         "previous": "3.8%"
       },
       {
+        "title": "ECB President Lagarde Speaks",
+        "country": "EUR",
+        "date": "2026-10-13T22:10:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": ""
+      },
+      {
         "title": "Trade Balance",
         "country": "CNY",
-        "date": "2026-10-13T22:03:00-04:00",
+        "date": "2026-10-13T22:31:00-04:00",
         "impact": "Low",
         "forecast": "790B",
         "previous": "809B"
@@ -477,18 +544,10 @@
       {
         "title": "USD-Denominated Trade Balance",
         "country": "CNY",
-        "date": "2026-10-13T22:04:00-04:00",
+        "date": "2026-10-13T22:31:00-04:00",
         "impact": "Low",
         "forecast": "116.8B",
         "previous": "119.1B"
-      },
-      {
-        "title": "ECB President Lagarde Speaks",
-        "country": "EUR",
-        "date": "2026-10-13T22:10:00-04:00",
-        "impact": "Medium",
-        "forecast": "",
-        "previous": ""
       },
       {
         "title": "MPC Member Breeden Speaks",
@@ -531,22 +590,6 @@
         "previous": ""
       },
       {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-10-14T04:03:00-04:00",
-        "impact": "Low",
-        "forecast": "7.4%",
-        "previous": "7.5%"
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-10-14T04:03:00-04:00",
-        "impact": "Low",
-        "forecast": "1025B",
-        "previous": "60B"
-      },
-      {
         "title": "ECB President Lagarde Speaks",
         "country": "EUR",
         "date": "2026-10-14T04:30:00-04:00",
@@ -555,9 +598,25 @@
         "previous": ""
       },
       {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-10-14T05:00:00-04:00",
+        "impact": "Low",
+        "forecast": "7.4%",
+        "previous": "7.5%"
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-10-14T05:01:00-04:00",
+        "impact": "Low",
+        "forecast": "1025B",
+        "previous": "60B"
+      },
+      {
         "title": "German 30-y Bond Auction",
         "country": "EUR",
-        "date": "2026-10-14T05:34:00-04:00",
+        "date": "2026-10-14T05:38:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "3.80|1.6"
@@ -646,6 +705,14 @@
         "title": "Beige Book",
         "country": "USD",
         "date": "2026-10-14T14:00:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "FOMC Member Goolsbee Speaks",
+        "country": "USD",
+        "date": "2026-10-14T15:00:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": ""
@@ -927,7 +994,7 @@
         "country": "USD",
         "date": "2026-10-15T10:30:00-04:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "76B",
         "previous": "85B"
       },
       {
@@ -935,7 +1002,7 @@
         "country": "USD",
         "date": "2026-10-15T12:00:00-04:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "0.2M",
         "previous": "-3.2M"
       },
       {
@@ -1047,7 +1114,7 @@
         "country": "CAD",
         "date": "2026-10-16T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "23.59B",
         "previous": "20.65B"
       },
       {
