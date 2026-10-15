@@ -3,19 +3,22 @@
     "biz": [
       "urn:bbc:podcast:p0p4yd48",
       "urn:bbc:podcast:p0p3qgy5",
-      "urn:bbc:podcast:p0nm6yqj"
+      "urn:bbc:podcast:p0nm6yqj",
+      "urn:bbc:podcast:p0nm6xdm"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
       "6ac7affae2a72faefc1e8d12",
-      "6acd4daa1882f45a244792a2"
+      "6acd4daa1882f45a244792a2",
+      "6acfa619b3381b9dbb7c315c"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
       "http://nihongoconteppei.com/?p=48",
       "http://nihongoconteppei.com/?p=50",
       "http://nihongoconteppei.com/?p=53",
-      "http://nihongoconteppei.com/?p=63"
+      "http://nihongoconteppei.com/?p=63",
+      "http://nihongoconteppei.com/?p=67"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -207,6 +210,44 @@
         "minutes": null,
         "pub": "2019-07-05T06:43:46+00:00"
       }
+    ],
+    "2026-10-16": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nm6xdm",
+        "show": "Learning English For Work",
+        "title": "Office English: Client management",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm6w3k.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nm6xdm",
+        "minutes": 8,
+        "pub": "2026-07-13T07:00:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6acfa619b3381b9dbb7c315c",
+        "show": "TED Talks Daily",
+        "title": "How to stop homelessness before it starts | Jen Loving",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa619b3381b9dbb7c315c/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/jenloving",
+        "minutes": 12,
+        "pub": "2026-10-15T15:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=67",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#6学校に行っていますか？について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei6.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/06/6%e5%ad%a6%e6%a0%a1%e3%81%ab%e8%a1%8c%e3%81%a3%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+        "minutes": null,
+        "pub": "2019-07-06T11:02:50+00:00"
+      }
     ]
   },
   "articles": {
@@ -289,11 +330,29 @@
         "link": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
         "summary": "Dozens of people detained after government building and two banks set on fire as tens of thousands march over education costs and corruption Tens of thousands of students have taken to the streets of Tirana, the Albanian capital, setting al…"
       }
+    ],
+    "2026-10-16": [
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/articles/cr6240q1w136o#0",
+        "title": "Living with a stink? Technology might help",
+        "link": "https://www.bbc.co.uk/news/articles/cr6240q1w136o?at_medium=RSS&at_campaign=rss",
+        "summary": "Smells from rubbish dumps and industrial facilities are being more carefully monitored."
+      },
+      {
+        "label": "BBC World",
+        "guid": "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
+        "title": "Letters with 'suspicious substances' sent to US senators and election offices",
+        "link": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
+        "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana."
+      }
     ]
   },
   "articles_used": [
     "https://www.bbc.co.uk/news/articles/c2l9vvj097lo#3",
     "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
+    "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
+    "https://www.bbc.co.uk/news/articles/cr6240q1w136o#0",
     "https://www.carbonbrief.org/?p=83641",
     "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
     "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",
@@ -768,7 +827,7 @@
       {
         "title": "RBA Annual Report",
         "country": "AUD",
-        "date": "2026-10-15T00:25:00-04:00",
+        "date": "2026-10-15T00:30:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": ""
