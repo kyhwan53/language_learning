@@ -18,7 +18,8 @@
       "http://nihongoconteppei.com/?p=50",
       "http://nihongoconteppei.com/?p=53",
       "http://nihongoconteppei.com/?p=63",
-      "http://nihongoconteppei.com/?p=67"
+      "http://nihongoconteppei.com/?p=67",
+      "http://nihongoconteppei.com/?p=70"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -26,8 +27,10 @@
     ],
     "easy": [
       "urn:bbc:podcast:p0pflmn5",
-      "urn:bbc:podcast:p0pdc9cq"
-    ]
+      "urn:bbc:podcast:p0pdc9cq",
+      "urn:bbc:podcast:p0pgs2w6"
+    ],
+    "lifekit": []
   },
   "days": {
     "2026-10-11": [
@@ -248,6 +251,32 @@
         "minutes": null,
         "pub": "2019-07-06T11:02:50+00:00"
       }
+    ],
+    "2026-10-17": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0pgs2w6",
+        "show": "6 Minute English",
+        "title": "Why has gold got so expensive?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pgs15w.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0pgs2w6",
+        "minutes": 7,
+        "pub": "2026-10-15T09:24:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=70",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#7日本語の勉強は好きですか？について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei7.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/06/7%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%ae%e5%8b%89%e5%bc%b7%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+        "minutes": null,
+        "pub": "2019-07-06T11:04:06+00:00"
+      }
     ]
   },
   "articles": {
@@ -346,6 +375,22 @@
         "link": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
         "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana."
       }
+    ],
+    "2026-10-17": [
+      {
+        "label": "NPR Economy",
+        "guid": "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
+        "title": "Norway faces public dilemma over divesting from companies involved with war in Gaza",
+        "link": "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
+        "summary": "Norway has the world's largest sovereign wealth fund, but it's facing a self-imposed dilemma. Should the fund's investments include companies that contribute to the ongoing Israel-Hamas war?"
+      },
+      {
+        "label": "NPR World",
+        "guid": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+        "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
+        "link": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+        "summary": "Masked Israeli settlers attacked Palestinians as they were harvesting olives in the occupied West Bank on Friday, injuring several people including a photojournalist working for The Washington Post ."
+      }
     ]
   },
   "articles_used": [
@@ -357,6 +402,8 @@
     "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
     "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",
     "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
+    "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
+    "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
     "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
@@ -1211,7 +1258,7 @@
       {
         "title": "Federal Budget Balance",
         "country": "USD",
-        "date": "2026-10-16T14:00:00-04:00",
+        "date": "2026-10-16T14:05:00-04:00",
         "impact": "Low",
         "forecast": "-34.7B",
         "previous": "-166.8B"

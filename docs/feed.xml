@@ -6,6 +6,21 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-17 1] EN Easy | Why has gold got so expensive?</title>
+      <guid isPermaLink="false">2026-10-17:urn:bbc:podcast:p0pgs2w6</guid>
+      <pubDate>Sat, 17 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0pgs2w6</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pgs15w.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[10-17 2] JP Beginner | #7日本語の勉強は好きですか？について！</title>
+      <guid isPermaLink="false">2026-10-17:http://nihongoconteppei.com/?p=70</guid>
+      <pubDate>Sat, 17 Oct 2026 05:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/06/7%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%ae%e5%8b%89%e5%bc%b7%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei7.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-16 1] EN Business | Office English: Client management</title>
       <guid isPermaLink="false">2026-10-16:urn:bbc:podcast:p0nm6xdm</guid>
       <pubDate>Fri, 16 Oct 2026 06:00:00 +0000</pubDate>
