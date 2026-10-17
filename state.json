@@ -4,7 +4,8 @@
       "urn:bbc:podcast:p0p4yd48",
       "urn:bbc:podcast:p0p3qgy5",
       "urn:bbc:podcast:p0nm6yqj",
-      "urn:bbc:podcast:p0nm6xdm"
+      "urn:bbc:podcast:p0nm6xdm",
+      "urn:bbc:podcast:p0nm3sd2"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -19,7 +20,8 @@
       "http://nihongoconteppei.com/?p=53",
       "http://nihongoconteppei.com/?p=63",
       "http://nihongoconteppei.com/?p=67",
-      "http://nihongoconteppei.com/?p=70"
+      "http://nihongoconteppei.com/?p=70",
+      "http://nihongoconteppei.com/?p=73"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -277,6 +279,32 @@
         "minutes": null,
         "pub": "2019-07-06T11:04:06+00:00"
       }
+    ],
+    "2026-10-18": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nm3sd2",
+        "show": "Learning English For Work",
+        "title": "Office English: Deadlines and logistics",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3r5x.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nm3sd2",
+        "minutes": 9,
+        "pub": "2026-07-06T07:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=73",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#8音楽のジャンルについて！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei8.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/06/8%e9%9f%b3%e6%a5%bd%e3%81%ae%e3%82%b8%e3%83%a3%e3%83%b3%e3%83%ab%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+        "minutes": null,
+        "pub": "2019-07-06T11:04:56+00:00"
+      }
     ]
   },
   "articles": {
@@ -391,6 +419,22 @@
         "link": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
         "summary": "Masked Israeli settlers attacked Palestinians as they were harvesting olives in the occupied West Bank on Friday, injuring several people including a photojournalist working for The Washington Post ."
       }
+    ],
+    "2026-10-18": [
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
+        "title": "Why Britain should reject the lure of cheap – and  scary – Chinese AI",
+        "link": "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
+        "summary": "In the west the technology comes with at least some effort to provide security and a benign intent – not so from China There is much to fear from artificial intelligence developed in China and handed to businesses and governments in the wes…"
+      },
+      {
+        "label": "Guardian World",
+        "guid": "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
+        "title": "No action to be taken against wife of PM’s aide over Palestine Action post",
+        "link": "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
+        "summary": "Tweet by Sarah Helm, wife of national security adviser Jonathan Powell, ‘does not meet criminal threshold’ No further action will be taken against Sarah Helm, the wife of the prime minister’s national security adviser, after she was accused…"
+      }
     ]
   },
   "articles_used": [
@@ -405,9 +449,11 @@
     "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
     "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
+    "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
     "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
     "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
+    "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
     "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
     "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
