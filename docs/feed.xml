@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-19 1] EN Business | Office English: Help</title>
+      <guid isPermaLink="false">2026-10-19:urn:bbc:podcast:p0nm3qy5</guid>
+      <pubDate>Mon, 19 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nm3qy5</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3ncw.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>540</itunes:duration>
+    </item>
+    <item>
+      <title>[10-19 2] EN All Ears | AEE: Can Movies Make You More Excited to Read?</title>
+      <guid isPermaLink="false">2026-10-19:7cac1b9c-bb07-11f1-b06e-4b45aff1f8f0</guid>
+      <pubDate>Mon, 19 Oct 2026 05:00:00 +0000</pubDate>
+      <link>https://www.allearsenglish.com/fluencyscore</link>
+      <enclosure url="https://traffic.megaphone.fm/ALLE8466926854.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1140</itunes:duration>
+    </item>
+    <item>
+      <title>[10-19 3] JP Beginner | #9どんな食べ物が好きですか？について！</title>
+      <guid isPermaLink="false">2026-10-19:http://nihongoconteppei.com/?p=79</guid>
+      <pubDate>Mon, 19 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/07/9%e3%81%a9%e3%82%93%e3%81%aa%e9%a3%9f%e3%81%b9%e7%89%a9%e3%81%8c%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei9.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-18 1] EN Business | Office English: Deadlines and logistics</title>
       <guid isPermaLink="false">2026-10-18:urn:bbc:podcast:p0nm3sd2</guid>
       <pubDate>Sun, 18 Oct 2026 06:00:00 +0000</pubDate>
@@ -126,29 +149,6 @@
       <pubDate>Tue, 13 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/04/3%e3%81%a9%e3%81%93%e3%81%ab%e4%bd%8f%e3%82%93%e3%81%a7%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei3.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-12 1] EN Business | Office English: Formal or informal?</title>
-      <guid isPermaLink="false">2026-10-12:urn:bbc:podcast:p0p3qgy5</guid>
-      <pubDate>Mon, 12 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0p3qgy5</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p3qfd7.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>540</itunes:duration>
-    </item>
-    <item>
-      <title>[10-12 2] EN All Ears | AEE 2702: Have the Last Laugh With These English Idioms</title>
-      <guid isPermaLink="false">2026-10-12:ab8c190e-bb06-11f1-a7b8-839410de6b8c</guid>
-      <pubDate>Mon, 12 Oct 2026 05:00:00 +0000</pubDate>
-      <link>https://www.allearsenglish.com/</link>
-      <enclosure url="https://traffic.megaphone.fm/ALLE2494556127.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1080</itunes:duration>
-    </item>
-    <item>
-      <title>[10-12 3] JP Beginner | #2どのくらい日本語を勉強していますか？について！</title>
-      <guid isPermaLink="false">2026-10-12:http://nihongoconteppei.com/?p=48</guid>
-      <pubDate>Mon, 12 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/04/2%e3%81%a9%e3%81%ae%e3%81%8f%e3%82%89%e3%81%84%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%82%92%e5%8b%89%e5%bc%b7%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei2.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
