@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-20 1] EN Easy | Why do we itch?</title>
+      <guid isPermaLink="false">2026-10-20:urn:bbc:podcast:p0pc61lm</guid>
+      <pubDate>Tue, 20 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0pc61lm</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pc618w.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>360</itunes:duration>
+    </item>
+    <item>
+      <title>[10-20 2] EN Talk | What if you could read the DNA of your future child? | Noor Siddiqui</title>
+      <guid isPermaLink="false">2026-10-20:6acfa742b3381b9dbb7c315f</guid>
+      <pubDate>Tue, 20 Oct 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/noorsiddiqui</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa742b3381b9dbb7c315f/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>900</itunes:duration>
+    </item>
+    <item>
+      <title>[10-20 3] JP Beginner | #10お酒は好きですか？について！</title>
+      <guid isPermaLink="false">2026-10-20:http://nihongoconteppei.com/?p=82</guid>
+      <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/07/10%e3%81%8a%e9%85%92%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei10.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-19 1] EN Business | Office English: Help</title>
       <guid isPermaLink="false">2026-10-19:urn:bbc:podcast:p0nm3qy5</guid>
       <pubDate>Mon, 19 Oct 2026 06:00:00 +0000</pubDate>
@@ -126,29 +149,6 @@
       <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/04/4%e4%bd%95%e6%99%82%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei4.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-13 1] EN Easy | Are people drinking less alcohol?</title>
-      <guid isPermaLink="false">2026-10-13:urn:bbc:podcast:p0pflmn5</guid>
-      <pubDate>Tue, 13 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0pflmn5</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pfllv6.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>420</itunes:duration>
-    </item>
-    <item>
-      <title>[10-13 2] EN Talk | How to make parenting less lonely | Stacey McLachlan</title>
-      <guid isPermaLink="false">2026-10-13:6ac7affae2a72faefc1e8d12</guid>
-      <pubDate>Tue, 13 Oct 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/staceymclachlan</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ac7affae2a72faefc1e8d12/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1200</itunes:duration>
-    </item>
-    <item>
-      <title>[10-13 3] JP Beginner | #3どこに住んでいますか？について！</title>
-      <guid isPermaLink="false">2026-10-13:http://nihongoconteppei.com/?p=50</guid>
-      <pubDate>Tue, 13 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/04/3%e3%81%a9%e3%81%93%e3%81%ab%e4%bd%8f%e3%82%93%e3%81%a7%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei3.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
