@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-21 1] EN Business | Office English: Feedback</title>
+      <guid isPermaLink="false">2026-10-21:urn:bbc:podcast:p0nm3n3t</guid>
+      <pubDate>Wed, 21 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nm3n3t</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3m3s.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>660</itunes:duration>
+    </item>
+    <item>
+      <title>[10-21 2] EN Talk | Why the best learners talk to themselves | Tania Lombrozo</title>
+      <guid isPermaLink="false">2026-10-21:6ad77fd358c0e97ce0c32f31</guid>
+      <pubDate>Wed, 21 Oct 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/tanialombrozo</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad77fd358c0e97ce0c32f31/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1140</itunes:duration>
+    </item>
+    <item>
+      <title>[10-21 3] JP Beginner | #11コーヒーは好きですか？について！</title>
+      <guid isPermaLink="false">2026-10-21:http://nihongoconteppei.com/?p=85</guid>
+      <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/07/11%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei11.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-20 1] EN Easy | Why do we itch?</title>
       <guid isPermaLink="false">2026-10-20:urn:bbc:podcast:p0pc61lm</guid>
       <pubDate>Tue, 20 Oct 2026 06:00:00 +0000</pubDate>
@@ -126,29 +149,6 @@
       <pubDate>Thu, 15 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/05/5%e3%81%b2%e3%82%89%e3%81%8c%e3%81%aa%e3%80%81%e3%82%ab%e3%82%bf%e3%82%ab%e3%83%8a%e3%80%81%e6%bc%a2%e5%ad%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei5.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-14 1] EN Business | Office English: Pitching</title>
-      <guid isPermaLink="false">2026-10-14:urn:bbc:podcast:p0nm6yqj</guid>
-      <pubDate>Wed, 14 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nm6yqj</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm6xjw.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>420</itunes:duration>
-    </item>
-    <item>
-      <title>[10-14 2] EN Talk | Why it's so hard to listen when you disagree | Emily Kasriel</title>
-      <guid isPermaLink="false">2026-10-14:6acd4daa1882f45a244792a2</guid>
-      <pubDate>Wed, 14 Oct 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/emilykasriel</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acd4daa1882f45a244792a2/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>840</itunes:duration>
-    </item>
-    <item>
-      <title>[10-14 3] JP Beginner | #4何時ですか？について！</title>
-      <guid isPermaLink="false">2026-10-14:http://nihongoconteppei.com/?p=53</guid>
-      <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/04/4%e4%bd%95%e6%99%82%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei4.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>

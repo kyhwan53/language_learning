@@ -6,14 +6,16 @@
       "urn:bbc:podcast:p0nm6yqj",
       "urn:bbc:podcast:p0nm6xdm",
       "urn:bbc:podcast:p0nm3sd2",
-      "urn:bbc:podcast:p0nm3qy5"
+      "urn:bbc:podcast:p0nm3qy5",
+      "urn:bbc:podcast:p0nm3n3t"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
       "6ac7affae2a72faefc1e8d12",
       "6acd4daa1882f45a244792a2",
       "6acfa619b3381b9dbb7c315c",
-      "6acfa742b3381b9dbb7c315f"
+      "6acfa742b3381b9dbb7c315f",
+      "6ad77fd358c0e97ce0c32f31"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -25,7 +27,8 @@
       "http://nihongoconteppei.com/?p=70",
       "http://nihongoconteppei.com/?p=73",
       "http://nihongoconteppei.com/?p=79",
-      "http://nihongoconteppei.com/?p=82"
+      "http://nihongoconteppei.com/?p=82",
+      "http://nihongoconteppei.com/?p=85"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -387,6 +390,44 @@
         "minutes": null,
         "pub": "2019-07-07T05:32:59+00:00"
       }
+    ],
+    "2026-10-21": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nm3n3t",
+        "show": "Learning English For Work",
+        "title": "Office English: Feedback",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3m3s.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nm3n3t",
+        "minutes": 11,
+        "pub": "2026-06-22T07:00:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6ad77fd358c0e97ce0c32f31",
+        "show": "TED Talks Daily",
+        "title": "Why the best learners talk to themselves | Tania Lombrozo",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad77fd358c0e97ce0c32f31/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/tanialombrozo",
+        "minutes": 19,
+        "pub": "2026-10-20T15:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=85",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#11コーヒーは好きですか？について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei11.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/07/11%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-07T05:34:29+00:00"
+      }
     ]
   },
   "articles": {
@@ -549,6 +590,22 @@
         "link": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
         "summary": "In Canada, the oil-rich province of Alberta votes in a referendum that could set it on a path toward separation, as Prime Minister Mark Carney warns of threats to Canadian unity."
       }
+    ],
+    "2026-10-21": [
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
+        "title": "Andy Burnham faces climate revolt after approval of North Sea gas drilling",
+        "link": "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
+        "summary": "Jackdaw gasfield announcement signals UK’s commitment to North Sea industry but undermines green credentials What does the approval of the Jackdaw gasfield mean? The Jackdaw gasfield will be given the go-ahead on Wednesday, signalling Andy …"
+      },
+      {
+        "label": "Guardian World",
+        "guid": "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
+        "title": "Odds of fifth interest rate hike this year likely to shorten as RBA deputy warns inflation outlook ‘worsening’",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
+        "summary": "Andrew Hauser says the central bank faces ‘hard choices’ as it looks to balance the risks of entrenched inflation with the desire to protect the labour market Andrew Hauser, the Reserve Bank’s deputy governor, has reignited talk of a fifth …"
+      }
     ]
   },
   "articles_used": [
@@ -567,9 +624,11 @@
     "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
+    "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
     "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
     "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
     "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
+    "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
     "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
@@ -812,17 +871,9 @@
         "previous": "25.8"
       },
       {
-        "title": "Foreign Direct Investment ytd/y",
-        "country": "CNY",
-        "date": "2026-10-20T05:10:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-5.3%"
-      },
-      {
         "title": "10-y Bond Auction",
         "country": "GBP",
-        "date": "2026-10-20T05:33:00-04:00",
+        "date": "2026-10-20T05:03:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "5.38|3.3"
@@ -856,13 +907,13 @@
         "country": "USD",
         "date": "2026-10-20T10:00:00-04:00",
         "impact": "Low",
-        "forecast": "-0.7%",
+        "forecast": "-0.6%",
         "previous": "0.3%"
       },
       {
         "title": "GDT Price Index",
         "country": "NZD",
-        "date": "2026-10-20T10:50:00-04:00",
+        "date": "2026-10-20T11:19:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "1.2%"
@@ -944,7 +995,7 @@
         "country": "GBP",
         "date": "2026-10-21T02:00:00-04:00",
         "impact": "Low",
-        "forecast": "23.9B",
+        "forecast": "23.8B",
         "previous": "18.3B"
       },
       {
@@ -968,8 +1019,16 @@
         "country": "GBP",
         "date": "2026-10-21T04:30:00-04:00",
         "impact": "Low",
-        "forecast": "1.7%",
+        "forecast": "1.2%",
         "previous": "1.4%"
+      },
+      {
+        "title": "Foreign Direct Investment ytd/y",
+        "country": "CNY",
+        "date": "2026-10-21T05:10:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-5.3%"
       },
       {
         "title": "German Buba Monthly Report",
@@ -992,7 +1051,7 @@
         "country": "USD",
         "date": "2026-10-21T10:30:00-04:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "-0.1M",
         "previous": "-8.6M"
       },
       {
@@ -1024,7 +1083,7 @@
         "country": "CAD",
         "date": "2026-10-22T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "0.7%",
+        "forecast": "0.9%",
         "previous": "1.3%"
       },
       {
@@ -1040,7 +1099,7 @@
         "country": "CAD",
         "date": "2026-10-22T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "0.1%",
+        "forecast": "3.1%",
         "previous": "3.1%"
       },
       {
@@ -1064,7 +1123,7 @@
         "country": "USD",
         "date": "2026-10-22T10:00:00-04:00",
         "impact": "Low",
-        "forecast": "-0.2%",
+        "forecast": "-0.1%",
         "previous": "-0.1%"
       },
       {
@@ -1072,7 +1131,7 @@
         "country": "USD",
         "date": "2026-10-22T10:30:00-04:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "83B",
         "previous": "67B"
       },
       {
@@ -1120,7 +1179,7 @@
         "country": "GBP",
         "date": "2026-10-23T02:00:00-04:00",
         "impact": "Medium",
-        "forecast": "-0.2%",
+        "forecast": "-0.1%",
         "previous": "0.5%"
       },
       {
@@ -1128,7 +1187,7 @@
         "country": "EUR",
         "date": "2026-10-23T03:15:00-04:00",
         "impact": "Medium",
-        "forecast": "50.6",
+        "forecast": "50.5",
         "previous": "50.3"
       },
       {
@@ -1136,7 +1195,7 @@
         "country": "EUR",
         "date": "2026-10-23T03:15:00-04:00",
         "impact": "Medium",
-        "forecast": "50.8",
+        "forecast": "50.7",
         "previous": "51.4"
       },
       {
@@ -1152,7 +1211,7 @@
         "country": "EUR",
         "date": "2026-10-23T03:30:00-04:00",
         "impact": "Medium",
-        "forecast": "52.6",
+        "forecast": "52.5",
         "previous": "52.9"
       },
       {
@@ -1208,7 +1267,7 @@
         "country": "EUR",
         "date": "2026-10-23T09:00:00-04:00",
         "impact": "Low",
-        "forecast": "-11.5",
+        "forecast": "-11.8",
         "previous": "-12.1"
       },
       {
@@ -1216,7 +1275,7 @@
         "country": "USD",
         "date": "2026-10-23T09:45:00-04:00",
         "impact": "Medium",
-        "forecast": "55.5",
+        "forecast": "55.4",
         "previous": "57.0"
       },
       {
@@ -1224,7 +1283,7 @@
         "country": "USD",
         "date": "2026-10-23T09:45:00-04:00",
         "impact": "Medium",
-        "forecast": "58.0",
+        "forecast": "57.8",
         "previous": "58.7"
       },
       {
