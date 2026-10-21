@@ -28,18 +28,21 @@
       "http://nihongoconteppei.com/?p=73",
       "http://nihongoconteppei.com/?p=79",
       "http://nihongoconteppei.com/?p=82",
-      "http://nihongoconteppei.com/?p=85"
+      "http://nihongoconteppei.com/?p=85",
+      "http://nihongoconteppei.com/?p=89"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
       "0442d272-bb07-11f1-b28e-d3f11b441d1b",
-      "7cac1b9c-bb07-11f1-b06e-4b45aff1f8f0"
+      "7cac1b9c-bb07-11f1-b06e-4b45aff1f8f0",
+      "2a44fdba-bbf7-11f1-a0af-db152e3a3e8b"
     ],
     "easy": [
       "urn:bbc:podcast:p0pflmn5",
       "urn:bbc:podcast:p0pdc9cq",
       "urn:bbc:podcast:p0pgs2w6",
-      "urn:bbc:podcast:p0pc61lm"
+      "urn:bbc:podcast:p0pc61lm",
+      "urn:bbc:podcast:p0pb0rd0"
     ],
     "lifekit": []
   },
@@ -428,6 +431,44 @@
         "minutes": null,
         "pub": "2019-07-07T05:34:29+00:00"
       }
+    ],
+    "2026-10-22": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0pb0rd0",
+        "show": "6 Minute English",
+        "title": "Is rejection good for us?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pb0qlf.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0pb0rd0",
+        "minutes": 6,
+        "pub": "2026-09-17T08:34:00+00:00"
+      },
+      {
+        "key": "aee",
+        "label": "EN All Ears",
+        "guid": "2a44fdba-bbf7-11f1-a0af-db152e3a3e8b",
+        "show": "All Ears English Podcast",
+        "title": "AEE 2708: Honestly, You’ll Be Happy About These Pronunciation Tips",
+        "audio": "https://traffic.megaphone.fm/ALLE2088457638.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://www.allearsenglish.com/fluencyscore",
+        "minutes": 17,
+        "pub": "2026-10-21T05:00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=89",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#12読書について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei12.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/08/12%e8%aa%ad%e6%9b%b8%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-08T11:55:05+00:00"
+      }
     ]
   },
   "articles": {
@@ -606,15 +647,33 @@
         "link": "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
         "summary": "Andrew Hauser says the central bank faces ‘hard choices’ as it looks to balance the risks of entrenched inflation with the desire to protect the labour market Andrew Hauser, the Reserve Bank’s deputy governor, has reignited talk of a fifth …"
       }
+    ],
+    "2026-10-22": [
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo#0",
+        "title": "The \"trillion pound\" oil fund the government believes Britain could have built",
+        "link": "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo?at_medium=RSS&at_campaign=rss",
+        "summary": "For the first time, the Treasury calculates how much the UK could have raised by investing North Sea proceeds."
+      },
+      {
+        "label": "BBC World",
+        "guid": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do#2",
+        "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+        "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
+        "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history."
+      }
     ]
   },
   "articles_used": [
     "https://www.bbc.co.uk/news/articles/c2l9vvj097lo#3",
     "https://www.bbc.co.uk/news/articles/c6n49w1r2zxjo#3",
     "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo#0",
+    "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo#0",
     "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
     "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
     "https://www.bbc.co.uk/news/articles/cr6240q1w136o#0",
+    "https://www.bbc.co.uk/news/articles/cr93z1e87e0do#2",
     "https://www.carbonbrief.org/?p=83641",
     "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
     "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",
@@ -1023,14 +1082,6 @@
         "previous": "1.4%"
       },
       {
-        "title": "Foreign Direct Investment ytd/y",
-        "country": "CNY",
-        "date": "2026-10-21T05:10:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-5.3%"
-      },
-      {
         "title": "German Buba Monthly Report",
         "country": "EUR",
         "date": "2026-10-21T06:00:00-04:00",
@@ -1069,6 +1120,14 @@
         "impact": "Low",
         "forecast": "",
         "previous": ""
+      },
+      {
+        "title": "Foreign Direct Investment ytd/y",
+        "country": "CNY",
+        "date": "2026-10-22T05:10:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-5.3%"
       },
       {
         "title": "CBI Industrial Order Expectations",
@@ -1131,7 +1190,7 @@
         "country": "USD",
         "date": "2026-10-22T10:30:00-04:00",
         "impact": "Low",
-        "forecast": "83B",
+        "forecast": "80B",
         "previous": "67B"
       },
       {
@@ -1283,7 +1342,7 @@
         "country": "USD",
         "date": "2026-10-23T09:45:00-04:00",
         "impact": "Medium",
-        "forecast": "57.8",
+        "forecast": "57.9",
         "previous": "58.7"
       },
       {
