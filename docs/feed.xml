@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-23 1] EN Business | Office English: Cold calls</title>
+      <guid isPermaLink="false">2026-10-23:urn:bbc:podcast:p0nm3lrc</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nm3lrc</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3jvv.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>600</itunes:duration>
+    </item>
+    <item>
+      <title>[10-23 2] EN Talk | I can't speak. Here's how I get people to listen | Jessica Irwin</title>
+      <guid isPermaLink="false">2026-10-23:6ada23e044592625b9151811</guid>
+      <pubDate>Fri, 23 Oct 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/jessicairwin</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ada23e044592625b9151811/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>540</itunes:duration>
+    </item>
+    <item>
+      <title>[10-23 3] JP Beginner | #13漫画は好きですか？</title>
+      <guid isPermaLink="false">2026-10-23:http://nihongoconteppei.com/?p=92</guid>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/09/13%e6%bc%ab%e7%94%bb%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei13.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-22 1] EN Easy | Is rejection good for us?</title>
       <guid isPermaLink="false">2026-10-22:urn:bbc:podcast:p0pb0rd0</guid>
       <pubDate>Thu, 22 Oct 2026 06:00:00 +0000</pubDate>
@@ -126,29 +149,6 @@
       <pubDate>Sat, 17 Oct 2026 05:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/06/7%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%ae%e5%8b%89%e5%bc%b7%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei7.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-16 1] EN Business | Office English: Client management</title>
-      <guid isPermaLink="false">2026-10-16:urn:bbc:podcast:p0nm6xdm</guid>
-      <pubDate>Fri, 16 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nm6xdm</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm6w3k.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>480</itunes:duration>
-    </item>
-    <item>
-      <title>[10-16 2] EN Talk | How to stop homelessness before it starts | Jen Loving</title>
-      <guid isPermaLink="false">2026-10-16:6acfa619b3381b9dbb7c315c</guid>
-      <pubDate>Fri, 16 Oct 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/jenloving</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa619b3381b9dbb7c315c/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>720</itunes:duration>
-    </item>
-    <item>
-      <title>[10-16 3] JP Beginner | #6学校に行っていますか？について！</title>
-      <guid isPermaLink="false">2026-10-16:http://nihongoconteppei.com/?p=67</guid>
-      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/06/6%e5%ad%a6%e6%a0%a1%e3%81%ab%e8%a1%8c%e3%81%a3%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei6.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>

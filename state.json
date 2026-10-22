@@ -7,7 +7,8 @@
       "urn:bbc:podcast:p0nm6xdm",
       "urn:bbc:podcast:p0nm3sd2",
       "urn:bbc:podcast:p0nm3qy5",
-      "urn:bbc:podcast:p0nm3n3t"
+      "urn:bbc:podcast:p0nm3n3t",
+      "urn:bbc:podcast:p0nm3lrc"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -15,7 +16,8 @@
       "6acd4daa1882f45a244792a2",
       "6acfa619b3381b9dbb7c315c",
       "6acfa742b3381b9dbb7c315f",
-      "6ad77fd358c0e97ce0c32f31"
+      "6ad77fd358c0e97ce0c32f31",
+      "6ada23e044592625b9151811"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -29,7 +31,8 @@
       "http://nihongoconteppei.com/?p=79",
       "http://nihongoconteppei.com/?p=82",
       "http://nihongoconteppei.com/?p=85",
-      "http://nihongoconteppei.com/?p=89"
+      "http://nihongoconteppei.com/?p=89",
+      "http://nihongoconteppei.com/?p=92"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -469,6 +472,44 @@
         "minutes": null,
         "pub": "2019-07-08T11:55:05+00:00"
       }
+    ],
+    "2026-10-23": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nm3lrc",
+        "show": "Learning English For Work",
+        "title": "Office English: Cold calls",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3jvv.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nm3lrc",
+        "minutes": 10,
+        "pub": "2026-06-15T07:00:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6ada23e044592625b9151811",
+        "show": "TED Talks Daily",
+        "title": "I can't speak. Here's how I get people to listen | Jessica Irwin",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ada23e044592625b9151811/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/jessicairwin",
+        "minutes": 9,
+        "pub": "2026-10-22T15:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=92",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#13漫画は好きですか？",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei13.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/09/13%e6%bc%ab%e7%94%bb%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/",
+        "minutes": null,
+        "pub": "2019-07-09T05:54:13+00:00"
+      }
     ]
   },
   "articles": {
@@ -663,6 +704,22 @@
         "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss",
         "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history."
       }
+    ],
+    "2026-10-23": [
+      {
+        "label": "NPR Economy",
+        "guid": "https://www.npr.org/2026/10/22/nx-s1-6001731/gene-editing-scientists-slowed-down-for-safety-could-ai-leaders-follow-their-guide",
+        "title": "Gene editing scientists slowed down for safety. Could AI leaders follow their guide?",
+        "link": "https://www.npr.org/2026/10/22/nx-s1-6001731/gene-editing-scientists-slowed-down-for-safety-could-ai-leaders-follow-their-guide",
+        "summary": "Some of the leaders of the AI race are calling for a slowdown, for safety's sake. Viewed in economics terms, it's a collective action problem: no one wants to slow down unless everyone does."
+      },
+      {
+        "label": "NPR World",
+        "guid": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
+        "title": "What we know about war plans that Trump and Netanyahu are drawing up",
+        "link": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
+        "summary": "Could the U.S. and Israel be on the verge of launching a new attack on Iran? President Trump and Prime Minister Benjamin Netanyahu have been suggesting that's on the table."
+      }
     ]
   },
   "articles_used": [
@@ -681,6 +738,8 @@
     "https://www.npr.org/2026/10/16/nx-s1-6000238/norway-faces-public-dilemma-over-divesting-from-companies-involved-with-war-in-gaza",
     "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
     "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
+    "https://www.npr.org/2026/10/22/nx-s1-6001731/gene-editing-scientists-slowed-down-for-safety-could-ai-leaders-follow-their-guide",
+    "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
     "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
@@ -1124,7 +1183,7 @@
       {
         "title": "Foreign Direct Investment ytd/y",
         "country": "CNY",
-        "date": "2026-10-22T05:10:00-04:00",
+        "date": "2026-10-22T03:41:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "-5.3%"
@@ -1138,36 +1197,36 @@
         "previous": "-9"
       },
       {
-        "title": "IPPI m/m",
-        "country": "CAD",
-        "date": "2026-10-22T08:30:00-04:00",
-        "impact": "Low",
-        "forecast": "0.9%",
-        "previous": "1.3%"
-      },
-      {
-        "title": "NHPI m/m",
-        "country": "CAD",
-        "date": "2026-10-22T08:30:00-04:00",
-        "impact": "Low",
-        "forecast": "-0.1%",
-        "previous": "-0.1%"
-      },
-      {
-        "title": "RMPI m/m",
-        "country": "CAD",
-        "date": "2026-10-22T08:30:00-04:00",
-        "impact": "Low",
-        "forecast": "3.1%",
-        "previous": "3.1%"
-      },
-      {
         "title": "Unemployment Claims",
         "country": "USD",
         "date": "2026-10-22T08:30:00-04:00",
         "impact": "Medium",
         "forecast": "200K",
         "previous": "199K"
+      },
+      {
+        "title": "IPPI m/m",
+        "country": "CAD",
+        "date": "2026-10-22T08:38:00-04:00",
+        "impact": "Low",
+        "forecast": "0.9%",
+        "previous": "1.3%"
+      },
+      {
+        "title": "RMPI m/m",
+        "country": "CAD",
+        "date": "2026-10-22T08:38:00-04:00",
+        "impact": "Low",
+        "forecast": "3.1%",
+        "previous": "3.1%"
+      },
+      {
+        "title": "NHPI m/m",
+        "country": "CAD",
+        "date": "2026-10-22T09:55:00-04:00",
+        "impact": "Low",
+        "forecast": "-0.1%",
+        "previous": "-0.1%"
       },
       {
         "title": "Consumer Confidence",
