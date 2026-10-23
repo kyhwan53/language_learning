@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-24 1] EN Easy | What should you eat for a better night’s sleep?</title>
+      <guid isPermaLink="false">2026-10-24:urn:bbc:podcast:p0phz9z7</guid>
+      <pubDate>Sat, 24 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0phz9z7</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0phyzz9.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[10-24 2] EN Life Kit | How honest should you really be? Tips for sharing good and bad news</title>
+      <guid isPermaLink="false">2026-10-24:93729555-5746-4f8a-853c-aaa632e9c57a</guid>
+      <pubDate>Sat, 24 Oct 2026 05:00:00 +0000</pubDate>
+      <link>https://www.npr.org/2026/10/22/nx-s1-6010647/how-honest-should-you-really-be-tips-for-sharing-good-and-bad-news</link>
+      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/74c696c7-baaa-491d-b7fa-1d1f68052d7a/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=74c696c7-baaa-491d-b7fa-1d1f68052d7a&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6010647&amp;p=510338&amp;d=1376&amp;size=22030254" type="audio/mpeg" length="0" />
+      <itunes:duration>1380</itunes:duration>
+    </item>
+    <item>
+      <title>[10-24 3] JP Beginner | #14スタジオジブリについて！</title>
+      <guid isPermaLink="false">2026-10-24:http://nihongoconteppei.com/?p=95</guid>
+      <pubDate>Sat, 24 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/10/14%e3%82%b9%e3%82%bf%e3%82%b8%e3%82%aa%e3%82%b8%e3%83%96%e3%83%aa%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei14.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-23 1] EN Business | Office English: Cold calls</title>
       <guid isPermaLink="false">2026-10-23:urn:bbc:podcast:p0nm3lrc</guid>
       <pubDate>Fri, 23 Oct 2026 06:00:00 +0000</pubDate>
@@ -134,21 +157,6 @@
       <pubDate>Sun, 18 Oct 2026 05:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/06/8%e9%9f%b3%e6%a5%bd%e3%81%ae%e3%82%b8%e3%83%a3%e3%83%b3%e3%83%ab%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei8.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-17 1] EN Easy | Why has gold got so expensive?</title>
-      <guid isPermaLink="false">2026-10-17:urn:bbc:podcast:p0pgs2w6</guid>
-      <pubDate>Sat, 17 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0pgs2w6</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pgs15w.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>420</itunes:duration>
-    </item>
-    <item>
-      <title>[10-17 2] JP Beginner | #7日本語の勉強は好きですか？について！</title>
-      <guid isPermaLink="false">2026-10-17:http://nihongoconteppei.com/?p=70</guid>
-      <pubDate>Sat, 17 Oct 2026 05:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/06/7%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%81%ae%e5%8b%89%e5%bc%b7%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei7.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>

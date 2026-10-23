@@ -32,7 +32,8 @@
       "http://nihongoconteppei.com/?p=82",
       "http://nihongoconteppei.com/?p=85",
       "http://nihongoconteppei.com/?p=89",
-      "http://nihongoconteppei.com/?p=92"
+      "http://nihongoconteppei.com/?p=92",
+      "http://nihongoconteppei.com/?p=95"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -45,9 +46,12 @@
       "urn:bbc:podcast:p0pdc9cq",
       "urn:bbc:podcast:p0pgs2w6",
       "urn:bbc:podcast:p0pc61lm",
-      "urn:bbc:podcast:p0pb0rd0"
+      "urn:bbc:podcast:p0pb0rd0",
+      "urn:bbc:podcast:p0phz9z7"
     ],
-    "lifekit": []
+    "lifekit": [
+      "93729555-5746-4f8a-853c-aaa632e9c57a"
+    ]
   },
   "days": {
     "2026-10-11": [
@@ -510,6 +514,44 @@
         "minutes": null,
         "pub": "2019-07-09T05:54:13+00:00"
       }
+    ],
+    "2026-10-24": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0phz9z7",
+        "show": "6 Minute English",
+        "title": "What should you eat for a better night’s sleep?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0phyzz9.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0phz9z7",
+        "minutes": 7,
+        "pub": "2026-10-22T09:56:00+00:00"
+      },
+      {
+        "key": "lifekit",
+        "label": "EN Life Kit",
+        "guid": "93729555-5746-4f8a-853c-aaa632e9c57a",
+        "show": "Life Kit",
+        "title": "How honest should you really be? Tips for sharing good and bad news",
+        "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/74c696c7-baaa-491d-b7fa-1d1f68052d7a/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&awEpisodeId=74c696c7-baaa-491d-b7fa-1d1f68052d7a&feed=XkY2SBZJ&t=podcast&e=nx-s1-6010647&p=510338&d=1376&size=22030254",
+        "mime": "audio/mpeg",
+        "page": "https://www.npr.org/2026/10/22/nx-s1-6010647/how-honest-should-you-really-be-tips-for-sharing-good-and-bad-news",
+        "minutes": 23,
+        "pub": "2026-10-22T07:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=95",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#14スタジオジブリについて！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei14.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/10/14%e3%82%b9%e3%82%bf%e3%82%b8%e3%82%aa%e3%82%b8%e3%83%96%e3%83%aa%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-10T11:12:41+00:00"
+      }
     ]
   },
   "articles": {
@@ -720,6 +762,22 @@
         "link": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
         "summary": "Could the U.S. and Israel be on the verge of launching a new attack on Iran? President Trump and Prime Minister Benjamin Netanyahu have been suggesting that's on the table."
       }
+    ],
+    "2026-10-24": [
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+        "title": "Oil price rises above $117 a barrel amid fears US will renew strikes on Iran",
+        "link": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
+        "summary": "Brent crude increase follows Tehran threatening retaliatory attacks on Gulf refineries and datacentres Oil has hit its highest level in more than six months as fears of fresh escalation in the Middle East conflict grip the energy markets. B…"
+      },
+      {
+        "label": "Guardian World",
+        "guid": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+        "title": "Father who killed Oregon school shooter speaks out for first time: ‘I have to go in’",
+        "link": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+        "summary": "Kaylub Giamanco recounts the day he confronted the Silver Rail elementary school shooter, who killed three boys and one teacher The Oregon father hailed as a hero for stopping a school shooting last week spoke for the first time about the i…"
+      }
     ]
   },
   "articles_used": [
@@ -744,12 +802,14 @@
     "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
     "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
     "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
+    "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
     "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
     "https://www.theguardian.com/business/nils-pratley-on-finance/2026/oct/14/the-uk-energy-secretary-is-flirting-with-a-bad-idea-for-bills-the-rising-block-tariff",
     "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
     "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+    "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
     "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
     "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
     "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
