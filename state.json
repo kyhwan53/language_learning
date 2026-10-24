@@ -8,7 +8,8 @@
       "urn:bbc:podcast:p0nm3sd2",
       "urn:bbc:podcast:p0nm3qy5",
       "urn:bbc:podcast:p0nm3n3t",
-      "urn:bbc:podcast:p0nm3lrc"
+      "urn:bbc:podcast:p0nm3lrc",
+      "urn:bbc:podcast:p0nm3jn2"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -33,7 +34,8 @@
       "http://nihongoconteppei.com/?p=85",
       "http://nihongoconteppei.com/?p=89",
       "http://nihongoconteppei.com/?p=92",
-      "http://nihongoconteppei.com/?p=95"
+      "http://nihongoconteppei.com/?p=95",
+      "http://nihongoconteppei.com/?p=99"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -50,7 +52,8 @@
       "urn:bbc:podcast:p0phz9z7"
     ],
     "lifekit": [
-      "93729555-5746-4f8a-853c-aaa632e9c57a"
+      "93729555-5746-4f8a-853c-aaa632e9c57a",
+      "1885a632-a2a1-443d-bf63-076ab9ab0898"
     ]
   },
   "days": {
@@ -552,6 +555,44 @@
         "minutes": null,
         "pub": "2019-07-10T11:12:41+00:00"
       }
+    ],
+    "2026-10-25": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nm3jn2",
+        "show": "Learning English For Work",
+        "title": "Office English: Misunderstandings",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3fyg.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nm3jn2",
+        "minutes": 8,
+        "pub": "2026-06-08T07:00:00+00:00"
+      },
+      {
+        "key": "lifekit",
+        "label": "EN Life Kit",
+        "guid": "1885a632-a2a1-443d-bf63-076ab9ab0898",
+        "show": "Life Kit",
+        "title": "Why you should take a 'say no' retreat",
+        "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/1d918a0f-d527-48ac-a92e-dcd113c379eb/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&awEpisodeId=1d918a0f-d527-48ac-a92e-dcd113c379eb&feed=XkY2SBZJ&t=podcast&e=nx-s1-6008141&p=510338&d=1259&size=20159469",
+        "mime": "audio/mpeg",
+        "page": "https://www.npr.org/2026/10/20/nx-s1-6008141/why-you-should-take-a-say-no-retreat",
+        "minutes": 21,
+        "pub": "2026-10-20T07:00:05+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=99",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#15天気について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei15.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/11/15%e5%a4%a9%e6%b0%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-11T11:11:03+00:00"
+      }
     ]
   },
   "articles": {
@@ -778,6 +819,22 @@
         "link": "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
         "summary": "Kaylub Giamanco recounts the day he confronted the Silver Rail elementary school shooter, who killed three boys and one teacher The Oregon father hailed as a hero for stopping a school shooting last week spoke for the first time about the i…"
       }
+    ],
+    "2026-10-25": [
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o#3",
+        "title": "Rising demand from families needing Christmas help",
+        "link": "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o?at_medium=RSS&at_campaign=rss",
+        "summary": "Charlotte Riley says more families are reaching out for help for a variety of reasons."
+      },
+      {
+        "label": "BBC World",
+        "guid": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo#2",
+        "title": "Who are the candidates in Brazil's presidential election?",
+        "link": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
+        "summary": "Voters in Sunday's election are choosing between two very different candidates, as Americas correspondent Ione Wells reports from Rio de Janeiro."
+      }
     ]
   },
   "articles_used": [
@@ -787,8 +844,10 @@
     "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo#0",
     "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
     "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
+    "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o#3",
     "https://www.bbc.co.uk/news/articles/cr6240q1w136o#0",
     "https://www.bbc.co.uk/news/articles/cr93z1e87e0do#2",
+    "https://www.bbc.co.uk/news/videos/cm0e0del4jewo#2",
     "https://www.carbonbrief.org/?p=83641",
     "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
     "https://www.npr.org/2026/10/13/nx-s1-5963595/older-americans-are-struggling-with-food-affordability",

@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-25 1] EN Business | Office English: Misunderstandings</title>
+      <guid isPermaLink="false">2026-10-25:urn:bbc:podcast:p0nm3jn2</guid>
+      <pubDate>Sun, 25 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nm3jn2</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3fyg.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>480</itunes:duration>
+    </item>
+    <item>
+      <title>[10-25 2] EN Life Kit | Why you should take a 'say no' retreat</title>
+      <guid isPermaLink="false">2026-10-25:1885a632-a2a1-443d-bf63-076ab9ab0898</guid>
+      <pubDate>Sun, 25 Oct 2026 05:00:00 +0000</pubDate>
+      <link>https://www.npr.org/2026/10/20/nx-s1-6008141/why-you-should-take-a-say-no-retreat</link>
+      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/1d918a0f-d527-48ac-a92e-dcd113c379eb/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=1d918a0f-d527-48ac-a92e-dcd113c379eb&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6008141&amp;p=510338&amp;d=1259&amp;size=20159469" type="audio/mpeg" length="0" />
+      <itunes:duration>1260</itunes:duration>
+    </item>
+    <item>
+      <title>[10-25 3] JP Beginner | #15天気について！</title>
+      <guid isPermaLink="false">2026-10-25:http://nihongoconteppei.com/?p=99</guid>
+      <pubDate>Sun, 25 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/11/15%e5%a4%a9%e6%b0%97%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei15.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-24 1] EN Easy | What should you eat for a better night’s sleep?</title>
       <guid isPermaLink="false">2026-10-24:urn:bbc:podcast:p0phz9z7</guid>
       <pubDate>Sat, 24 Oct 2026 06:00:00 +0000</pubDate>
@@ -142,21 +165,6 @@
       <pubDate>Mon, 19 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/07/9%e3%81%a9%e3%82%93%e3%81%aa%e9%a3%9f%e3%81%b9%e7%89%a9%e3%81%8c%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei9.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-18 1] EN Business | Office English: Deadlines and logistics</title>
-      <guid isPermaLink="false">2026-10-18:urn:bbc:podcast:p0nm3sd2</guid>
-      <pubDate>Sun, 18 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nm3sd2</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3r5x.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>540</itunes:duration>
-    </item>
-    <item>
-      <title>[10-18 2] JP Beginner | #8音楽のジャンルについて！</title>
-      <guid isPermaLink="false">2026-10-18:http://nihongoconteppei.com/?p=73</guid>
-      <pubDate>Sun, 18 Oct 2026 05:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/06/8%e9%9f%b3%e6%a5%bd%e3%81%ae%e3%82%b8%e3%83%a3%e3%83%b3%e3%83%ab%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei8.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
