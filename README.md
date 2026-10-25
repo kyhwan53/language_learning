@@ -14,6 +14,7 @@
 | `config.toml` | **사용자가 고치는 유일한 설정**: 팟캐스트 소스, 외신 기사 소스, 요일별 편성, 수신/게시 주소 |
 | `sources.py` | config.toml 로드/검증 |
 | `build_daily.py` | 오늘의 큐 선정 → `docs/feed.xml` 생성 → 메일 HTML 생성/발송 |
+| `reports.py` | 국내 리포트(네이버 증권 리서치의 증권사 리포트, 한국은행 RSS) 선정 → 메일 섹션 |
 | `manage.py` | 소스 추가/삭제/점검 CLI |
 | `docs/feed.xml` | GitHub Pages로 게시되는 개인 피드 (안드로이드 AntennaPod 등에서 구독) |
 | `state.json` | 이미 쓴 에피소드/기사 기록 (git 제외, 로컬 전용) |
@@ -89,7 +90,9 @@ python manage.py schedule mon biz,aee,jp
 - 메일에는 mp3 링크를 넣지 않음. 개인 피드는 팟캐스트 앱 자동 다운로드용으로 원본 오디오 URL을 유지.
 - 듣기는 안드로이드 **AntennaPod**에서 개인 피드를 구독해서 함 (Add podcast by RSS address → 위 피드 주소, 자동 다운로드/큐 추가 켜기).
   YouTube Music에는 개인 피드를 등록할 수 없고(소유권 인증 필요, 타사 콘텐츠), 에피소드를 YouTube 영상에 매칭하는 방식은
-  정확도가 낮아 제거함. 메일에는 공식 페이지/대본 링크만 둠.
+  정확도가 낮아 제거함. 메일의 각 에피소드에는 AntennaPod 열기(개인 피드 딥링크), YouTube 검색, 공식 페이지/대본 링크를 둠.
 - 수신 메일 주소는 공개 저장소라 config에 적지 않음 (`recipient`가 비어 있으면 `GMAIL_USER`로 발송).
 - Slow English 팟캐스트는 보류(동명 프로그램이 여럿이라 선택 필요).
 - 외신 기사는 제목/요약/링크만 사용하고 전문은 복사하지 않음.
+- 국내 리포트 요약은 새로 생성하지 않고(유료 API 금지) 작성자가 붙인 요약문을 몇 문장으로 잘라 씀. 증권사 리포트는
+  네이버 증권의 비공식 JSON API(`stock.naver.com/api/stockSecurity/researches/v2/...`)라 구조가 바뀌면 해당 섹션만 빠짐.

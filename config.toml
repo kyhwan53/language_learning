@@ -90,6 +90,31 @@ key = "guardian_world"
 label = "Guardian World"
 rss = "https://www.theguardian.com/world/rss"
 
+# --- 국내 리포트 (제목/저자 요약/원문 링크) ---
+# naver : 네이버 증권 리서치 분류 (economy=경제분석, invest=투자정보, market=시황정보, debenture=채권분석,
+#         industry=산업분석, company=종목분석) - 국내 증권사 리포트 모음, 최근 3일 중 조회수 1위
+# rss   : RSS 주소 (한국은행 RSS 목록: https://www.bok.or.kr/static/view/popup/rss_popup.html) - 새 글이 있을 때만 표시
+# count : 소스당 하루 최대 개수 (기본 1)
+[[report]]
+key = "nv_economy"
+label = "증권사 경제분석"
+naver = "economy"
+
+[[report]]
+key = "nv_invest"
+label = "증권사 투자전략"
+naver = "invest"
+
+[[report]]
+key = "bok_policy"
+label = "한국은행 통화정책"
+rss = "https://www.bok.or.kr/portal/bbs/P0000559/news.rss?menuNo=200690"
+
+[[report]]
+key = "bok_issue"
+label = "한국은행 이슈노트"
+rss = "https://www.bok.or.kr/portal/bbs/P0002353/news.rss?menuNo=200433"
+
 # --- 요일별 편성 (위에서 정의한 key 사용, 순서대로 재생) ---
 [schedule]
 mon = ["biz", "aee", "jp"]

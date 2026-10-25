@@ -13,6 +13,7 @@ import ssl
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
+from urllib.parse import quote
 from datetime import date, datetime
 from email.message import EmailMessage
 from email.utils import format_datetime, parsedate_to_datetime
@@ -21,7 +22,8 @@ from html import escape, unescape
 from pathlib import Path
 
 import indicators
-from sources import ARTICLES, ARTICLES_PER_DAY, BASE_URL, FEED_DAYS, MAX_MINUTES, RECIPIENT, SCHEDULE, SOURCES
+import reports
+from sources import ARTICLES, ARTICLES_PER_DAY, BASE_URL, FEED_DAYS, MAX_MINUTES, RECIPIENT, REPORTS, SCHEDULE, SOURCES
 
 ROOT = Path(__file__).parent
 STATE = ROOT / "state.json"
@@ -172,17 +174,21 @@ def build_articles(day, state):
     return picks
 
 
-def render_email(queue, articles, day, markets_html=""):
+def render_email(queue, articles, day, markets_html="", reports_html=""):
     total = sum(e["minutes"] or 0 for e in queue)
     card = "background:#fff;border:1px solid #e3e6ea;border-radius:10px;padding:14px 16px;margin:0 0 10px"
     tag = "display:inline-block;font-size:11px;font-weight:600;color:#fff;background:#2f6fed;border-radius:4px;padding:2px 7px"
     link = "color:#2f6fed;text-decoration:none"
+    # AntennaPod deep link: opens the personal feed in the app (offers to subscribe if not yet subscribed).
+    antennapod = "https://antennapod.org/deeplink/subscribe?url=" + quote(BASE_URL.rstrip("/") + "/feed.xml", safe="")
     listen = "".join(
         f"<div style='{card}'><span style='{tag}'>{escape(e['label'])}</span>"
         f"<div style='font-size:16px;font-weight:600;margin:8px 0 4px'>{escape(e['title'])}</div>"
         f"<div style='font-size:13px;color:#6b7280'>{str(e['minutes']) + ' min' if e['minutes'] else 'length n/a'}</div>"
         f"<div style='font-size:13px;margin-top:8px'>"
-        f"{'<a style=' + repr(link) + ' href=' + repr(escape(e['page'])) + '>Page &amp; transcript</a>' if e['page'] else '<span style=color:#9ca3af>Listen in AntennaPod</span>'}"
+        f"<a style='{link}' href='{escape(antennapod)}'>▶ Open in AntennaPod</a> &nbsp;|&nbsp; "
+        f"<a style='{link}' href='https://www.youtube.com/results?search_query={quote((e.get('show') or e['label']) + ' ' + e['title'])}'>Search on YouTube</a>"
+        f"{' &nbsp;|&nbsp; <a style=' + repr(link) + ' href=' + repr(escape(e['page'])) + '>Page &amp; transcript</a>' if e['page'] else ''}"
         "</div></div>"
         for e in queue
     )
@@ -203,6 +209,7 @@ def render_email(queue, articles, day, markets_html=""):
         f"{listen}"
         "<div style='font-size:12px;font-weight:700;letter-spacing:.06em;color:#6b7280;margin:16px 0 6px'>READ</div>"
         f"{read or '<div style=color:#6b7280>No new articles today.</div>'}"
+        f"{reports_html}"
         f"{markets_html}"
         "<div style='font-size:12px;color:#6b7280;margin-top:14px;line-height:1.5'>"
         "Tip: listen once without the transcript, then replay the hardest part. "
@@ -254,8 +261,10 @@ def main():
     state = load_state()
     queue = build_queue(day, state)
     articles = build_articles(day, state)
+    korea = reports.pick(REPORTS, day, state)
     write_feed(state, day)
-    html = render_email(queue, articles, day, indicators.render(indicators.snapshot(day, state.setdefault("calendar_cache", {}))))
+    html = render_email(queue, articles, day, indicators.render(indicators.snapshot(day, state.setdefault("calendar_cache", {}))),
+                        reports.render(korea))
     OUT.mkdir(exist_ok=True)
     (OUT / "email.html").write_text(html, encoding="utf-8")
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -266,6 +275,8 @@ def main():
         print(f"  [{e['label']}] {e['title']} ({e['minutes']} min)")
     for a in articles:
         print(f"  [READ {a['label']}] {a['title']}")
+    for r in korea:
+        print(f"  [REPORT {r['label']}] {r['title']}")
 
 
 if __name__ == "__main__":
