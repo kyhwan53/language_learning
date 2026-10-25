@@ -2,7 +2,9 @@ name: Daily language plan
 
 on:
   schedule:
-    - cron: "0 21 * * *"   # 21:00 UTC = 06:00 KST (GitHub may delay scheduled runs by several minutes)
+    # 17:47 UTC = 02:47 KST. GitHub starts scheduled runs 1.5-3 h late (worst seen: 3 h), and on-the-hour
+    # slots are the most congested, so start early and off the hour, then wait until 06:00 KST to send.
+    - cron: "47 17 * * *"
   workflow_dispatch:        # manual run from the Actions tab
 
 permissions:
@@ -15,7 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 240      # includes the wait until 06:00 KST (public repo: runner minutes are free)
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -30,6 +32,11 @@ jobs:
           if [ -n "$GMAIL_USER" ]; then echo "GMAIL_USER: set (${#GMAIL_USER} chars)"; else echo "GMAIL_USER: MISSING"; bad=1; fi
           if [ -n "$GMAIL_APP_PASSWORD" ]; then echo "GMAIL_APP_PASSWORD: set (${#GMAIL_APP_PASSWORD} chars)"; else echo "GMAIL_APP_PASSWORD: MISSING"; bad=1; fi
           exit $bad
+      - name: Wait until 06:00 KST
+        if: github.event_name == 'schedule'   # manual runs send right away
+        run: |
+          wait=$(( $(TZ=Asia/Seoul date -d "06:00" +%s) - $(date +%s) ))
+          if [ "$wait" -gt 0 ]; then echo "waiting ${wait}s"; sleep "$wait"; else echo "already past 06:00 KST"; fi
       - name: Build queue, update feed, send email
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
