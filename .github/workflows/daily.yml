@@ -35,7 +35,7 @@ jobs:
       - name: Wait until 06:00 KST
         if: github.event_name == 'schedule'   # manual runs send right away
         run: |
-          wait=$(( $(TZ=Asia/Seoul date -d "06:00" +%s) - $(date +%s) ))
+          wait=$(( $(TZ=KST-9 date -d "06:00" +%s) - $(date +%s) ))
           if [ "$wait" -gt 0 ]; then echo "waiting ${wait}s"; sleep "$wait"; else echo "already past 06:00 KST"; fi
       - name: Build queue, update feed, send email
         env:
