@@ -19,7 +19,8 @@
       "6acfa619b3381b9dbb7c315c",
       "6acfa742b3381b9dbb7c315f",
       "6ad77fd358c0e97ce0c32f31",
-      "6ada23e044592625b9151811"
+      "6ada23e044592625b9151811",
+      "6adf6cc9a8783bd47557508f"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -37,7 +38,8 @@
       "http://nihongoconteppei.com/?p=92",
       "http://nihongoconteppei.com/?p=95",
       "http://nihongoconteppei.com/?p=99",
-      "http://nihongoconteppei.com/?p=102"
+      "http://nihongoconteppei.com/?p=102",
+      "http://nihongoconteppei.com/?p=105"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -52,7 +54,8 @@
       "urn:bbc:podcast:p0pgs2w6",
       "urn:bbc:podcast:p0pc61lm",
       "urn:bbc:podcast:p0pb0rd0",
-      "urn:bbc:podcast:p0phz9z7"
+      "urn:bbc:podcast:p0phz9z7",
+      "urn:bbc:podcast:p0p8w5sh"
     ],
     "lifekit": [
       "93729555-5746-4f8a-853c-aaa632e9c57a",
@@ -634,6 +637,44 @@
         "minutes": null,
         "pub": "2019-07-12T08:25:53+00:00"
       }
+    ],
+    "2026-10-27": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0p8w5sh",
+        "show": "6 Minute English",
+        "title": "Can apps teach you a language?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p8w5by.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0p8w5sh",
+        "minutes": 7,
+        "pub": "2026-09-10T07:46:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6adf6cc9a8783bd47557508f",
+        "show": "TED Talks Daily",
+        "title": "Unions for climate action! | Payton M. Wilkins (re-release)",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf6cc9a8783bd47557508f/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://shows.acast.com/ttd/episodes/tid118893tid",
+        "minutes": 12,
+        "pub": "2026-10-26T15:25:10+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=105",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#17家族ボキャブラリーについて！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei17.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/13/17%e5%ae%b6%e6%97%8f%e3%83%9c%e3%82%ad%e3%83%a3%e3%83%96%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-13T10:20:45+00:00"
+      }
     ]
   },
   "articles": {
@@ -892,6 +933,22 @@
         "link": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
         "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\""
       }
+    ],
+    "2026-10-27": [
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
+        "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
+        "link": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
+        "summary": "Company says small number of devices affected by display glitch after posts appear on Reddit and social media Owners of the new foldable iPhone are reporting cracks in the device’s screen, as Apple confirmed an issue with a “small number” o…"
+      },
+      {
+        "label": "Guardian World",
+        "guid": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
+        "title": "Republican and Democratic ex-governors issue rare joint endorsement for South Carolina Senate candidate – US politics live",
+        "link": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
+        "summary": "Republican David Beasley and Democrat Jim Hodges back Democrat Annie Andrews to flip seat held by Lindsey Graham’s Trump-backed sister Darline What are the US midterm elections and why do they matter? Sign up for Breaking News US email In a…"
+      }
     ]
   },
   "articles_used": [
@@ -927,7 +984,9 @@
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
     "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+    "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
     "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
+    "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
     "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
     "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
     "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
@@ -995,7 +1054,7 @@
         "country": "EUR",
         "date": "2026-10-27T04:00:00-04:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "9.9%",
         "previous": "9.9%"
       },
       {
@@ -1003,7 +1062,7 @@
         "country": "EUR",
         "date": "2026-10-27T05:00:00-04:00",
         "impact": "Low",
-        "forecast": "3.6%",
+        "forecast": "3.5%",
         "previous": "3.5%"
       },
       {
@@ -1035,7 +1094,7 @@
         "country": "USD",
         "date": "2026-10-27T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "1.8%",
+        "forecast": "2.0%",
         "previous": "0.0%"
       },
       {
@@ -1043,7 +1102,7 @@
         "country": "USD",
         "date": "2026-10-27T09:00:00-04:00",
         "impact": "Low",
-        "forecast": "0.1%",
+        "forecast": "0.2%",
         "previous": "0.3%"
       },
       {
@@ -1051,7 +1110,7 @@
         "country": "USD",
         "date": "2026-10-27T09:00:00-04:00",
         "impact": "Low",
-        "forecast": "2.7%",
+        "forecast": "2.6%",
         "previous": "2.5%"
       },
       {
@@ -1059,7 +1118,7 @@
         "country": "USD",
         "date": "2026-10-27T10:00:00-04:00",
         "impact": "Medium",
-        "forecast": "80.5",
+        "forecast": "81.2",
         "previous": "81.9"
       },
       {
@@ -1067,7 +1126,7 @@
         "country": "USD",
         "date": "2026-10-27T10:00:00-04:00",
         "impact": "Low",
-        "forecast": "649K",
+        "forecast": "651K",
         "previous": "684K"
       },
       {
@@ -1075,7 +1134,7 @@
         "country": "USD",
         "date": "2026-10-27T10:00:00-04:00",
         "impact": "Low",
-        "forecast": "1",
+        "forecast": "0",
         "previous": "-2"
       },
       {
@@ -1147,7 +1206,7 @@
         "country": "EUR",
         "date": "2026-10-28T03:00:00-04:00",
         "impact": "Low",
-        "forecast": "-30.0",
+        "forecast": "-30.1",
         "previous": "-30.6"
       },
       {
@@ -1187,7 +1246,7 @@
         "country": "USD",
         "date": "2026-10-28T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "-130.8B",
+        "forecast": "-130.4B",
         "previous": "-132.6B"
       },
       {
@@ -1195,7 +1254,7 @@
         "country": "USD",
         "date": "2026-10-28T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "0.4%",
+        "forecast": "0.5%",
         "previous": "0.7%"
       },
       {
@@ -1283,7 +1342,7 @@
         "country": "AUD",
         "date": "2026-10-28T20:30:00-04:00",
         "impact": "Low",
-        "forecast": "1.8%",
+        "forecast": "1.3%",
         "previous": "5.7%"
       },
       {
@@ -1332,7 +1391,7 @@
         "date": "2026-10-29T05:33:00-04:00",
         "impact": "Low",
         "forecast": "",
-        "previous": ""
+        "previous": "4.58|1.6"
       },
       {
         "title": "Advance GDP q/q",
@@ -1355,7 +1414,7 @@
         "country": "USD",
         "date": "2026-10-29T08:30:00-04:00",
         "impact": "Medium",
-        "forecast": "3.5%",
+        "forecast": "3.3%",
         "previous": "6.2%"
       },
       {
@@ -1381,6 +1440,14 @@
         "impact": "Low",
         "forecast": "0.6%",
         "previous": "0.9%"
+      },
+      {
+        "title": "Gov Council Member Gravelle Speaks",
+        "country": "CAD",
+        "date": "2026-10-29T08:50:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": ""
       },
       {
         "title": "Main Refinancing Rate",
@@ -1417,7 +1484,7 @@
       {
         "title": "Gov Council Member Vincent Speaks",
         "country": "CAD",
-        "date": "2026-10-29T10:50:00-04:00",
+        "date": "2026-10-29T11:30:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": ""
@@ -1451,7 +1518,7 @@
         "country": "JPY",
         "date": "2026-10-29T19:50:00-04:00",
         "impact": "Low",
-        "forecast": "1.3%",
+        "forecast": "1.2%",
         "previous": "-1.7%"
       },
       {
@@ -1459,7 +1526,7 @@
         "country": "JPY",
         "date": "2026-10-29T19:50:00-04:00",
         "impact": "Low",
-        "forecast": "3.4%",
+        "forecast": "3.3%",
         "previous": "2.7%"
       },
       {
@@ -1507,7 +1574,7 @@
         "country": "JPY",
         "date": "2026-10-30T01:00:00-04:00",
         "impact": "Low",
-        "forecast": "2.5%",
+        "forecast": "2.7%",
         "previous": "6.1%"
       },
       {
@@ -1519,19 +1586,11 @@
         "previous": ""
       },
       {
-        "title": "German Prelim CPI m/m",
-        "country": "EUR",
-        "date": "2026-10-30T02:29:00-04:00",
-        "impact": "Medium",
-        "forecast": "0.1%",
-        "previous": "0.6%"
-      },
-      {
         "title": "French Consumer Spending m/m",
         "country": "EUR",
         "date": "2026-10-30T02:30:00-04:00",
         "impact": "Low",
-        "forecast": "0.2%",
+        "forecast": "0.1%",
         "previous": "-0.5%"
       },
       {
@@ -1555,8 +1614,16 @@
         "country": "GBP",
         "date": "2026-10-30T03:00:00-04:00",
         "impact": "Low",
-        "forecast": "-0.2%",
+        "forecast": "-0.1%",
         "previous": "-0.2%"
+      },
+      {
+        "title": "German Prelim CPI m/m",
+        "country": "EUR",
+        "date": "2026-10-30T03:29:00-04:00",
+        "impact": "Medium",
+        "forecast": "0.1%",
+        "previous": "0.6%"
       },
       {
         "title": "French Prelim CPI m/m",
@@ -1579,7 +1646,7 @@
         "country": "CHF",
         "date": "2026-10-30T04:00:00-04:00",
         "impact": "Low",
-        "forecast": "108.0",
+        "forecast": "108.1",
         "previous": "109.1"
       },
       {
@@ -1627,7 +1694,7 @@
         "country": "EUR",
         "date": "2026-10-30T06:00:00-04:00",
         "impact": "Low",
-        "forecast": "0.0%",
+        "forecast": "0.1%",
         "previous": "0.7%"
       },
       {
@@ -1667,7 +1734,7 @@
         "country": "USD",
         "date": "2026-10-30T09:45:00-04:00",
         "impact": "Low",
-        "forecast": "54.8",
+        "forecast": "55.8",
         "previous": "58.8"
       },
       {
@@ -1691,7 +1758,7 @@
         "country": "CNY",
         "date": "2026-10-30T21:30:00-04:00",
         "impact": "Low",
-        "forecast": "50.1",
+        "forecast": "49.9",
         "previous": "50.1"
       },
       {
@@ -1699,7 +1766,7 @@
         "country": "CNY",
         "date": "2026-10-30T21:30:00-04:00",
         "impact": "Low",
-        "forecast": "50.5",
+        "forecast": "50.0",
         "previous": "50.2"
       }
     ]
@@ -1753,13 +1820,45 @@
         "link": "https://stock.naver.com/research/invest/40569",
         "by": "신한투자증권"
       }
+    ],
+    "2026-10-27": [
+      {
+        "label": "증권사 경제분석",
+        "summary": "Review: 엇갈린 달러에도 네고에 연저점 낮춘 원/달러 - 달러화지수 101p 후반 등락. AI 투자 수익성과 자금조달에 대한 우려가 미국 성장 기대와 국채금리 낮추며 달러 약세 요인으로 작용. 다만 프랑스 재정 불안에 따른 유로화 약세가 이를 상쇄해 달러화지수 하방경직적 흐름 - 달러/유로 1.12달러대 등락. 프랑스 재정 위험 부각에도 미국 금리 하락에 연동되며 낙폭 축소. 엔/달러는 미국 국채금리 하락에 따른 엔화 강세로 156엔대까지 하락. …",
+        "date": "2026-10-26",
+        "guid": "naver:economy:13941",
+        "title": "신한 FX Check-up",
+        "link": "https://stock.naver.com/research/economy/13941",
+        "by": "신한투자증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "summary": "ETF 트렌드 - 금주 증시는 유가 급등과 AI 투자 수익성 우려가 맞물리며 주 초 상승분을 반납, 주 후반 기술주 중심 급락 마감 - 차주 빅테크·반도체 실적과 주요국 통화정책에 따라 변동성 확대 전망, AI 현금흐름 검증에 따른 기술주 ETF 수급 변화와 장기금리 향방 주목 - AI 투자 수익성 우려로 기술주 변동성 확대되는 가운데, 안정적인 현금흐름· 배당 성장성을 바탕으로 방어력 및 가치주 순환매 수혜를 반영한 ETF ‘SCHD’ 소개",
+        "date": "2026-10-26",
+        "guid": "naver:invest:40571",
+        "title": "키움 글로벌 키차트(10월 3주)",
+        "link": "https://stock.naver.com/research/invest/40571",
+        "by": "키움증권"
+      },
+      {
+        "label": "한국은행 이슈노트",
+        "summary": "1. 팬데믹 이후 2023년 이후 청년고용 부진은 질적 지표에서 명확하게 드러나는데, 이는 고실업률로 유휴노동 slack 이 표면화되었던 과거 청년고용 부진기 2014~19 년와는 다른 모습이다. 최근 청년층의 실업률·고용률 등 양적 지표가 악화되고 있으나, 과거 부진기에 비하면 그 수준이 두드러지지는 않는다. 반면 청년층 취업자 중 임시·일용직 비중이 증가하는 등 고용의 질적 악 화 경향은 뚜렷하게 확인된다. 2. …",
+        "date": "2026-10-26",
+        "guid": "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11065913&menuNo=200433",
+        "title": "[제2026-27호] 청년고용 부진 및 정책 과제",
+        "link": "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11065913&menuNo=200433",
+        "by": ""
+      }
     ]
   },
   "reports_used": [
     "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11065823&menuNo=200690",
+    "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11065913&menuNo=200433",
     "naver:economy:13935",
     "naver:economy:13939",
+    "naver:economy:13941",
     "naver:invest:40559",
-    "naver:invest:40569"
+    "naver:invest:40569",
+    "naver:invest:40571"
   ]
 }

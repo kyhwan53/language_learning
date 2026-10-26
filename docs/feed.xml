@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-27 1] EN Easy | Can apps teach you a language?</title>
+      <guid isPermaLink="false">2026-10-27:urn:bbc:podcast:p0p8w5sh</guid>
+      <pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0p8w5sh</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p8w5by.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[10-27 2] EN Talk | Unions for climate action! | Payton M. Wilkins (re-release)</title>
+      <guid isPermaLink="false">2026-10-27:6adf6cc9a8783bd47557508f</guid>
+      <pubDate>Tue, 27 Oct 2026 05:00:00 +0000</pubDate>
+      <link>https://shows.acast.com/ttd/episodes/tid118893tid</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf6cc9a8783bd47557508f/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>720</itunes:duration>
+    </item>
+    <item>
+      <title>[10-27 3] JP Beginner | #17家族ボキャブラリーについて！</title>
+      <guid isPermaLink="false">2026-10-27:http://nihongoconteppei.com/?p=105</guid>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/13/17%e5%ae%b6%e6%97%8f%e3%83%9c%e3%82%ad%e3%83%a3%e3%83%96%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei17.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-26 1] EN Business | Office English: Delegating</title>
       <guid isPermaLink="false">2026-10-26:urn:bbc:podcast:p0nm3f7l</guid>
       <pubDate>Mon, 26 Oct 2026 06:00:00 +0000</pubDate>
@@ -142,29 +165,6 @@
       <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/07/11%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei11.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-20 1] EN Easy | Why do we itch?</title>
-      <guid isPermaLink="false">2026-10-20:urn:bbc:podcast:p0pc61lm</guid>
-      <pubDate>Tue, 20 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0pc61lm</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pc618w.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>360</itunes:duration>
-    </item>
-    <item>
-      <title>[10-20 2] EN Talk | What if you could read the DNA of your future child? | Noor Siddiqui</title>
-      <guid isPermaLink="false">2026-10-20:6acfa742b3381b9dbb7c315f</guid>
-      <pubDate>Tue, 20 Oct 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/noorsiddiqui</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6acfa742b3381b9dbb7c315f/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>900</itunes:duration>
-    </item>
-    <item>
-      <title>[10-20 3] JP Beginner | #10お酒は好きですか？について！</title>
-      <guid isPermaLink="false">2026-10-20:http://nihongoconteppei.com/?p=82</guid>
-      <pubDate>Tue, 20 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/07/10%e3%81%8a%e9%85%92%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei10.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
