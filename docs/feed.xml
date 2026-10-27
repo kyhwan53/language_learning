@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-28 1] EN Business | Office English: Presentations</title>
+      <guid isPermaLink="false">2026-10-28:urn:bbc:podcast:p0nm3ckq</guid>
+      <pubDate>Wed, 28 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nm3ckq</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3b46.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[10-28 2] EN Talk | How video games can power up your parenting | Hannah Boquet (re-release)</title>
+      <guid isPermaLink="false">2026-10-28:6adf721fa8783bd475575090</guid>
+      <pubDate>Wed, 28 Oct 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/hannahbouquet</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf721fa8783bd475575090/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
+      <title>[10-28 3] JP Beginner | #18日本語以外の言葉を話しますか？</title>
+      <guid isPermaLink="false">2026-10-28:http://nihongoconteppei.com/?p=108</guid>
+      <pubDate>Wed, 28 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/14/18%e6%97%a5%e6%9c%ac%e8%aa%9e%e4%bb%a5%e5%a4%96%e3%81%ae%e8%a8%80%e8%91%89%e3%82%92%e8%a9%b1%e3%81%97%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei18.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-27 1] EN Easy | Can apps teach you a language?</title>
       <guid isPermaLink="false">2026-10-27:urn:bbc:podcast:p0p8w5sh</guid>
       <pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate>
@@ -142,29 +165,6 @@
       <pubDate>Thu, 22 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/08/12%e8%aa%ad%e6%9b%b8%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei12.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-21 1] EN Business | Office English: Feedback</title>
-      <guid isPermaLink="false">2026-10-21:urn:bbc:podcast:p0nm3n3t</guid>
-      <pubDate>Wed, 21 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nm3n3t</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3m3s.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>660</itunes:duration>
-    </item>
-    <item>
-      <title>[10-21 2] EN Talk | Why the best learners talk to themselves | Tania Lombrozo</title>
-      <guid isPermaLink="false">2026-10-21:6ad77fd358c0e97ce0c32f31</guid>
-      <pubDate>Wed, 21 Oct 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/tanialombrozo</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ad77fd358c0e97ce0c32f31/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1140</itunes:duration>
-    </item>
-    <item>
-      <title>[10-21 3] JP Beginner | #11コーヒーは好きですか？について！</title>
-      <guid isPermaLink="false">2026-10-21:http://nihongoconteppei.com/?p=85</guid>
-      <pubDate>Wed, 21 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/07/11%e3%82%b3%e3%83%bc%e3%83%92%e3%83%bc%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei11.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>

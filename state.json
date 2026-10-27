@@ -10,7 +10,8 @@
       "urn:bbc:podcast:p0nm3n3t",
       "urn:bbc:podcast:p0nm3lrc",
       "urn:bbc:podcast:p0nm3jn2",
-      "urn:bbc:podcast:p0nm3f7l"
+      "urn:bbc:podcast:p0nm3f7l",
+      "urn:bbc:podcast:p0nm3ckq"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -20,7 +21,8 @@
       "6acfa742b3381b9dbb7c315f",
       "6ad77fd358c0e97ce0c32f31",
       "6ada23e044592625b9151811",
-      "6adf6cc9a8783bd47557508f"
+      "6adf6cc9a8783bd47557508f",
+      "6adf721fa8783bd475575090"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -39,7 +41,8 @@
       "http://nihongoconteppei.com/?p=95",
       "http://nihongoconteppei.com/?p=99",
       "http://nihongoconteppei.com/?p=102",
-      "http://nihongoconteppei.com/?p=105"
+      "http://nihongoconteppei.com/?p=105",
+      "http://nihongoconteppei.com/?p=108"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -675,6 +678,44 @@
         "minutes": null,
         "pub": "2019-07-13T10:20:45+00:00"
       }
+    ],
+    "2026-10-28": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nm3ckq",
+        "show": "Learning English For Work",
+        "title": "Office English: Presentations",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3b46.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nm3ckq",
+        "minutes": 7,
+        "pub": "2026-05-25T07:00:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6adf721fa8783bd475575090",
+        "show": "TED Talks Daily",
+        "title": "How video games can power up your parenting | Hannah Boquet (re-release)",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf721fa8783bd475575090/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/hannahbouquet",
+        "minutes": 17,
+        "pub": "2026-10-27T15:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=108",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#18日本語以外の言葉を話しますか？",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei18.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/14/18%e6%97%a5%e6%9c%ac%e8%aa%9e%e4%bb%a5%e5%a4%96%e3%81%ae%e8%a8%80%e8%91%89%e3%82%92%e8%a9%b1%e3%81%97%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/",
+        "minutes": null,
+        "pub": "2019-07-14T11:18:15+00:00"
+      }
     ]
   },
   "articles": {
@@ -949,6 +990,22 @@
         "link": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
         "summary": "Republican David Beasley and Democrat Jim Hodges back Democrat Annie Andrews to flip seat held by Lindsey Graham’s Trump-backed sister Darline What are the US midterm elections and why do they matter? Sign up for Breaking News US email In a…"
       }
+    ],
+    "2026-10-28": [
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/videos/ckq6nqqlj8nro#5",
+        "title": "Why this British plumber prefers working in Poland",
+        "link": "https://www.bbc.co.uk/news/videos/ckq6nqqlj8nro?at_medium=RSS&at_campaign=rss",
+        "summary": "Poland is now achieving formidable economic growth rates and fast rising living standards"
+      },
+      {
+        "label": "BBC World",
+        "guid": "https://www.bbc.co.uk/news/articles/cqn498mng08ro#1",
+        "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
+        "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The three brothers were found guilty of drugging and raping several women over the course of decades."
+      }
     ]
   },
   "articles_used": [
@@ -958,9 +1015,11 @@
     "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo#0",
     "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
     "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
+    "https://www.bbc.co.uk/news/articles/cqn498mng08ro#1",
     "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o#3",
     "https://www.bbc.co.uk/news/articles/cr6240q1w136o#0",
     "https://www.bbc.co.uk/news/articles/cr93z1e87e0do#2",
+    "https://www.bbc.co.uk/news/videos/ckq6nqqlj8nro#5",
     "https://www.bbc.co.uk/news/videos/cm0e0del4jewo#2",
     "https://www.carbonbrief.org/?p=83641",
     "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
@@ -1302,7 +1361,7 @@
         "country": "USD",
         "date": "2026-10-28T10:30:00-04:00",
         "impact": "Low",
-        "forecast": "-0.3M",
+        "forecast": "-0.1M",
         "previous": "-3.1M"
       },
       {
@@ -1849,6 +1908,26 @@
         "link": "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11065913&menuNo=200433",
         "by": ""
       }
+    ],
+    "2026-10-28": [
+      {
+        "label": "증권사 경제분석",
+        "summary": "Review: 물가 상방 위험 속 AI 투자와 성장 기대 재평가 - 미국 주요 지표 발표 제한된 가운데 지정학 불확실성과 AI 자금조달 우려 부각. 미국 사우디 주재 공관 인력 철수 명령과 중간선거 이후 대이란 공격 재개 검토 보도가 유가 상승 및 긴축 장기화 우려 자극. 반면 AI 인프라 기업 회사채 금리 상승은 투자 지속 가능성 의구심 높이며 성장 기대 약화 - 연준은 FOMC 회의 앞두고 블랙아웃 기간에 진입. …",
+        "date": "2026-10-26",
+        "guid": "naver:economy:13942",
+        "title": "신한 Econ Check-up",
+        "link": "https://stock.naver.com/research/economy/13942",
+        "by": "신한투자증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "summary": "글로벌 이익 동향 및 실적추정치 상, 하향 종목 반도체 위주 실적 상향 지속 vs AI 센티먼트 훼손, 실적이 후행적인 구간인가? Nvidia와 AMD 등이 실적 상향 기여 최상위에 위치하고 있지만 반도체 관련 주가는 급락을 지속. 다만 여전히 시스템 리스크가 반영된 것은 아니라는 판단. 근거는 1) 지난주 기간 프리미엄 급락(듀레이션 매수), 2) TED 스프레드 -0.05(1주 -0.28, 1개월 -0.55)로 달러 자금시장의 스트레스가 사실상 없다는 점. …",
+        "date": "2026-10-26",
+        "guid": "naver:invest:40591",
+        "title": "[Quant Comment] 국내외 주간 이익 동향 체크",
+        "link": "https://stock.naver.com/research/invest/40591",
+        "by": "하나증권"
+      }
     ]
   },
   "reports_used": [
@@ -1857,8 +1936,10 @@
     "naver:economy:13935",
     "naver:economy:13939",
     "naver:economy:13941",
+    "naver:economy:13942",
     "naver:invest:40559",
     "naver:invest:40569",
-    "naver:invest:40571"
+    "naver:invest:40571",
+    "naver:invest:40591"
   ]
 }
