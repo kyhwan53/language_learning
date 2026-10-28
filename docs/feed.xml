@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[10-29 1] EN Easy | Climate change and extreme weather</title>
+      <guid isPermaLink="false">2026-10-29:urn:bbc:podcast:p0p7p9b8</guid>
+      <pubDate>Thu, 29 Oct 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0p7p9b8</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p7p91r.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[10-29 2] EN All Ears | AEE 2712: Confused By English Vocabulary? What Now?</title>
+      <guid isPermaLink="false">2026-10-29:05ae3a58-c5e2-11f1-9cc0-37cb5e415e3f</guid>
+      <pubDate>Thu, 29 Oct 2026 05:00:00 +0000</pubDate>
+      <link>https://www.allearsenglish.com/business</link>
+      <enclosure url="https://traffic.megaphone.fm/ALLE7429305941.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1320</itunes:duration>
+    </item>
+    <item>
+      <title>[10-29 3] JP Beginner | #19バンコクに行ったことはありますか？</title>
+      <guid isPermaLink="false">2026-10-29:http://nihongoconteppei.com/?p=111</guid>
+      <pubDate>Thu, 29 Oct 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/16/19%e3%83%90%e3%83%b3%e3%82%b3%e3%82%af%e3%81%ab%e8%a1%8c%e3%81%a3%e3%81%9f%e3%81%93%e3%81%a8%e3%81%af%e3%81%82%e3%82%8a%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei19.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[10-28 1] EN Business | Office English: Presentations</title>
       <guid isPermaLink="false">2026-10-28:urn:bbc:podcast:p0nm3ckq</guid>
       <pubDate>Wed, 28 Oct 2026 06:00:00 +0000</pubDate>
@@ -142,29 +165,6 @@
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/09/13%e6%bc%ab%e7%94%bb%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei13.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-22 1] EN Easy | Is rejection good for us?</title>
-      <guid isPermaLink="false">2026-10-22:urn:bbc:podcast:p0pb0rd0</guid>
-      <pubDate>Thu, 22 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0pb0rd0</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pb0qlf.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>360</itunes:duration>
-    </item>
-    <item>
-      <title>[10-22 2] EN All Ears | AEE 2708: Honestly, You’ll Be Happy About These Pronunciation Tips</title>
-      <guid isPermaLink="false">2026-10-22:2a44fdba-bbf7-11f1-a0af-db152e3a3e8b</guid>
-      <pubDate>Thu, 22 Oct 2026 05:00:00 +0000</pubDate>
-      <link>https://www.allearsenglish.com/fluencyscore</link>
-      <enclosure url="https://traffic.megaphone.fm/ALLE2088457638.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1020</itunes:duration>
-    </item>
-    <item>
-      <title>[10-22 3] JP Beginner | #12読書について！</title>
-      <guid isPermaLink="false">2026-10-22:http://nihongoconteppei.com/?p=89</guid>
-      <pubDate>Thu, 22 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/08/12%e8%aa%ad%e6%9b%b8%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei12.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
