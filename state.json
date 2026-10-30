@@ -46,7 +46,8 @@
       "http://nihongoconteppei.com/?p=105",
       "http://nihongoconteppei.com/?p=108",
       "http://nihongoconteppei.com/?p=111",
-      "http://nihongoconteppei.com/?p=114"
+      "http://nihongoconteppei.com/?p=114",
+      "http://nihongoconteppei.com/?p=117"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -64,11 +65,13 @@
       "urn:bbc:podcast:p0pb0rd0",
       "urn:bbc:podcast:p0phz9z7",
       "urn:bbc:podcast:p0p8w5sh",
-      "urn:bbc:podcast:p0p7p9b8"
+      "urn:bbc:podcast:p0p7p9b8",
+      "urn:bbc:podcast:p0pk7d0p"
     ],
     "lifekit": [
       "93729555-5746-4f8a-853c-aaa632e9c57a",
-      "1885a632-a2a1-443d-bf63-076ab9ab0898"
+      "1885a632-a2a1-443d-bf63-076ab9ab0898",
+      "31ec22ec-be36-4955-b8c0-c5277859b64e"
     ]
   },
   "days": {
@@ -798,6 +801,44 @@
         "minutes": null,
         "pub": "2019-07-17T12:34:14+00:00"
       }
+    ],
+    "2026-10-31": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0pk7d0p",
+        "show": "6 Minute English",
+        "title": "Is aircon the answer to a heating world?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pk7c8b.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0pk7d0p",
+        "minutes": 6,
+        "pub": "2026-10-29T09:09:00+00:00"
+      },
+      {
+        "key": "lifekit",
+        "label": "EN Life Kit",
+        "guid": "31ec22ec-be36-4955-b8c0-c5277859b64e",
+        "show": "Life Kit",
+        "title": "Seasonal Affective Disorder is real. Here's how to get through it",
+        "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/9421e933-11ad-4c71-b364-1f73a42c1ce8/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&awEpisodeId=9421e933-11ad-4c71-b364-1f73a42c1ce8&feed=XkY2SBZJ&t=podcast&e=nx-s1-6017759&p=510338&d=1035&size=16573841",
+        "mime": "audio/mpeg",
+        "page": "https://www.npr.org/2026/10/29/nx-s1-6017759/seasonal-affective-disorder-is-real-heres-how-to-get-through-it",
+        "minutes": 17,
+        "pub": "2026-10-29T07:00:02+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=117",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#21東南アジア旅行について！",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei21.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/18/21%e6%9d%b1%e5%8d%97%e3%82%a2%e3%82%b8%e3%82%a2%e6%97%85%e8%a1%8c%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/",
+        "minutes": null,
+        "pub": "2019-07-18T08:27:31+00:00"
+      }
     ]
   },
   "articles": {
@@ -1120,6 +1161,22 @@
         "link": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
         "summary": "‘This is voter fraud at the highest level,’ president tells rally crowd in South Carolina; Alaska governor orders inquiry into Peltola campaign amid Republican outcry Alaska governor orders investigation into Peltola’s Senate campaign Sign …"
       }
+    ],
+    "2026-10-31": [
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno#3",
+        "title": "Soaring cost of Halloween treats spooks shoppers",
+        "link": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno?at_medium=RSS&at_campaign=rss",
+        "summary": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs."
+      },
+      {
+        "label": "BBC World",
+        "guid": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo#0",
+        "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+        "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+        "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind."
+      }
     ]
   },
   "articles_used": [
@@ -1131,8 +1188,10 @@
     "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
     "https://www.bbc.co.uk/news/articles/cqn498mng08ro#1",
     "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o#3",
+    "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno#3",
     "https://www.bbc.co.uk/news/articles/cr6240q1w136o#0",
     "https://www.bbc.co.uk/news/articles/cr93z1e87e0do#2",
+    "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo#0",
     "https://www.bbc.co.uk/news/videos/ckq6nqqlj8nro#5",
     "https://www.bbc.co.uk/news/videos/cm0e0del4jewo#2",
     "https://www.carbonbrief.org/?p=83641",
@@ -1723,9 +1782,17 @@
         "previous": "0.6%"
       },
       {
+        "title": "BOJ Outlook Report",
+        "country": "JPY",
+        "date": "2026-10-29T23:02:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
+      },
+      {
         "title": "BOJ Policy Rate",
         "country": "JPY",
-        "date": "2026-10-29T22:30:00-04:00",
+        "date": "2026-10-29T23:02:00-04:00",
         "impact": "High",
         "forecast": "<1.25%",
         "previous": "<1.25%"
@@ -1733,15 +1800,7 @@
       {
         "title": "Monetary Policy Statement",
         "country": "JPY",
-        "date": "2026-10-29T22:30:00-04:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": ""
-      },
-      {
-        "title": "BOJ Outlook Report",
-        "country": "JPY",
-        "date": "2026-10-29T22:31:00-04:00",
+        "date": "2026-10-29T23:02:00-04:00",
         "impact": "High",
         "forecast": "",
         "previous": ""
@@ -1753,14 +1812,6 @@
         "impact": "Low",
         "forecast": "2.7%",
         "previous": "6.1%"
-      },
-      {
-        "title": "BOJ Press Conference",
-        "country": "JPY",
-        "date": "2026-10-30T01:30:00-04:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": ""
       },
       {
         "title": "French Consumer Spending m/m",
@@ -1777,6 +1828,14 @@
         "impact": "Low",
         "forecast": "0.1%",
         "previous": "0.2%"
+      },
+      {
+        "title": "BOJ Press Conference",
+        "country": "JPY",
+        "date": "2026-10-30T02:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": ""
       },
       {
         "title": "German Import Prices m/m",
@@ -1926,6 +1985,14 @@
         "title": "FOMC Member Musalem Speaks",
         "country": "USD",
         "date": "2026-10-30T12:30:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": ""
+      },
+      {
+        "title": "FOMC Member Logan Speaks",
+        "country": "USD",
+        "date": "2026-10-30T13:30:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": ""
@@ -2095,6 +2162,26 @@
         "link": "https://stock.naver.com/research/invest/40607",
         "by": "키움증권"
       }
+    ],
+    "2026-10-31": [
+      {
+        "label": "증권사 경제분석",
+        "summary": "ECB, 정책금리 동결 ECB, 재융자금리(정책금리) 2.65%로 동결. 예금금리(2.50%)와 한계 대출금리(2.90%)도 마찬가지로 유지. ECB는 최근 에너지 가격 상승 압력에도 기조적 물가 흐름이 안정적이라고 평가하며, 파급효과를 조금 더 확인할 필요가 있다고 설명. 또한 지난 9월 회의 이후 긴축적인 금융 여건이 물가와 성장을 동반 제약하고 있다는 점도 동결 배경으로 제시",
+        "date": "2026-10-30",
+        "guid": "naver:economy:13972",
+        "title": "ECB, 숨 고르기 후 다시 인상",
+        "link": "https://stock.naver.com/research/economy/13972",
+        "by": "한화투자증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "summary": "“11월 1주차 전략” 11월 3일 미국 중간선거, 정치적 불확실성 해소 기대 미국 중간선거, 대통령 집권 2년차 중간평가 및 의회 권련 재편 분기점 11월 3일 미국 중간선거는 집권 2년차인 트럼프 행정부에 대한 중간 평가이자. 의회 권력 재편으로 현 집권 행정부의 정책 강도와 속도에 영향을 미치는 중대한 이벤트이다. 최근 여론조사 결과 블루웨이브가 점쳐지고 있지만, 상원 다수당을 가를 경합주 7곳을 감안 시 하원만 민주당을 탈환하는 시나리오를 필자는 무게를 둔다. …",
+        "date": "2026-10-30",
+        "guid": "naver:invest:40648",
+        "title": "THE GLOBAL 주간 증시 전략",
+        "link": "https://stock.naver.com/research/invest/40648",
+        "by": "대신증권"
+      }
     ]
   },
   "reports_used": [
@@ -2107,11 +2194,13 @@
     "naver:economy:13942",
     "naver:economy:13947",
     "naver:economy:13952",
+    "naver:economy:13972",
     "naver:invest:40559",
     "naver:invest:40569",
     "naver:invest:40571",
     "naver:invest:40591",
     "naver:invest:40603",
-    "naver:invest:40607"
+    "naver:invest:40607",
+    "naver:invest:40648"
   ]
 }
