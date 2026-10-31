@@ -12,7 +12,8 @@
       "urn:bbc:podcast:p0nm3jn2",
       "urn:bbc:podcast:p0nm3f7l",
       "urn:bbc:podcast:p0nm3ckq",
-      "urn:bbc:podcast:p0nly0nc"
+      "urn:bbc:podcast:p0nly0nc",
+      "urn:bbc:podcast:p0nkkrlk"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -47,7 +48,8 @@
       "http://nihongoconteppei.com/?p=108",
       "http://nihongoconteppei.com/?p=111",
       "http://nihongoconteppei.com/?p=114",
-      "http://nihongoconteppei.com/?p=117"
+      "http://nihongoconteppei.com/?p=117",
+      "http://nihongoconteppei.com/?p=121"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -71,7 +73,8 @@
     "lifekit": [
       "93729555-5746-4f8a-853c-aaa632e9c57a",
       "1885a632-a2a1-443d-bf63-076ab9ab0898",
-      "31ec22ec-be36-4955-b8c0-c5277859b64e"
+      "31ec22ec-be36-4955-b8c0-c5277859b64e",
+      "c34daca1-9947-4c31-90ad-1410a24f66a2"
     ]
   },
   "days": {
@@ -839,6 +842,44 @@
         "minutes": null,
         "pub": "2019-07-18T08:27:31+00:00"
       }
+    ],
+    "2026-11-01": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nkkrlk",
+        "show": "Learning English For Work",
+        "title": "Office English: Career development",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nkknj8.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nkkrlk",
+        "minutes": 8,
+        "pub": "2026-05-11T11:10:00+00:00"
+      },
+      {
+        "key": "lifekit",
+        "label": "EN Life Kit",
+        "guid": "c34daca1-9947-4c31-90ad-1410a24f66a2",
+        "show": "Life Kit",
+        "title": "Dear Life Kit: Why are they like this?!",
+        "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/22f99de8-2c93-403c-9a6c-6b23a73db132/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&awEpisodeId=22f99de8-2c93-403c-9a6c-6b23a73db132&feed=XkY2SBZJ&t=podcast&e=nx-s1-6018577&p=510338&d=883&size=14129198",
+        "mime": "audio/mpeg",
+        "page": "https://www.npr.org/2026/10/27/nx-s1-6018577/dear-life-kit-why-are-they-like-this",
+        "minutes": 15,
+        "pub": "2026-10-27T07:00:06+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=121",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#22どこの国の食べ物が好きですか？",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei22.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/19/22%e3%81%a9%e3%81%93%e3%81%ae%e5%9b%bd%e3%81%ae%e9%a3%9f%e3%81%b9%e7%89%a9%e3%81%8c%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/",
+        "minutes": null,
+        "pub": "2019-07-19T04:15:38+00:00"
+      }
     ]
   },
   "articles": {
@@ -1177,6 +1218,22 @@
         "link": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
         "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind."
       }
+    ],
+    "2026-11-01": [
+      {
+        "label": "NPR Economy",
+        "guid": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+        "title": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+        "link": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+        "summary": "Residents are fighting back against plans for a project that would span thousands of acres near the Monongahela National Forest and popular outdoor recreation, ski areas and dark sky sites."
+      },
+      {
+        "label": "NPR World",
+        "guid": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+        "title": "France seethes again as youth-led protests sweep Europe",
+        "link": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+        "summary": "French Interior Minister Laurent Nuñez warned of a \"very high risk\" of disorder, especially after dark on Halloween, as some 320,000 people nationwide took to the streets."
+      }
     ]
   },
   "articles_used": [
@@ -1207,6 +1264,8 @@
     "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
     "https://www.npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
     "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
+    "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+    "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
     "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
@@ -2182,6 +2241,26 @@
         "link": "https://stock.naver.com/research/invest/40648",
         "by": "대신증권"
       }
+    ],
+    "2026-11-01": [
+      {
+        "label": "증권사 경제분석",
+        "summary": "3/4분기 미국 GDP 예상치 상회 3/4분기 미국 GDP는 전기대비 연율 3.4% 성장하며 예상치 상회(전기 대비 +0.8%, 전년동기대비 +2.2%). 비주거용 투자(+12.7%)가 2020년 3/4분기 이후 가장 크게 증가했고, 개인소비지출(+3.8%) 또한 양호한 흐름 유지. 반면 상품 수출(-7.4%)이 감소하고 상품 수입(+26.4%)이 크게 늘어나며 성장에 부담으로 작용",
+        "date": "2026-10-30",
+        "guid": "naver:economy:13971",
+        "title": "3/4분기 미국 GDP: 내수가 끌고 간다",
+        "link": "https://stock.naver.com/research/economy/13971",
+        "by": "한화투자증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "summary": "Summary I. 글로벌 신흥국 상위에 삼성SDI 진입. 하위에 삼성바이오로직스 진입. 선진국 상위에 스페이스X, 웨스턴디지탈 진입. 하위에 길리어드사이언스, 네슬레 진입. 선진국 EPS는 에너지 섹터가 강세. 미국은 에너지가 3.5% 상향됐고 나머지 섹터는 변화율 미미. 일본은 에너지와 커뮤니케이션 강세. 중국은 모든 섹터가 0.5% 이내로 변동했고, 대만이 소재, 산업재, 헬스케어 강세로 2.3% 상승. 한국은 산업재, 에너지 강세.",
+        "date": "2026-10-29",
+        "guid": "naver:invest:40637",
+        "title": "[EPS LIVE #234] 11월부터 6개월, 진짜모멘텀 TOP10 종목",
+        "link": "https://stock.naver.com/research/invest/40637",
+        "by": "한화투자증권"
+      }
     ]
   },
   "reports_used": [
@@ -2194,6 +2273,7 @@
     "naver:economy:13942",
     "naver:economy:13947",
     "naver:economy:13952",
+    "naver:economy:13971",
     "naver:economy:13972",
     "naver:invest:40559",
     "naver:invest:40569",
@@ -2201,6 +2281,7 @@
     "naver:invest:40591",
     "naver:invest:40603",
     "naver:invest:40607",
+    "naver:invest:40637",
     "naver:invest:40648"
   ]
 }
