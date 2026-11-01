@@ -6,6 +6,21 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-02 1] EN Business | Office English: Writing notes</title>
+      <guid isPermaLink="false">2026-11-02:urn:bbc:podcast:p0nhvnx3</guid>
+      <pubDate>Mon, 02 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nhvnx3</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nhvlxh.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>600</itunes:duration>
+    </item>
+    <item>
+      <title>[11-02 2] JP Beginner | #23夏は好きですか？</title>
+      <guid isPermaLink="false">2026-11-02:http://nihongoconteppei.com/?p=124</guid>
+      <pubDate>Mon, 02 Nov 2026 05:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/20/23%e5%a4%8f%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei23.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[11-01 1] EN Business | Office English: Career development</title>
       <guid isPermaLink="false">2026-11-01:urn:bbc:podcast:p0nkkrlk</guid>
       <pubDate>Sun, 01 Nov 2026 06:00:00 +0000</pubDate>
@@ -142,29 +157,6 @@
       <pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/13/17%e5%ae%b6%e6%97%8f%e3%83%9c%e3%82%ad%e3%83%a3%e3%83%96%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei17.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-26 1] EN Business | Office English: Delegating</title>
-      <guid isPermaLink="false">2026-10-26:urn:bbc:podcast:p0nm3f7l</guid>
-      <pubDate>Mon, 26 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nm3f7l</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nm3cvm.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>480</itunes:duration>
-    </item>
-    <item>
-      <title>[10-26 2] EN All Ears | AEE: Can You Use “Yet” With Past Simple Tense?</title>
-      <guid isPermaLink="false">2026-10-26:6b8a94f6-bbf7-11f1-b94c-939c8b8544f5</guid>
-      <pubDate>Mon, 26 Oct 2026 05:00:00 +0000</pubDate>
-      <link>https://www.allearsenglish.com/fluencyscore</link>
-      <enclosure url="https://traffic.megaphone.fm/ALLE4579081506.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1200</itunes:duration>
-    </item>
-    <item>
-      <title>[10-26 3] JP Beginner | #16温泉について！</title>
-      <guid isPermaLink="false">2026-10-26:http://nihongoconteppei.com/?p=102</guid>
-      <pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/12/16%e6%b8%a9%e6%b3%89%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei16.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
