@@ -6,6 +6,29 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-03 1] EN Easy | How do we describe smells?</title>
+      <guid isPermaLink="false">2026-11-03:urn:bbc:podcast:p0p6j3xx</guid>
+      <pubDate>Tue, 03 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0p6j3xx</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p6j2hz.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[11-03 2] EN Talk | The couples therapists who nearly got divorced | Harville Hendrix</title>
+      <guid isPermaLink="false">2026-11-03:6ae258f70a9b7b8b95b17566</guid>
+      <pubDate>Tue, 03 Nov 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/harvillehendrix</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae258f70a9b7b8b95b17566/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
+      <title>[11-03 3] JP Beginner | #24テレビは見ますか？</title>
+      <guid isPermaLink="false">2026-11-03:http://nihongoconteppei.com/?p=127</guid>
+      <pubDate>Tue, 03 Nov 2026 04:00:00 +0000</pubDate>
+      <link>https://nihongoconteppei.com/2019/07/21/24%e3%83%86%e3%83%ac%e3%83%93%e3%81%af%e8%a6%8b%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
+      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei24.mp3" type="audio/mpeg" length="0" />
+    </item>
+    <item>
       <title>[11-02 1] EN Business | Office English: Writing notes</title>
       <guid isPermaLink="false">2026-11-02:urn:bbc:podcast:p0nhvnx3</guid>
       <pubDate>Mon, 02 Nov 2026 06:00:00 +0000</pubDate>
@@ -134,29 +157,6 @@
       <pubDate>Wed, 28 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/14/18%e6%97%a5%e6%9c%ac%e8%aa%9e%e4%bb%a5%e5%a4%96%e3%81%ae%e8%a8%80%e8%91%89%e3%82%92%e8%a9%b1%e3%81%97%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei18.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-27 1] EN Easy | Can apps teach you a language?</title>
-      <guid isPermaLink="false">2026-10-27:urn:bbc:podcast:p0p8w5sh</guid>
-      <pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0p8w5sh</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p8w5by.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>420</itunes:duration>
-    </item>
-    <item>
-      <title>[10-27 2] EN Talk | Unions for climate action! | Payton M. Wilkins (re-release)</title>
-      <guid isPermaLink="false">2026-10-27:6adf6cc9a8783bd47557508f</guid>
-      <pubDate>Tue, 27 Oct 2026 05:00:00 +0000</pubDate>
-      <link>https://shows.acast.com/ttd/episodes/tid118893tid</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6adf6cc9a8783bd47557508f/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>720</itunes:duration>
-    </item>
-    <item>
-      <title>[10-27 3] JP Beginner | #17家族ボキャブラリーについて！</title>
-      <guid isPermaLink="false">2026-10-27:http://nihongoconteppei.com/?p=105</guid>
-      <pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/13/17%e5%ae%b6%e6%97%8f%e3%83%9c%e3%82%ad%e3%83%a3%e3%83%96%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei17.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>

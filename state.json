@@ -26,7 +26,8 @@
       "6ada23e044592625b9151811",
       "6adf6cc9a8783bd47557508f",
       "6adf721fa8783bd475575090",
-      "6ae35ff72ce0a6edbe8a84d3"
+      "6ae35ff72ce0a6edbe8a84d3",
+      "6ae258f70a9b7b8b95b17566"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -51,7 +52,8 @@
       "http://nihongoconteppei.com/?p=114",
       "http://nihongoconteppei.com/?p=117",
       "http://nihongoconteppei.com/?p=121",
-      "http://nihongoconteppei.com/?p=124"
+      "http://nihongoconteppei.com/?p=124",
+      "http://nihongoconteppei.com/?p=127"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -70,7 +72,8 @@
       "urn:bbc:podcast:p0phz9z7",
       "urn:bbc:podcast:p0p8w5sh",
       "urn:bbc:podcast:p0p7p9b8",
-      "urn:bbc:podcast:p0pk7d0p"
+      "urn:bbc:podcast:p0pk7d0p",
+      "urn:bbc:podcast:p0p6j3xx"
     ],
     "lifekit": [
       "93729555-5746-4f8a-853c-aaa632e9c57a",
@@ -908,6 +911,44 @@
         "minutes": null,
         "pub": "2019-07-20T06:52:00+00:00"
       }
+    ],
+    "2026-11-03": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0p6j3xx",
+        "show": "6 Minute English",
+        "title": "How do we describe smells?",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p6j2hz.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0p6j3xx",
+        "minutes": 7,
+        "pub": "2026-08-27T09:16:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6ae258f70a9b7b8b95b17566",
+        "show": "TED Talks Daily",
+        "title": "The couples therapists who nearly got divorced | Harville Hendrix",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae258f70a9b7b8b95b17566/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/harvillehendrix",
+        "minutes": 17,
+        "pub": "2026-11-02T16:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=127",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#24テレビは見ますか？",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei24.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/21/24%e3%83%86%e3%83%ac%e3%83%93%e3%81%af%e8%a6%8b%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/",
+        "minutes": null,
+        "pub": "2019-07-21T02:08:38+00:00"
+      }
     ]
   },
   "articles": {
@@ -1278,15 +1319,33 @@
         "link": "https://www.theguardian.com/music/2026/nov/01/bbc-young-musician-teenage-violinist-sofia-demetriades",
         "summary": "Judges hail Sofia Demetriades’s performance of Tchaikovsky’s Violin Concerto as full of insights, poetry and maturity A teenage violinist has won the BBC Young Musician competition 2026, in the first all-female final in the competition’s 48…"
       }
+    ],
+    "2026-11-03": [
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo#0",
+        "title": "Shop freezers in seven European countries hit by cyber-attack",
+        "link": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+        "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C."
+      },
+      {
+        "label": "BBC World",
+        "guid": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo#0",
+        "title": "Legal challenge to Australia's social media ban to start in High Court",
+        "link": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+        "summary": "A rights group will argue the world-leading policy robs under-16s of their right to free communication."
+      }
     ]
   },
   "articles_used": [
     "https://www.bbc.co.uk/news/articles/c2l9vvj097lo#3",
     "https://www.bbc.co.uk/news/articles/c6n49w1r2zxjo#3",
     "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo#0",
+    "https://www.bbc.co.uk/news/articles/ck79py02p1jlo#0",
     "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo#0",
     "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
     "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
+    "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo#0",
     "https://www.bbc.co.uk/news/articles/cqn498mng08ro#1",
     "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o#3",
     "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno#3",
@@ -1375,14 +1434,6 @@
         "previous": "53.3"
       },
       {
-        "title": "ANZ Job Advertisements m/m",
-        "country": "AUD",
-        "date": "2026-11-01T19:45:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "2.2%"
-      },
-      {
         "title": "RatingDog Manufacturing PMI",
         "country": "CNY",
         "date": "2026-11-01T20:45:00-05:00",
@@ -1409,7 +1460,7 @@
       {
         "title": "Retail Sales y/y",
         "country": "CHF",
-        "date": "2026-11-02T02:30:00-05:00",
+        "date": "2026-11-02T02:33:00-05:00",
         "impact": "Low",
         "forecast": "3.0%",
         "previous": "3.2%"
@@ -1499,7 +1550,7 @@
         "country": "USD",
         "date": "2026-11-02T10:00:00-05:00",
         "impact": "Medium",
-        "forecast": "54.7",
+        "forecast": "54.5",
         "previous": "54.5"
       },
       {
@@ -1507,7 +1558,7 @@
         "country": "USD",
         "date": "2026-11-02T10:00:00-05:00",
         "impact": "Low",
-        "forecast": "0.3%",
+        "forecast": "0.4%",
         "previous": "0.9%"
       },
       {
@@ -1521,7 +1572,7 @@
       {
         "title": "Loan Officer Survey",
         "country": "USD",
-        "date": "2026-11-02T14:03:00-05:00",
+        "date": "2026-11-02T14:00:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": ""
@@ -1603,7 +1654,7 @@
         "country": "USD",
         "date": "2026-11-03T10:00:00-05:00",
         "impact": "Medium",
-        "forecast": "7.11M",
+        "forecast": "7.15M",
         "previous": "7.08M"
       },
       {
@@ -1627,7 +1678,7 @@
         "country": "USD",
         "date": "2026-11-03T10:15:00-05:00",
         "impact": "Low",
-        "forecast": "15.9M",
+        "forecast": "15.8M",
         "previous": "16.0M"
       },
       {
@@ -1723,7 +1774,7 @@
         "country": "CNY",
         "date": "2026-11-03T20:45:00-05:00",
         "impact": "Low",
-        "forecast": "51.5",
+        "forecast": "51.7",
         "previous": "51.6"
       },
       {
@@ -1731,7 +1782,7 @@
         "country": "EUR",
         "date": "2026-11-04T03:00:00-05:00",
         "impact": "Low",
-        "forecast": "25.3K",
+        "forecast": "18.7K",
         "previous": "23.6K"
       },
       {
@@ -1739,7 +1790,7 @@
         "country": "EUR",
         "date": "2026-11-04T03:15:00-05:00",
         "impact": "Low",
-        "forecast": "57.5",
+        "forecast": "57.6",
         "previous": "58.3"
       },
       {
@@ -1747,7 +1798,7 @@
         "country": "EUR",
         "date": "2026-11-04T03:45:00-05:00",
         "impact": "Low",
-        "forecast": "51.0",
+        "forecast": "51.4",
         "previous": "51.7"
       },
       {
@@ -1803,7 +1854,7 @@
         "country": "USD",
         "date": "2026-11-04T08:15:00-05:00",
         "impact": "Low",
-        "forecast": "68K",
+        "forecast": "67K",
         "previous": "90K"
       },
       {
@@ -1811,7 +1862,7 @@
         "country": "CAD",
         "date": "2026-11-04T08:30:00-05:00",
         "impact": "Low",
-        "forecast": "3.8B",
+        "forecast": "4.8B",
         "previous": "4.2B"
       },
       {
@@ -1835,7 +1886,7 @@
         "country": "USD",
         "date": "2026-11-04T10:00:00-05:00",
         "impact": "Medium",
-        "forecast": "54.9",
+        "forecast": "54.8",
         "previous": "54.9"
       },
       {
@@ -1859,7 +1910,7 @@
         "country": "AUD",
         "date": "2026-11-04T19:30:00-05:00",
         "impact": "Low",
-        "forecast": "0.96B",
+        "forecast": "0.94B",
         "previous": "0.50B"
       },
       {
@@ -1883,7 +1934,7 @@
         "country": "EUR",
         "date": "2026-11-05T02:00:00-05:00",
         "impact": "Low",
-        "forecast": "4.9%",
+        "forecast": "4.6%",
         "previous": "-10.6%"
       },
       {
@@ -1891,7 +1942,7 @@
         "country": "EUR",
         "date": "2026-11-05T02:45:00-05:00",
         "impact": "Low",
-        "forecast": "0.4%",
+        "forecast": "0.3%",
         "previous": "-0.3%"
       },
       {
@@ -1907,7 +1958,7 @@
         "country": "EUR",
         "date": "2026-11-05T04:00:00-05:00",
         "impact": "Low",
-        "forecast": "0.1%",
+        "forecast": "0.0%",
         "previous": "0.3%"
       },
       {
@@ -1915,7 +1966,7 @@
         "country": "GBP",
         "date": "2026-11-05T04:30:00-05:00",
         "impact": "Low",
-        "forecast": "46.5",
+        "forecast": "46.4",
         "previous": "46.1"
       },
       {
@@ -1923,7 +1974,7 @@
         "country": "EUR",
         "date": "2026-11-05T05:00:00-05:00",
         "impact": "Low",
-        "forecast": "2.6%",
+        "forecast": "2.5%",
         "previous": "1.9%"
       },
       {
@@ -2091,7 +2142,7 @@
         "country": "EUR",
         "date": "2026-11-06T02:00:00-05:00",
         "impact": "Low",
-        "forecast": "-0.2%",
+        "forecast": "0.0%",
         "previous": "2.0%"
       },
       {
@@ -2163,7 +2214,7 @@
         "country": "CAD",
         "date": "2026-11-06T08:30:00-05:00",
         "impact": "High",
-        "forecast": "14.5K",
+        "forecast": "14.6K",
         "previous": "-68.3K"
       },
       {
@@ -2187,7 +2238,7 @@
         "country": "USD",
         "date": "2026-11-06T08:30:00-05:00",
         "impact": "High",
-        "forecast": "63K",
+        "forecast": "65K",
         "previous": "29K"
       },
       {
@@ -2219,7 +2270,7 @@
         "country": "USD",
         "date": "2026-11-06T10:00:00-05:00",
         "impact": "Medium",
-        "forecast": "47.8",
+        "forecast": "48.1",
         "previous": "46.3"
       },
       {
@@ -2251,7 +2302,7 @@
         "country": "USD",
         "date": "2026-11-06T15:00:00-05:00",
         "impact": "Low",
-        "forecast": "12.0B",
+        "forecast": "13.4B",
         "previous": "8.3B"
       },
       {
@@ -2471,6 +2522,26 @@
         "link": "https://stock.naver.com/research/invest/40651",
         "by": "하나증권"
       }
+    ],
+    "2026-11-03": [
+      {
+        "label": "증권사 경제분석",
+        "summary": "일평균 수출 2개월 연속 50억 달러 상회 10월 한국 수출은 1,152.8억 달러로 전년동월대비 93.7% 증가, 수입은 727.8억 달러로 36.0% 증가. 일평균 수출은 52.4억 달러로 전년동월대비 76.1% 증가했고, 반도체와 선박 제외 일평균 수출도 30.6% 증가 20대 품목 중 선박, 가전 등을 제외한 16개 품목 일평균 수출이 전년 동월대비 증가. 직전 3개월 대비 흐름이 양호한 품목은 자동차, 디스플레이, 전기기기, 반도체. …",
+        "date": "2026-11-02",
+        "guid": "naver:economy:13985",
+        "title": "10월 한국 수출: 반도체 의존도 감소",
+        "link": "https://stock.naver.com/research/economy/13985",
+        "by": "한화투자증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "summary": "[투자환경 ②] 침체 없는 감속: 상반기 금리 정점·물가 둔화, 하반기 유가발 물가 재가속 침체 위험은 낮음(美 2.2%·韓 2.6%). 최대 변수는 하반기 WTI 125~130달러 - 2027년 투자환경은 '침체 없는 감속' 속 상반기 금리 하향 안정, 하반기 유가발 물가 재가속. 美 성장 2.2%·한국 2.6%로 침체 위험은 낮지만, 연준 4.50% 동결의 '인하 없는 해'가 밸류에이션 상단을 제한 - Upside Potential은 상반기 금리 정점 통과·AI capex(2027년 1.2조 달러)·외국인 UnderWeight 해소, 그리고 이에 근거한 밸류에이션 …",
+        "date": "2026-11-02",
+        "guid": "naver:invest:40670",
+        "title": "전화위복(轉禍爲福) 비정상의 정상화, 그 이후의 시간표",
+        "link": "https://stock.naver.com/research/invest/40670",
+        "by": "대신증권"
+      }
     ]
   },
   "reports_used": [
@@ -2486,6 +2557,7 @@
     "naver:economy:13970",
     "naver:economy:13971",
     "naver:economy:13972",
+    "naver:economy:13985",
     "naver:invest:40559",
     "naver:invest:40569",
     "naver:invest:40571",
@@ -2494,6 +2566,7 @@
     "naver:invest:40607",
     "naver:invest:40637",
     "naver:invest:40648",
-    "naver:invest:40651"
+    "naver:invest:40651",
+    "naver:invest:40670"
   ]
 }
