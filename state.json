@@ -14,7 +14,8 @@
       "urn:bbc:podcast:p0nm3ckq",
       "urn:bbc:podcast:p0nly0nc",
       "urn:bbc:podcast:p0nkkrlk",
-      "urn:bbc:podcast:p0nhvnx3"
+      "urn:bbc:podcast:p0nhvnx3",
+      "urn:bbc:podcast:p0ngtcgx"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -27,7 +28,8 @@
       "6adf6cc9a8783bd47557508f",
       "6adf721fa8783bd475575090",
       "6ae35ff72ce0a6edbe8a84d3",
-      "6ae258f70a9b7b8b95b17566"
+      "6ae258f70a9b7b8b95b17566",
+      "6ae8b9cd008b613dfe44544a"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -53,7 +55,8 @@
       "http://nihongoconteppei.com/?p=117",
       "http://nihongoconteppei.com/?p=121",
       "http://nihongoconteppei.com/?p=124",
-      "http://nihongoconteppei.com/?p=127"
+      "http://nihongoconteppei.com/?p=127",
+      "http://nihongoconteppei.com/?p=130"
     ],
     "aee": [
       "ab8c190e-bb06-11f1-a7b8-839410de6b8c",
@@ -949,6 +952,44 @@
         "minutes": null,
         "pub": "2019-07-21T02:08:38+00:00"
       }
+    ],
+    "2026-11-04": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0ngtcgx",
+        "show": "Learning English For Work",
+        "title": "Office English: Extra work",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0ngtc2g.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0ngtcgx",
+        "minutes": 10,
+        "pub": "2026-04-27T08:54:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6ae8b9cd008b613dfe44544a",
+        "show": "TED Talks Daily",
+        "title": "What kids wish their parents knew about fun | Mila Rojas",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae8b9cd008b613dfe44544a/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/milarojas",
+        "minutes": 9,
+        "pub": "2026-11-03T16:00:00+00:00"
+      },
+      {
+        "key": "jp",
+        "label": "JP Beginner",
+        "guid": "http://nihongoconteppei.com/?p=130",
+        "show": "Japanese podcast for beginners (Nihongo con Teppei)",
+        "title": "#25新聞は読みますか？",
+        "audio": "http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei25.mp3",
+        "mime": "audio/mpeg",
+        "page": "https://nihongoconteppei.com/2019/07/22/25%e6%96%b0%e8%81%9e%e3%81%af%e8%aa%ad%e3%81%bf%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/",
+        "minutes": null,
+        "pub": "2019-07-22T02:51:00+00:00"
+      }
     ]
   },
   "articles": {
@@ -1335,6 +1376,22 @@
         "link": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
         "summary": "A rights group will argue the world-leading policy robs under-16s of their right to free communication."
       }
+    ],
+    "2026-11-04": [
+      {
+        "label": "NPR Economy",
+        "guid": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+        "title": "Two economists studied California's billionaire tax. They reached wildly different conclusions",
+        "link": "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+        "summary": "What happens in California could shape how America taxes the superrich. But will its billionaire tax fill state coffers — or drain them?"
+      },
+      {
+        "label": "NPR World",
+        "guid": "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+        "title": "Japan faces diplomatic dilemma amid joint pressure from nuclear neighbors",
+        "link": "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+        "summary": "As the Ukraine war grinds on, ties between Russia and neighboring Japan are at their worst in decades. Tokyo wants more support from Washington, but some Japanese are concerned they may not get it."
+      }
     ]
   },
   "articles_used": [
@@ -1369,8 +1426,10 @@
     "https://www.npr.org/2026/10/28/nx-s1-6020425/federal-reserve-interest-rates-inflation",
     "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
     "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+    "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
+    "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
     "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening",
     "https://www.theguardian.com/business/2026/nov/01/investors-take-out-36bn-from-binance-after-record-hack-that-stole-billions",
     "https://www.theguardian.com/business/2026/oct/17/why-britain-should-reject-the-lure-of-cheap-and-scary-chinese-ai",
@@ -1642,9 +1701,17 @@
         "previous": "-159.6B"
       },
       {
+        "title": "RCM/TIPP Economic Optimism",
+        "country": "USD",
+        "date": "2026-11-03T04:00:00-05:00",
+        "impact": "Low",
+        "forecast": "46.2",
+        "previous": "46.8"
+      },
+      {
         "title": "10-y Bond Auction",
         "country": "GBP",
-        "date": "2026-11-03T05:33:00-05:00",
+        "date": "2026-11-03T05:02:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "5.42|3.6"
@@ -1666,14 +1733,6 @@
         "previous": "0.1%"
       },
       {
-        "title": "RCM/TIPP Economic Optimism",
-        "country": "USD",
-        "date": "2026-11-03T10:10:00-05:00",
-        "impact": "Low",
-        "forecast": "46.2",
-        "previous": "46.8"
-      },
-      {
         "title": "Omdia Total Vehicle Sales",
         "country": "USD",
         "date": "2026-11-03T10:15:00-05:00",
@@ -1692,7 +1751,7 @@
       {
         "title": "GDT Price Index",
         "country": "NZD",
-        "date": "2026-11-03T10:50:00-05:00",
+        "date": "2026-11-03T10:27:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "2.5%"
@@ -1708,7 +1767,7 @@
       {
         "title": "German Buba President Nagel Speaks",
         "country": "EUR",
-        "date": "2026-11-03T12:00:00-05:00",
+        "date": "2026-11-03T13:00:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": ""
@@ -1894,7 +1953,7 @@
         "country": "USD",
         "date": "2026-11-04T10:30:00-05:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "-0.1M",
         "previous": "-1.9M"
       },
       {
@@ -2542,6 +2601,26 @@
         "link": "https://stock.naver.com/research/invest/40670",
         "by": "대신증권"
       }
+    ],
+    "2026-11-04": [
+      {
+        "label": "증권사 경제분석",
+        "summary": "10월 ISM 제조업 지수 예상치 상회 10월 미국 ISM 제조업 PMI는 55.5로 전월대비 1.0 상승. 생산(+2.3)과 재고(+2.8)가 반등한 가운데, 신규 주문(+0.2)과 신규 수출(+0.3) 등 수요 지표도 대체로 양호한 흐름. 다만 고용(-0.3)이 소폭 둔화됐고, 생산원가(-2.7)는 하락했으나 75.2의 높은 수준을 유지. 기계류를 제외한 산업 담당자들 또한 여전히 불확실성을 크게 느끼고 있는 모습. 화학제품과 운송장비, 컴퓨터 담당자는 물가 우려와 정책 불확실성으로 통상적인 연말 예산 소진 효과도 사라졌다고 지적. …",
+        "date": "2026-11-03",
+        "guid": "naver:economy:13988",
+        "title": "10월 미국 ISM 제조업: 남아있는 부담",
+        "link": "https://stock.naver.com/research/economy/13988",
+        "by": "한화투자증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "summary": "시장 주도 테마 1: 보험 - 해외 시장 개척과 M&A 로 성장 활로 모색 - 고령화 및 질병 증가로 맞춤형 보장 수요 확대",
+        "date": "2026-11-02",
+        "guid": "naver:invest:40669",
+        "title": "이번 주 포커 s",
+        "link": "https://stock.naver.com/research/invest/40669",
+        "by": "대신증권"
+      }
     ]
   },
   "reports_used": [
@@ -2558,6 +2637,7 @@
     "naver:economy:13971",
     "naver:economy:13972",
     "naver:economy:13985",
+    "naver:economy:13988",
     "naver:invest:40559",
     "naver:invest:40569",
     "naver:invest:40571",
@@ -2567,6 +2647,7 @@
     "naver:invest:40637",
     "naver:invest:40648",
     "naver:invest:40651",
+    "naver:invest:40669",
     "naver:invest:40670"
   ]
 }
