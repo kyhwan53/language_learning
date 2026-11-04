@@ -2,8 +2,8 @@
 and Bank of Korea publications (official RSS). Every fetch is best-effort: a failing source just
 drops out instead of breaking the email.
 
-Summaries are not generated (no paid APIs): they are the abstract the authors attach to the report,
-trimmed to a few sentences.
+Summaries are not generated (no paid APIs): they are up to five lines picked from the abstract the
+authors attach to the report - the lead sentence of each paragraph first, in the original order.
 """
 import html
 import json
@@ -18,7 +18,9 @@ UA = {"User-Agent": "Mozilla/5.0 (language-learning-queue/1.0)"}
 NAVER_API = "https://stock.naver.com/api/stockSecurity/researches/v2/{}?size=30"
 NAVER_PAGE = "https://stock.naver.com/research/{}/{}"
 RECENT_DAYS = 3        # only reports written within this many days are candidates
-SUMMARY_CHARS = 320
+SUMMARY_LINES = 5
+LINE_CHARS = 110       # a longer sentence is cut at a clause boundary
+MIN_LINE = 20          # shorter lines are headings like "Comment" or "증시 코멘트 및 대응 전략"
 BOILERPLATE = ("자세한 내용은 첨부파일", "첨부파일을 참고")
 
 
@@ -35,15 +37,34 @@ def _text(raw):
     return re.sub(r" ([.,])", r"\1", text)
 
 
+def _clip(line):
+    if len(line) <= LINE_CHARS:
+        return line
+    cut = line[:LINE_CHARS]
+    end = max(cut.rfind(", "), cut.rfind(" "))
+    return cut[:end if end > LINE_CHARS // 2 else LINE_CHARS].rstrip(" ,") + " …"
+
+
 def _summary(raw):
-    text = _text(raw or "")
-    if not text or any(b in text for b in BOILERPLATE):
-        return ""
-    if len(text) <= SUMMARY_CHARS:
-        return text
-    cut = text[:SUMMARY_CHARS]
-    end = max(cut.rfind(". "), cut.rfind("다. "), cut.rfind("함. "), cut.rfind("음. "))
-    return (cut[:end + 1] if end > SUMMARY_CHARS // 2 else cut.rstrip()) + " …"
+    """Up to SUMMARY_LINES sentences: lead sentence of each paragraph, then second sentences, ... in source order."""
+    for _ in range(3):
+        raw = html.unescape(raw or "")
+    paras = []
+    for block in re.split(r"<br\s*/?>|</p>|</li>|\n", raw, flags=re.I):
+        text = _text(block).lstrip("-·•▶■□○●* ").strip()
+        text = re.sub(r"^(\d{1,2}|[가-하]|[①-⑩])[.)]?\s+", "", text)  # "1. ", "가. ", "① " numbering
+        if len(text) < MIN_LINE or any(b in text for b in BOILERPLATE):
+            continue
+        sentences = [x.strip() for x in re.split(r"(?<=[.])\s+(?=\S)", text) if len(x.strip()) >= 10]
+        if sentences:
+            paras.append(sentences)
+    picked, depth = [], 0
+    while len(picked) < SUMMARY_LINES and any(len(p) > depth for p in paras):
+        for i, p in enumerate(paras):
+            if len(p) > depth and len(picked) < SUMMARY_LINES:
+                picked.append((i, depth, p[depth]))
+        depth += 1
+    return [_clip(line) for _, _, line in sorted(picked)]
 
 
 def _naver(category):
@@ -81,7 +102,8 @@ def _rss(url):
 
 
 def pick(sources, day, state):
-    """Per source, the `count` (default 1) unseen recent reports - most-read first, else newest. Cached per day."""
+    """Per source, the `count` (default 1) unseen recent reports - titles with a `prefer` word first, then
+    most-read, then newest. Cached per day."""
     cache = state.setdefault("reports", {})
     if str(day) in cache:
         return cache[str(day)]
@@ -95,10 +117,13 @@ def pick(sources, day, state):
             print(f"  (report source {src['key']} failed: {e})")
             continue
         pool = [r for r in items if r["guid"] not in seen and since <= r["date"] <= day and r["title"]]
-        pool.sort(key=lambda r: (r["reads"], r["date"]), reverse=True)
+        prefer = src.get("prefer", [])
+        newest = src.get("order") == "newest"
+        pool.sort(key=lambda r: (any(w in r["title"] for w in prefer), r["date"] if newest else r["reads"],
+                                 r["reads"] if newest else r["date"]), reverse=True)
         for r in pool[:src.get("count", 1)]:
             seen.add(r["guid"])
-            picks.append({"label": src["label"], "summary": _summary(r["raw"]), "date": str(r["date"]),
+            picks.append({"label": src["label"], "slot": src.get("slot", ""), "summary": _summary(r["raw"]), "date": str(r["date"]),
                           **{k: r[k] for k in ("guid", "title", "link", "by")}})
     state["reports_used"] = sorted(seen)[-500:]
     cache[str(day)] = picks
@@ -107,7 +132,18 @@ def pick(sources, day, state):
     return picks
 
 
-def render(picks):
+def _bullets(lines):
+    if isinstance(lines, str):  # picks cached before summaries became line lists
+        lines = [lines] if lines else []
+    if not lines:
+        return ""
+    items = "".join(f"<li style='margin:0 0 3px'>{escape(x)}</li>" for x in lines)
+    return f"<ul style='font-size:13px;color:#4b5563;line-height:1.55;margin:6px 0 0;padding-left:18px'>{items}</ul>"
+
+
+def render(picks, slot=""):
+    """Cards for the picks in `slot` ("" = KOREA REPORTS, "overnight" = OVERNIGHT · US at the top of the global block)."""
+    picks = [r for r in picks if r.get("slot", "") == slot]
     if not picks:
         return ""
     card = "background:#fff;border:1px solid #e3e6ea;border-radius:10px;padding:14px 16px;margin:0 0 10px"
@@ -119,8 +155,8 @@ def render(picks):
         f"<span style='font-size:12px;color:#6b7280;margin-left:6px'>{escape(' · '.join(x for x in (r['by'], r['date']) if x))}</span>"
         f"<div style='font-size:16px;font-weight:600;margin:8px 0 4px'>"
         f"<a style='color:#111;text-decoration:none' href='{escape(r['link'])}'>{escape(r['title'])}</a></div>"
-        f"{'<div style=' + repr('font-size:13px;color:#4b5563;line-height:1.6') + '>' + escape(r['summary']) + '</div>' if r['summary'] else ''}"
+        f"{_bullets(r['summary'])}"
         f"<div style='font-size:13px;margin-top:8px'><a style='{link}' href='{escape(r['link'])}'>리포트 보기 →</a></div></div>"
         for r in picks
     )
-    return f"<div style='{head}'>KOREA REPORTS</div>{cards}"
+    return f"<div style='{head}'>{'OVERNIGHT · 밤사이 미국' if slot == 'overnight' else 'KOREA REPORTS'}</div>{cards}"

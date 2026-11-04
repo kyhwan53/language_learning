@@ -13,7 +13,6 @@ import ssl
 import time
 import urllib.request
 import xml.etree.ElementTree as ET
-from urllib.parse import quote
 from datetime import date, datetime
 from email.message import EmailMessage
 from email.utils import format_datetime, parsedate_to_datetime
@@ -22,8 +21,9 @@ from html import escape, unescape
 from pathlib import Path
 
 import indicators
+import cards
 import reports
-from sources import ARTICLES, ARTICLES_PER_DAY, BASE_URL, FEED_DAYS, MAX_MINUTES, RECIPIENT, REPORTS, SCHEDULE, SOURCES
+from sources import ARTICLES, BASE_URL, FEED_DAYS, MAX_MINUTES, MEETINGS, RECIPIENT, REPORTS, SCHEDULE, SOURCES
 
 ROOT = Path(__file__).parent
 STATE = ROOT / "state.json"
@@ -150,44 +150,46 @@ def fetch_articles(rss):
 
 
 def build_articles(day, state):
-    """Pick ARTICLES_PER_DAY unseen articles, rotating through the configured outlets."""
+    """One unseen article per section, rotating through that section's outlets (next outlet if one fails)."""
     cache = state.setdefault("articles", {})
     if str(day) in cache:
         return cache[str(day)]
     seen = set(state.setdefault("articles_used", []))
     picks = []
-    n = len(ARTICLES)
-    for j in range(min(ARTICLES_PER_DAY, n)):
-        src = ARTICLES[(day.toordinal() * ARTICLES_PER_DAY + j) % n]
-        try:
-            pool = [a for a in fetch_articles(src["rss"]) if a["guid"] not in seen]
-        except Exception as e:  # noqa: BLE001 - one dead outlet must not break the whole email
-            print(f"  (article source {src['key']} failed: {e})")
-            continue
-        pool.sort(key=lambda a: a["pub"].timestamp() if a["pub"] else 0, reverse=True)
-        if pool:
-            a = pool[0]
-            seen.add(a["guid"])
-            picks.append({"label": src["label"], **{k: a[k] for k in ("guid", "title", "link", "summary")}})
+    sections = {}
+    for src in ARTICLES:
+        sections.setdefault(src["section"], []).append(src)
+    for _, outlets in sorted(sections.items(), key=lambda kv: kv[0] != "top"):  # top news first
+        n = len(outlets)
+        for j in range(n):
+            src = outlets[(day.toordinal() + j) % n]
+            try:
+                pool = [a for a in fetch_articles(src["rss"]) if a["guid"] not in seen]
+            except Exception as e:  # noqa: BLE001 - one dead outlet must not break the whole email
+                print(f"  (article source {src['key']} failed: {e})")
+                continue
+            pool.sort(key=lambda a: a["pub"].timestamp() if a["pub"] else 0, reverse=True)
+            if pool:
+                a = pool[0]
+                seen.add(a["guid"])
+                picks.append({"label": src["label"], **{k: a[k] for k in ("guid", "title", "link", "summary")}})
+                break
     state["articles_used"] = sorted(seen)[-500:]
     cache[str(day)] = picks
     return picks
 
 
-def render_email(queue, articles, day, markets_html="", reports_html=""):
+def render_email(queue, articles, day, markets_html="", reports_html="", cards_html="", weekly_html="", global_html=""):
     total = sum(e["minutes"] or 0 for e in queue)
     card = "background:#fff;border:1px solid #e3e6ea;border-radius:10px;padding:14px 16px;margin:0 0 10px"
     tag = "display:inline-block;font-size:11px;font-weight:600;color:#fff;background:#2f6fed;border-radius:4px;padding:2px 7px"
     link = "color:#2f6fed;text-decoration:none"
-    # AntennaPod deep link: opens the personal feed in the app (offers to subscribe if not yet subscribed).
-    antennapod = "https://antennapod.org/deeplink/subscribe?url=" + quote(BASE_URL.rstrip("/") + "/feed.xml", safe="")
     listen = "".join(
         f"<div style='{card}'><span style='{tag}'>{escape(e['label'])}</span>"
         f"<div style='font-size:16px;font-weight:600;margin:8px 0 4px'>{escape(e['title'])}</div>"
         f"<div style='font-size:13px;color:#6b7280'>{str(e['minutes']) + ' min' if e['minutes'] else 'length n/a'}</div>"
         f"<div style='font-size:13px;margin-top:8px'>"
-        f"<a style='{link}' href='{escape(antennapod)}'>▶ Open in AntennaPod</a> &nbsp;|&nbsp; "
-        f"<a style='{link}' href='https://www.youtube.com/results?search_query={quote((e.get('show') or e['label']) + ' ' + e['title'])}'>Search on YouTube</a>"
+        f"{escape(e.get('show') or '')}"
         f"{' &nbsp;|&nbsp; <a style=' + repr(link) + ' href=' + repr(escape(e['page'])) + '>Page &amp; transcript</a>' if e['page'] else ''}"
         "</div></div>"
         for e in queue
@@ -205,11 +207,14 @@ def render_email(queue, articles, day, markets_html="", reports_html=""):
         "font-family:Segoe UI,Arial,sans-serif;color:#111'>"
         f"<div style='font-size:20px;font-weight:700'>Daily Language Plan</div>"
         f"<div style='font-size:13px;color:#6b7280;margin:2px 0 16px'>{day} · listening about {total} min</div>"
+        f"{weekly_html}"
         "<div style='font-size:12px;font-weight:700;letter-spacing:.06em;color:#6b7280;margin:0 0 6px'>LISTEN</div>"
         f"{listen}"
         "<div style='font-size:12px;font-weight:700;letter-spacing:.06em;color:#6b7280;margin:16px 0 6px'>READ</div>"
         f"{read or '<div style=color:#6b7280>No new articles today.</div>'}"
+        f"{cards_html}"
         f"{reports_html}"
+        f"{global_html}"
         f"{markets_html}"
         "<div style='font-size:12px;color:#6b7280;margin-top:14px;line-height:1.5'>"
         "Tip: listen once without the transcript, then replay the hardest part. "
@@ -267,8 +272,15 @@ def main():
     articles = build_articles(day, state)
     korea = reports.pick(REPORTS, day, state)
     write_feed(state, day)
-    html = render_email(queue, articles, day, indicators.render(indicators.snapshot(day, state.setdefault("calendar_cache", {}))),
-                        reports.render(korea))
+    markets = indicators.snapshot(day, state.setdefault("calendar_cache", {}), MEETINGS)
+    hist = state.setdefault("markets_history", {})  # for the Sunday recap
+    hist[str(day)] = {n: v for key in ("korea", "yields", "fx", "world", "commodities") if markets.get(key) for n, v, _, _ in markets[key][1]}
+    for old in sorted(hist)[:-21]:
+        del hist[old]
+    cards_html = cards.render_english(cards.english(day)) + cards.render_japanese(cards.japanese(day), day)
+    weekly_html = cards.render_weekly(state, day) if day.weekday() == 6 else ""
+    global_html = indicators.render_global(markets, reports.render(korea, "overnight"))
+    html = render_email(queue, articles, day, indicators.render(markets), reports.render(korea), cards_html, weekly_html, global_html)
     OUT.mkdir(exist_ok=True)
     (OUT / "email.html").write_text(html, encoding="utf-8")
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")

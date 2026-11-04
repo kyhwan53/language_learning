@@ -17,7 +17,7 @@ def load():
     sources = cfg.get("source", [])
     articles = cfg.get("article", [])
     for a in articles:
-        missing = {"key", "label", "rss"} - a.keys()
+        missing = {"key", "section", "label", "rss"} - a.keys()
         if missing:
             raise ConfigError(f"config.toml: article {a.get('key', '?')} missing {sorted(missing)}")
     reports = cfg.get("report", [])
@@ -44,22 +44,24 @@ def load():
         "sources": sources,
         "articles": articles,
         "reports": reports,
-        "articles_per_day": cfg.get("settings", {}).get("articles_per_day", 2),
         "schedule": {i: schedule.get(d, []) for i, d in enumerate(DAYS)},  # Mon=0
         "max_minutes": st.get("max_minutes", 30),
         "feed_days": st.get("feed_days", 7),
         "recipient": st.get("recipient", ""),
         "base_url": st.get("base_url", ""),
+        "cards_start": st.get("cards_start", "2026-11-05"),
+        "meetings": cfg.get("central_banks", {}),
     }
 
 
 _cfg = load()
 SOURCES = _cfg["sources"]
 ARTICLES = _cfg["articles"]
-ARTICLES_PER_DAY = _cfg["articles_per_day"]
 REPORTS = _cfg["reports"]
 SCHEDULE = _cfg["schedule"]
 MAX_MINUTES = _cfg["max_minutes"]
 FEED_DAYS = _cfg["feed_days"]
 RECIPIENT = _cfg["recipient"]
 BASE_URL = _cfg["base_url"]
+CARDS_START = _cfg["cards_start"]
+MEETINGS = _cfg["meetings"]
