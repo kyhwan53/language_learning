@@ -1953,7 +1953,7 @@
         "country": "USD",
         "date": "2026-11-04T10:30:00-05:00",
         "impact": "Low",
-        "forecast": "-0.1M",
+        "forecast": "-1.7M",
         "previous": "-1.9M"
       },
       {
@@ -2161,7 +2161,7 @@
         "country": "USD",
         "date": "2026-11-05T10:30:00-05:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "81B",
         "previous": "80B"
       },
       {
@@ -2649,5 +2649,8 @@
     "naver:invest:40651",
     "naver:invest:40669",
     "naver:invest:40670"
+  ],
+  "sent": [
+    "2026-11-04"
   ]
 }
