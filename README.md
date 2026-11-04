@@ -47,7 +47,9 @@
    일본어 진도(1화부터 순서대로)와 중복 방지 기록이 이어집니다. 없으면 처음부터 시작합니다.
 6. **매일 자동 실행은 GitHub Actions가 합니다** (`.github/workflows/daily.yml`, 매일 06:00 KST = 21:00 UTC, PC 불필요).
    저장소 Settings → Secrets and variables → Actions에 `GMAIL_USER`, `GMAIL_APP_PASSWORD`를 등록해야 동작합니다.
-   수동 실행: 저장소 Actions 탭 → Daily language plan → Run workflow.
+   GitHub 예약 실행은 2~6시간씩 늦게 시작하므로, 실제 06:00 발송은 외부 스케줄러(cron-job.org, 무료)가 05:50 KST에
+   API로 `scheduled=true` 실행을 요청해서 맞춥니다. 내장 cron은 예비용이고, 그날 이미 보냈으면 건너뜁니다(`state.json`의 `sent`).
+   수동 실행: 저장소 Actions 탭 → Daily language plan → Run workflow (체크박스를 비워 두면 즉시 발송).
    실행 결과(`docs/feed.xml`, `state.json`)는 봇이 저장소에 commit합니다.
 
 > **로컬에서 `--send`로 직접 보내지 마세요.** Actions가 `state.json`을 저장소에서 관리하므로, 로컬에서 실행하면 상태가 어긋납니다.

@@ -2,10 +2,17 @@ name: Daily language plan
 
 on:
   schedule:
-    # 17:47 UTC = 02:47 KST. GitHub starts scheduled runs 1.5-3 h late (worst seen: 3 h), and on-the-hour
-    # slots are the most congested, so start early and off the hour, then wait until 06:00 KST to send.
+    # Fallback only: GitHub starts scheduled runs 2-6 h late, so 06:00 is not guaranteed from here.
+    # 17:47 UTC = 02:47 KST; the run waits until 06:00 KST and skips if the email already went out.
     - cron: "47 17 * * *"
-  workflow_dispatch:        # manual run from the Actions tab
+  workflow_dispatch:
+    # Main trigger: an external scheduler (cron-job.org) calls the API at 05:50 KST with scheduled=true.
+    # From the Actions tab leave it unchecked to send a sample right away (always sends).
+    inputs:
+      scheduled:
+        description: "Wait until 06:00 KST and skip if today's email was already sent"
+        type: boolean
+        default: false
 
 permissions:
   contents: write           # commit docs/feed.xml and state.json
@@ -33,7 +40,7 @@ jobs:
           if [ -n "$GMAIL_APP_PASSWORD" ]; then echo "GMAIL_APP_PASSWORD: set (${#GMAIL_APP_PASSWORD} chars)"; else echo "GMAIL_APP_PASSWORD: MISSING"; bad=1; fi
           exit $bad
       - name: Wait until 06:00 KST
-        if: github.event_name == 'schedule'   # manual runs send right away
+        if: github.event_name == 'schedule' || inputs.scheduled   # manual runs send right away
         run: |
           wait=$(( $(TZ=KST-9 date -d "06:00" +%s) - $(date +%s) ))
           if [ "$wait" -gt 0 ]; then echo "waiting ${wait}s"; sleep "$wait"; else echo "already past 06:00 KST"; fi
@@ -41,7 +48,7 @@ jobs:
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-        run: python build_daily.py --send
+        run: python build_daily.py --send ${{ (github.event_name == 'schedule' || inputs.scheduled) && '--skip-if-sent' || '' }}
       - name: Commit feed and state
         if: always()   # keep the feed/state even if the email step failed
         run: |

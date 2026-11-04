@@ -254,11 +254,15 @@ def send_email(html, day):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--send", action="store_true")
+    ap.add_argument("--skip-if-sent", action="store_true")  # automatic runs: the first one of the day sends, later ones stop
     ap.add_argument("--date", default=str(datetime.now(indicators.KST).date()))  # KST, also on UTC runners
     args = ap.parse_args()
     day = date.fromisoformat(args.date)
 
     state = load_state()
+    if args.skip_if_sent and str(day) in state.get("sent", []):
+        print(f"{day}: email already sent, nothing to do")
+        return
     queue = build_queue(day, state)
     articles = build_articles(day, state)
     korea = reports.pick(REPORTS, day, state)
@@ -270,6 +274,8 @@ def main():
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     if args.send:
         send_email(html, day)
+        state["sent"] = sorted(set(state.get("sent", [])) | {str(day)})[-14:]
+        STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"{day}: {len(queue)} items, {sum(e['minutes'] or 0 for e in queue)} min")
     for e in queue:
         print(f"  [{e['label']}] {e['title']} ({e['minutes']} min)")
