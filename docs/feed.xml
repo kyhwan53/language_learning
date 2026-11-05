@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-06 1] EN Business | Office English: Clear communication</title>
+      <guid isPermaLink="false">2026-11-06:urn:bbc:podcast:p0nfhtp6</guid>
+      <pubDate>Fri, 06 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nfhtp6</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nfhsht.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>540</itunes:duration>
+    </item>
+    <item>
+      <title>[11-06 2] EN Talk | Why great art requires risk | Alex Van Halen, David Lee Roth, Robert Vargas</title>
+      <guid isPermaLink="false">2026-11-06:6aeb94a69f528791af8c1bc2</guid>
+      <pubDate>Fri, 06 Nov 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/alexdavidrobert</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aeb94a69f528791af8c1bc2/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
       <title>[11-05 1] EN Easy | Sharing the road with driverless cars</title>
       <guid isPermaLink="false">2026-11-05:urn:bbc:podcast:p0p5h8tg</guid>
       <pubDate>Thu, 05 Nov 2026 06:00:00 +0000</pubDate>
@@ -127,29 +143,6 @@
       <pubDate>Sat, 31 Oct 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/18/21%e6%9d%b1%e5%8d%97%e3%82%a2%e3%82%b8%e3%82%a2%e6%97%85%e8%a1%8c%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%ef%bc%81/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei21.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[10-30 1] EN Business | Office English: Saying no</title>
-      <guid isPermaLink="false">2026-10-30:urn:bbc:podcast:p0nly0nc</guid>
-      <pubDate>Fri, 30 Oct 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nly0nc</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nlxq2n.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>480</itunes:duration>
-    </item>
-    <item>
-      <title>[10-30 2] EN Talk | How fossil fuel companies keep your energy costs high | Jon Powers</title>
-      <guid isPermaLink="false">2026-10-30:6ae35ff72ce0a6edbe8a84d3</guid>
-      <pubDate>Fri, 30 Oct 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/jonpowers</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae35ff72ce0a6edbe8a84d3/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>720</itunes:duration>
-    </item>
-    <item>
-      <title>[10-30 3] JP Beginner | #20旅行は好きですか？</title>
-      <guid isPermaLink="false">2026-10-30:http://nihongoconteppei.com/?p=114</guid>
-      <pubDate>Fri, 30 Oct 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/17/20%e6%97%85%e8%a1%8c%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei20.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>

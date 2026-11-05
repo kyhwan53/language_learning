@@ -15,7 +15,8 @@
       "urn:bbc:podcast:p0nly0nc",
       "urn:bbc:podcast:p0nkkrlk",
       "urn:bbc:podcast:p0nhvnx3",
-      "urn:bbc:podcast:p0ngtcgx"
+      "urn:bbc:podcast:p0ngtcgx",
+      "urn:bbc:podcast:p0nfhtp6"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -29,7 +30,8 @@
       "6adf721fa8783bd475575090",
       "6ae35ff72ce0a6edbe8a84d3",
       "6ae258f70a9b7b8b95b17566",
-      "6ae8b9cd008b613dfe44544a"
+      "6ae8b9cd008b613dfe44544a",
+      "6aeb94a69f528791af8c1bc2"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -1018,6 +1020,32 @@
         "minutes": 19,
         "pub": "2026-11-04T06:00:00"
       }
+    ],
+    "2026-11-06": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nfhtp6",
+        "show": "Learning English For Work",
+        "title": "Office English: Clear communication",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nfhsht.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nfhtp6",
+        "minutes": 9,
+        "pub": "2026-04-20T13:19:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6aeb94a69f528791af8c1bc2",
+        "show": "TED Talks Daily",
+        "title": "Why great art requires risk | Alex Van Halen, David Lee Roth, Robert Vargas",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aeb94a69f528791af8c1bc2/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/alexdavidrobert",
+        "minutes": 17,
+        "pub": "2026-11-05T16:13:59+00:00"
+      }
     ]
   },
   "articles": {
@@ -1443,6 +1471,29 @@
         "link": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
         "summary": "In October 2025, the remnants of a typhoon seriously damaged Alaska Native villages in the far western part of the state. A year later, one of the hardest hit communities is still recovering."
       }
+    ],
+    "2026-11-06": [
+      {
+        "label": "BBC Top Stories",
+        "guid": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo#1",
+        "title": "California governor commutes death sentences for all 548 people on death row",
+        "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+        "summary": "California has historically had the largest population of death row inmates in the US."
+      },
+      {
+        "label": "BBC Business",
+        "guid": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo#0",
+        "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+        "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+        "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US mid-terms"
+      },
+      {
+        "label": "BBC Science & Environment",
+        "guid": "https://www.bbc.co.uk/news/articles/cmp8ggn9gpjjo#1",
+        "title": "Over 1,000 tonnes of sewage seen at landfill site",
+        "link": "https://www.bbc.co.uk/news/articles/cmp8ggn9gpjjo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Environment Agency says it has issued the operator with a series of actions after an inspection."
+      }
     ]
   },
   "articles_used": [
@@ -1451,11 +1502,14 @@
     "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo#0",
     "https://www.bbc.co.uk/news/articles/ck79py02p1jlo#0",
     "https://www.bbc.co.uk/news/articles/cm4g1zrl2nrqo#0",
+    "https://www.bbc.co.uk/news/articles/cmn04705rd8jo#0",
     "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o#0",
+    "https://www.bbc.co.uk/news/articles/cmp8ggn9gpjjo#1",
     "https://www.bbc.co.uk/news/articles/cmq8n513x523o#1",
     "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo#0",
     "https://www.bbc.co.uk/news/articles/cqn498mng08ro#1",
     "https://www.bbc.co.uk/news/articles/cqp8gjz4k7g6o#3",
+    "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo#1",
     "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno#3",
     "https://www.bbc.co.uk/news/articles/cr6240q1w136o#0",
     "https://www.bbc.co.uk/news/articles/cr93z1e87e0do#2",
@@ -2083,17 +2137,9 @@
         "previous": "46.1"
       },
       {
-        "title": "PPI m/m",
-        "country": "EUR",
-        "date": "2026-11-05T05:00:00-05:00",
-        "impact": "Low",
-        "forecast": "2.5%",
-        "previous": "1.9%"
-      },
-      {
         "title": "Spanish 10-y Bond Auction",
         "country": "EUR",
-        "date": "2026-11-05T05:03:00-05:00",
+        "date": "2026-11-05T04:39:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "4.18|1.6"
@@ -2101,10 +2147,18 @@
       {
         "title": "French 10-y Bond Auction",
         "country": "EUR",
-        "date": "2026-11-05T05:18:00-05:00",
+        "date": "2026-11-05T04:55:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "4.93|2.0"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "EUR",
+        "date": "2026-11-05T05:00:00-05:00",
+        "impact": "Low",
+        "forecast": "2.5%",
+        "previous": "1.9%"
       },
       {
         "title": "Challenger Job Cuts y/y",
@@ -2721,6 +2775,53 @@
         "link": "https://stock.naver.com/research/invest/40682",
         "by": "유진투자증권"
       }
+    ],
+    "2026-11-06": [
+      {
+        "label": "밤사이 미국 시장",
+        "slot": "overnight",
+        "summary": [
+          "민주당의 중간선거 압승이 분열 정부에 따른 정책 교착 기대를 자극하며 다우가 18개월래 최고의 하루를 연출했고, 이란 전쟁 조기 종식 기대에 유가는 8% 급락했습니다.",
+          "다만 AI 데이터센터·전력주는 역풍을 맞으며 안도 랠리 속 테마 차별화가 뚜렷했습니다."
+        ],
+        "date": "2026-11-05",
+        "guid": "naver:market:38056",
+        "title": "유안타 AI 미국 주식시장 마감 시황 (26.11.05)",
+        "link": "https://stock.naver.com/research/market/38056",
+        "by": "유안타증권"
+      },
+      {
+        "label": "증권사 경제분석",
+        "slot": "",
+        "summary": [
+          "블루 쓰나미로 지칭될 정도로 미국 중간선거에서 민주당이 압승을 했다.",
+          "중간선거 결과에 대한 미국 금융시장 반응은 일단 긍정적이다.",
+          "이번 중간선거로 인한 주식시장의 반응은 트럼프 대통령이 처음 당선되었던 2016년 11월 대통령 선거날과 유사했다.",
+          "당초 우려와 달리 이번 블루웨이브에 미국 금융시장이 단기적이지만 긍정적 반응을 보인 가장 중요한 요인은 세가지다.",
+          "두번째는 정치 불확실성 완화다."
+        ],
+        "date": "2026-11-05",
+        "guid": "naver:economy:13993",
+        "title": "블루웨이브에 미국 금융시장이 환호한 이유",
+        "link": "https://stock.naver.com/research/economy/13993",
+        "by": "iM증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "slot": "",
+        "summary": [
+          "3일(화) 미국 증시는 중간선거 대기 심리 속 애플(-1.9%)의 실적 발표 이후 최종소비자 수요 둔화 우려, 미-이란 협상 노이즈에도, 마이크론(+2.6%), 엔비디아(+2.3%) …",
+          "이제 시장은 오늘 중 확인할 수 있는 중간선거 결과에 주목할 예정.",
+          "3일 기준 RealClearPolitics 집계상(여론조사기관 평균 통계 발표), 하원에서는 민주당 52.1%, 공화당 43.3%로 민주당이 우위가 예상.",
+          "일각에서는 1950년 이래로 중간선거 종료 후 1년간 S&P00이 모든 사례(평균 누적 수익률 +15%)에서 상승했다는 통계가 이번에도 재현될 것이라는 기대감을 갖고 있는 모습.",
+          "전일 국내 증시는 미-이란 협상 기대감에도 오라클의 200억달러 자금 조달, 앤스로픽의 순환금융 논란 등에 따른 AI 수익성 우려 재부각, 팔란티어, 애플의 시간외 주가 약세 여파 등으로 외국인을 …"
+        ],
+        "date": "2026-11-04",
+        "guid": "naver:invest:40704",
+        "title": "11/04, 미국 중간선거 이후에도 주식시장에서 변하지 않은 것들",
+        "link": "https://stock.naver.com/research/invest/40704",
+        "by": "키움증권"
+      }
     ]
   },
   "reports_used": [
@@ -2739,6 +2840,7 @@
     "naver:economy:13985",
     "naver:economy:13986",
     "naver:economy:13988",
+    "naver:economy:13993",
     "naver:invest:40559",
     "naver:invest:40569",
     "naver:invest:40571",
@@ -2751,11 +2853,14 @@
     "naver:invest:40669",
     "naver:invest:40670",
     "naver:invest:40682",
-    "naver:market:38041"
+    "naver:invest:40704",
+    "naver:market:38041",
+    "naver:market:38056"
   ],
   "sent": [
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "markets_history": {
     "2026-11-05": {
@@ -2781,6 +2886,30 @@
       "금": "$4,068.90",
       "구리 (경기 선행)": "$6.4130",
       "VIX (공포 지수)": "16.83"
+    },
+    "2026-11-06": {
+      "KOSPI": "5,383.80",
+      "KOSDAQ": "678.41",
+      "KR 3Y": "3.67%",
+      "US 2Y": "4.46%",
+      "US 10Y": "4.84%",
+      "US 30Y": "5.25%",
+      "10Y-2Y spread": "+38bp",
+      "USD/KRW": "1,344.7",
+      "USD/JPY": "158.46",
+      "USD/EUR": "0.8910",
+      "S&P 500": "7,353.80",
+      "나스닥": "24,315.00",
+      "다우": "51,521.28",
+      "유로스톡스 50": "6,231.54",
+      "니케이 225": "61,077.90",
+      "상해종합": "3,689.91",
+      "항셍": "24,796.98",
+      "WTI": "$90.75",
+      "브렌트유": "$98.42",
+      "금": "$4,111.00",
+      "구리 (경기 선행)": "$6.2135",
+      "VIX (공포 지수)": "26.95"
     }
   }
 }
