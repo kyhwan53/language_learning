@@ -15,7 +15,7 @@ on:
         default: false
 
 permissions:
-  contents: write           # commit docs/feed.xml and state.json
+  contents: write           # commit docs/ (feed, review page) and state.json
 
 concurrency:
   group: daily-plan
@@ -48,11 +48,12 @@ jobs:
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EXTRA_RECIPIENTS: ${{ secrets.EXTRA_RECIPIENTS }}   # optional, comma-separated
         run: python build_daily.py --send ${{ (github.event_name == 'schedule' || inputs.scheduled) && '--skip-if-sent' || '' }}
       - name: Commit feed and state
         if: always()   # keep the feed/state even if the email step failed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/feed.xml state.json
+          git add docs/feed.xml docs/study.html state.json
           git diff --cached --quiet || (git commit -m "Daily update" && git push)

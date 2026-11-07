@@ -15,6 +15,7 @@
 | `sources.py` | config.toml 로드/검증 |
 | `build_daily.py` | 오늘의 큐 선정 → `docs/feed.xml` 생성 → 메일 HTML 생성/발송 |
 | `cards.py` | 업무 영어 표현·일본어 0단계 카드(하루 한 칸씩) + 일요일 주간 정리 |
+| `templates/study.html` | 복습 페이지 틀. 매일 실행 때 카드 데이터를 넣어 `docs/study.html`로 게시 (메일의 "어제 표현 / 모두 보기" 링크) |
 | `content/*.toml` | 카드 내용: 업무 영어 표현(`business_english.toml`), 가나·여행 표현(`japanese.toml`). 직접 추가 가능 |
 | `reports.py` | 국내 리포트(네이버 증권 리서치의 증권사 리포트, 한국은행 RSS) 선정 → 메일 섹션 |
 | `manage.py` | 소스 추가/삭제/점검 CLI |
@@ -96,7 +97,7 @@ python manage.py schedule mon biz,aee,jp
 - 메일에는 mp3 링크를 넣지 않음. 개인 피드는 팟캐스트 앱 자동 다운로드용으로 원본 오디오 URL을 유지.
 - 듣기는 YouTube Music에서 각 프로그램을 직접 구독해서 함(2026-11-05부터, AntennaPod 대신). 개인 피드는 YouTube Music에 등록할 수 없어
   (소유권 인증 필요, 타사 콘텐츠) 메일에는 프로그램 이름과 공식 페이지/대본 링크만 둠. YouTube Music 검색 링크는 결과가 거의 맞지 않아 제거. 개인 피드(`feed.xml`)는 계속 생성함.
-- 수신 메일 주소는 공개 저장소라 config에 적지 않음 (`recipient`가 비어 있으면 `GMAIL_USER`로 발송).
+- 수신 메일 주소는 공개 저장소라 config에 적지 않음 (`recipient`가 비어 있으면 `GMAIL_USER`로 발송). 추가 수신자는 GitHub Secret `EXTRA_RECIPIENTS`(쉼표로 구분)에 둠.
 - Slow English 팟캐스트는 보류(동명 프로그램이 여럿이라 선택 필요).
 - 외신 기사는 제목/요약/링크만 사용하고 전문은 복사하지 않음.
 - 국내 리포트 요약은 새로 생성하지 않고(유료 API 금지) 작성자가 붙인 요약문에서 문단별 첫 문장을 원문 순서대로 최대 5줄 뽑아 씀. 증권사 리포트는

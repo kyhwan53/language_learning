@@ -205,7 +205,7 @@ def render_email(queue, articles, day, markets_html="", reports_html="", cards_h
     return (
         "<div style='max-width:600px;margin:0 auto;background:#f4f6f8;padding:18px;"
         "font-family:Segoe UI,Arial,sans-serif;color:#111'>"
-        f"<div style='font-size:20px;font-weight:700'>Daily Language Plan</div>"
+        f"<div style='font-size:20px;font-weight:700'>Daily Study</div>"
         f"<div style='font-size:13px;color:#6b7280;margin:2px 0 16px'>{day} · listening about {total} min</div>"
         f"{weekly_html}"
         "<div style='font-size:12px;font-weight:700;letter-spacing:.06em;color:#6b7280;margin:0 0 6px'>LISTEN</div>"
@@ -227,8 +227,10 @@ def send_email(html, day):
     clean = lambda v: "".join(c for c in v if c.isprintable() and not c.isspace() and c != "﻿")  # noqa: E731
     user, pw = clean(os.environ["GMAIL_USER"]), clean(os.environ["GMAIL_APP_PASSWORD"])
     msg = EmailMessage()
-    msg["Subject"] = f"Daily Listening {day}"
-    msg["From"], msg["To"] = user, RECIPIENT or user
+    # Extra recipients come from the EXTRA_RECIPIENTS secret (comma-separated), never from the public config.
+    extra = [a.strip() for a in os.environ.get("EXTRA_RECIPIENTS", "").split(",") if a.strip()]
+    msg["Subject"] = f"Daily study {day}"
+    msg["From"], msg["To"] = user, ", ".join([RECIPIENT or user] + extra)
     msg.set_content("HTML email")
     msg.add_alternative(html, subtype="html")
     # Gmail sometimes drops logins from cloud IPs: retry, alternating SSL(465) and STARTTLS(587).
@@ -277,7 +279,8 @@ def main():
     hist[str(day)] = {n: v for key in ("korea", "yields", "fx", "world", "commodities") if markets.get(key) for n, v, _, _ in markets[key][1]}
     for old in sorted(hist)[:-21]:
         del hist[old]
-    cards_html = cards.render_english(cards.english(day)) + cards.render_japanese(cards.japanese(day), day)
+    cards.write_study_page()
+    cards_html = cards.render_english(cards.english(day), day) + cards.render_japanese(cards.japanese(day), day)
     weekly_html = cards.render_weekly(state, day) if day.weekday() == 6 else ""
     global_html = indicators.render_global(markets, reports.render(korea, "overnight"))
     html = render_email(queue, articles, day, indicators.render(markets), reports.render(korea), cards_html, weekly_html, global_html)

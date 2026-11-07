@@ -1,8 +1,10 @@
 """Daily study cards (business English phrase, Japanese kana + travel phrase) and the Sunday weekly recap.
 
 Cards come from content/*.toml and advance one step per calendar day from CARDS_START, so every run on
-the same day shows the same card and nothing needs to be stored.
+the same day shows the same card and nothing needs to be stored. The same data is published as a review
+page (docs/study.html, built from templates/study.html) for browsing earlier days.
 """
+import json
 import re
 import tomllib
 from datetime import date, timedelta
@@ -11,7 +13,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from indicators import COMMODITIES, WORLD
-from sources import CARDS_START
+from sources import BASE_URL, CARDS_START
 
 CONTENT = Path(__file__).parent / "content"
 KANA_PER_DAY = 3
@@ -26,6 +28,8 @@ JP_PHRASES = _jp["phrase"]
 HEAD = "font-size:12px;font-weight:700;letter-spacing:.06em;color:#6b7280;margin:16px 0 6px"
 CARD = "background:#fff;border:1px solid #e3e6ea;border-radius:10px;padding:14px 16px;margin:0 0 10px"
 LINK = "text-decoration:none;font-size:13px"
+ROOT = Path(__file__).parent
+STUDY_URL = BASE_URL.rstrip("/") + "/study.html"
 
 
 def _n(day):
@@ -45,6 +49,22 @@ def japanese(day):
     return {"kana": kana(day), "phrase": JP_PHRASES[_n(day) % len(JP_PHRASES)]}
 
 
+def write_study_page():
+    """docs/study.html: the review page, with every card's data embedded (the page works out the day itself)."""
+    data = {"start": CARDS_START, "kanaPerDay": KANA_PER_DAY, "phrases": PHRASES, "kana": KANA, "jpPhrases": JP_PHRASES}
+    page = (ROOT / "templates" / "study.html").read_text(encoding="utf-8")
+    (ROOT / "docs").mkdir(exist_ok=True)
+    (ROOT / "docs" / "study.html").write_text(page.replace("/*DATA*/null", json.dumps(data, ensure_ascii=False)), encoding="utf-8")
+
+
+def _review_links(tab, day, what):
+    prev = f"{STUDY_URL}#{tab}-{day - timedelta(days=1)}"
+    links = f"<a style='{LINK};color:#6b7280' href='{escape(STUDY_URL)}#{tab}-{day}'>지금까지 배운 {what} 모두 보기 →</a>"
+    if _n(day) > 0:
+        links = f"<a style='{LINK};color:#6b7280' href='{escape(prev)}'>◀ 어제 {what}</a> &nbsp;·&nbsp; " + links
+    return f"<div style='margin-top:8px'>{links}</div>"
+
+
 def _youglish(en):
     # Search text: drop "(...)", "...", leading "to " and end punctuation so YouGlish finds real clips.
     q = re.sub(r"\(.*?\)|\.\.\.|…|[?.!]$", "", en).strip()
@@ -56,14 +76,15 @@ def _translate(jp):
     return f"https://translate.google.com/?sl=ja&tl=ko&op=translate&text={quote(jp)}"
 
 
-def render_english(p):
+def render_english(p, day):
     return (
         f"<div style='{HEAD}'>BUSINESS ENGLISH · 오늘의 표현</div><div style='{CARD}'>"
         f"<div style='font-size:17px;font-weight:700'>{escape(p['en'])}</div>"
         f"<div style='font-size:14px;color:#374151;margin:2px 0 8px'>{escape(p['ko'])}</div>"
         f"<div style='font-size:14px;font-style:italic;color:#4b5563;border-left:3px solid #e3e6ea;padding-left:10px'>{escape(p['ex'])}</div>"
         f"<div style='margin-top:8px'><a style='{LINK};color:#2f6fed' href='{escape(_youglish(p['en']))}'>▶ 실제 영상 속 발음 듣기 (YouGlish)</a></div>"
-        "<div style='font-size:12px;color:#6b7280;margin-top:6px'>오늘 회의나 메일에서 한 번 써 보세요.</div></div>"
+        "<div style='font-size:12px;color:#6b7280;margin-top:6px'>오늘 회의나 메일에서 한 번 써 보세요.</div>"
+        f"{_review_links('en', day, '표현')}</div>"
     )
 
 
@@ -85,7 +106,7 @@ def render_japanese(card, day):
         f"<div style='font-size:17px;font-weight:600'>{escape(p['jp'])}</div>"
         f"<div style='font-size:13px;color:#4b5563'>{escape(p['ro'])} · {escape(p['ko'])}</div>"
         f"<div style='margin-top:6px'><a style='{LINK};color:#c2410c' href='{escape(_translate(p['jp']))}'>▶ 발음 듣기 (Google 번역의 스피커 버튼)</a></div>"
-        "</div></div>"
+        f"</div>{_review_links('jp', day, '글자·표현')}</div>"
     )
 
 
