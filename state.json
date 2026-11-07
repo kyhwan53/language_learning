@@ -16,7 +16,8 @@
       "urn:bbc:podcast:p0nkkrlk",
       "urn:bbc:podcast:p0nhvnx3",
       "urn:bbc:podcast:p0ngtcgx",
-      "urn:bbc:podcast:p0nfhtp6"
+      "urn:bbc:podcast:p0nfhtp6",
+      "urn:bbc:podcast:p0nd46l6"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -88,7 +89,8 @@
       "1885a632-a2a1-443d-bf63-076ab9ab0898",
       "31ec22ec-be36-4955-b8c0-c5277859b64e",
       "c34daca1-9947-4c31-90ad-1410a24f66a2",
-      "3ce2013b-3030-4558-8228-5882682e46bf"
+      "3ce2013b-3030-4558-8228-5882682e46bf",
+      "4d985ce9-5201-4ddd-a360-c5d03fe9e3df"
     ]
   },
   "days": {
@@ -1074,6 +1076,32 @@
         "minutes": 22,
         "pub": "2026-11-05T08:00:02+00:00"
       }
+    ],
+    "2026-11-08": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0nd46l6",
+        "show": "Learning English For Work",
+        "title": "Office English: Suggestions and advice",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nd45w4.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0nd46l6",
+        "minutes": 8,
+        "pub": "2026-04-13T11:46:00+00:00"
+      },
+      {
+        "key": "lifekit",
+        "label": "EN Life Kit",
+        "guid": "4d985ce9-5201-4ddd-a360-c5d03fe9e3df",
+        "show": "Life Kit",
+        "title": "How to reclaim joy without seeking out newness",
+        "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/f6c90179-0967-4a0c-b9ae-28e1bbf5f853/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&awEpisodeId=f6c90179-0967-4a0c-b9ae-28e1bbf5f853&feed=XkY2SBZJ&t=podcast&e=nx-s1-6023372&p=510338&d=1341&size=21465174",
+        "mime": "audio/mpeg",
+        "page": "https://www.npr.org/2026/11/03/nx-s1-6023372/how-to-reclaim-joy-without-seeking-out-newness",
+        "minutes": 22,
+        "pub": "2026-11-03T08:00:05+00:00"
+      }
     ]
   },
   "articles": {
@@ -1545,6 +1573,29 @@
         "link": "https://www.theguardian.com/environment/2026/nov/06/uk-dairy-farmers-face-squeeze-as-milk-processor-cuts-prices",
         "summary": "Freshways lowers price paid to producers by 7p a litre, prompting warnings confidence in the sector is ‘at rock bottom’ “Milk is leaving the farm at a loss,” says dairy farmer Ian Harvey, as he warns confidence in the sector is “at rock bot…"
       }
+    ],
+    "2026-11-08": [
+      {
+        "label": "Guardian Top Stories",
+        "guid": "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
+        "title": "São Paulo Formula One Grand Prix qualifying in Brazil – Lando Norris takes pole amid rain, as it happened",
+        "link": "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
+        "summary": "️ Updates from the Interlagos (session starts 6pm GMT) ️ Sign up for The Recap newsletter | And email Philip Ted Kravitz talking through the pole chances of Antonelli, Russell and Norris in the upgraded McLaren. Verstappen is going to be at…"
+      },
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/world/2026/nov/07/paraguay-ueno-bank-collapse-santiago-pena",
+        "title": "‘Very strange, very sad’: Paraguay bank collapse fells a presidency and leaves millions broke",
+        "link": "https://www.theguardian.com/world/2026/nov/07/paraguay-ueno-bank-collapse-santiago-pena",
+        "summary": "Santiago Peña charged over alleged role in crisis as prosecutors request he be placed in preventive custody Pedro Volpe had just woken up last Tuesday when he saw a message from a friend asking whether his bank account was down too. It was …"
+      },
+      {
+        "label": "NPR Climate",
+        "guid": "https://www.npr.org/2026/11/05/nx-s1-6009269/in-california-some-towns-are-already-dealing-with-impacts-from-el-nino",
+        "title": "In California, some towns are already dealing with impacts from El Niño",
+        "link": "https://www.npr.org/2026/11/05/nx-s1-6009269/in-california-some-towns-are-already-dealing-with-impacts-from-el-nino",
+        "summary": "What could be the effects of an extreme El Nino this winter on California, and how are towns preparing?"
+      }
     ]
   },
   "articles_used": [
@@ -1584,6 +1635,7 @@
     "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
     "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
     "https://www.npr.org/2026/11/03/nx-s1-6012016/japan-faces-diplomatic-dilemma-amid-joint-pressure-from-nuclear-neighbors",
+    "https://www.npr.org/2026/11/05/nx-s1-6009269/in-california-some-towns-are-already-dealing-with-impacts-from-el-nino",
     "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
     "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
@@ -1604,10 +1656,12 @@
     "https://www.theguardian.com/music/2026/nov/01/bbc-young-musician-teenage-violinist-sofia-demetriades",
     "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
+    "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
     "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
     "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
     "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
     "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
+    "https://www.theguardian.com/world/2026/nov/07/paraguay-ueno-bank-collapse-santiago-pena",
     "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
     "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
     "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
@@ -2545,35 +2599,6 @@
     ]
   },
   "reports": {
-    "2026-10-25": [
-      {
-        "label": "증권사 경제분석",
-        "summary": "성장보다 물가에 먼저 쌓이는 공급 충격 10월 동향: 공급 충격 장기화 속 원자재 비용 부담의 판매가격 전가 확대. 디젤을 비롯한 석유제품 가격 상승이 제조원가뿐 아니라 운송, 유통 비용까지 높이며 에너지 외 품목 가격 인상 압력 누적. 미국의 상대적으로 양호한 수요가 비용 전가 뒷받침하며 주요국 중 판매가격 상승 압력 두드러진 모습 AI 투자와 연관 산업 중심 성장 지속. 장비 구매에 더해 데이터센터 건설 투자가 늘며 전통 산업 일부에도 수요 파급. 다만 투자 연관 부문 개선이 가계 소비 및 비IT 산업 전반으로 확산 수준은 제한적. …",
-        "date": "2026-10-22",
-        "guid": "naver:economy:13935",
-        "title": "11월 Econ Signal; 성장보다 물가에 먼저 쌓이는 공급 충격",
-        "link": "https://stock.naver.com/research/economy/13935",
-        "by": "신한투자증권"
-      },
-      {
-        "label": "증권사 투자전략",
-        "summary": "녹색전환 시작하는 우리나라, 외연 넓히는 국제 사회 - 지난 10월 7일, 한국형 녹색대전환(K-GX) 전략 발표, 3대 추진 방향과 10가지 정책 과제 제시 - 우리나라 주력 산업의 탈탄소 경쟁력을 강화하고, 대기업부터 스타트업까지 모두 성장하는 밸류체인 구축 목표 - 10년간 1,000조원(정부 200조+기후금융 790조+a) 투자 계획, 세제/규제 개선 등을 통한 혁신 환경 조성 - 무탄소 모빌리티 전환 가속화, 2030년 재생에너지 100GW 조기 달성 및 전력망 개선 추진 - 한편 JPMorgan, 네 가지 키워드(경제성, 안보, 신뢰성, 지속가능성) 제시하 …",
-        "date": "2026-10-23",
-        "guid": "naver:invest:40559",
-        "title": "ESG snapshot",
-        "link": "https://stock.naver.com/research/invest/40559",
-        "by": "SK증권"
-      },
-      {
-        "label": "한국은행 통화정책",
-        "summary": "통화정책방향 □ 금융통화위원회는 다음 통화정책방향 결정시까지 한국은행 기준금리를 현재의 3.00% 수준에서 유지하여 통화정책을 운용하기로 하였다. 국내경제는 수출과 투자를 중심으로 높은 성장세를 지속하는 가운데 물가가 3% 내외의 높은 오름세를 이어가고 금융안정 측면의 리스크도 상존하고 있지만, 중동사태, 주요국 통화 ‧ 재정정책 등과 관련한 불확실성이 높아진 만큼 기준금리를 현 수준에서 유지하면서 대내외 위험요인의 전개상황과 두 차례 인상의 파급영향을 점검할 필요가 있다고 판단하였다. …",
-        "date": "2026-10-22",
-        "guid": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11065823&menuNo=200690",
-        "title": "통화정책방향(2026.10.22)",
-        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11065823&menuNo=200690",
-        "by": ""
-      }
-    ],
     "2026-10-26": [
       {
         "label": "증권사 경제분석",
@@ -2931,6 +2956,56 @@
         "link": "https://stock.naver.com/research/invest/40716",
         "by": "대신증권"
       }
+    ],
+    "2026-11-08": [
+      {
+        "label": "밤사이 미국 시장",
+        "slot": "overnight",
+        "summary": [
+          "[오늘의 시황] 반도체 매도 압력 지속에 국내 증시 하락 출발할 전망입니다.",
+          "금일 국내 증시는 반도체 대형주를 중심으로 급락 출발할 전망입니다.",
+          "필라델피아 반도체지수(-12.25%)와 코스피200 야간선물(-7.88%)이 동반 급락했습니다.",
+          "국채금리 하락에도 반도체와 네오클라우드 관련주에 매도세가 이어졌다는 점에서 금리 안정만으로 투자심리가 회복되기는 어려운 국면입니다.",
+          "국내 증시에서도 반도체 대형주의 낙폭 확대가 시장 전반의 투매로 이어질 가능성에 유의할 필요가 있습니다."
+        ],
+        "date": "2026-11-06",
+        "guid": "naver:market:38071",
+        "title": "[Market Time] 미국 기술주 급락, 확산되는 위험 회피",
+        "link": "https://stock.naver.com/research/market/38071",
+        "by": "iM증권"
+      },
+      {
+        "label": "증권사 경제분석",
+        "slot": "",
+        "summary": [
+          "다수가 예상했듯이 2026년 미국 중간선거에서 민주당이 상·하원을 모두 장악하면서 블루웨이브가 현실화됐다.",
+          "민주당이 하원에서는 435석 중 250석 넘게 차지했고 상원은 최소 54석을 확보하며 압승을 거두었다.",
+          "민주당이 상·하원을 모두 장악하면서 2027년 1월 3일에 출범하는 새 의회의 주도권은 민주당으로 넘어오게 된다.",
+          "중간선거에서 민주당이 상·하원을 모두 장악하며 정치적 불확실성이 해소되자 S&P500지수는 1.58% 상승한 7,688.62P를 기록했다.",
+          "결국 관건은 이번 선거로 부각된 데이터센터 규제 리스크가 실제로 현실화될지다."
+        ],
+        "date": "2026-11-05",
+        "guid": "naver:economy:13995",
+        "title": "[Global Markets Monitor] 앵그리 트럼프가 만든 블루웨이브(Blue Wave)",
+        "link": "https://stock.naver.com/research/economy/13995",
+        "by": "IBK투자증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "slot": "",
+        "summary": [
+          "전일 뉴욕증시 3대 지수 AI·반도체 투매에 폭락.",
+          "다우 -3.4%·S&P500 -4.4%·나스닥 -5.5%, 필 반도체 -12.2%.",
+          "데이터센터 규제 우려에 AI 공급망 전반 하락.",
+          "개수 기준으로는 미국 전체 착공·계획 1,599개의 31.6%.",
+          "텍사스 · 조지아 · 오하이오 3개 주 주지사 당선인은 모두 데이터센터 건설 중단 · 규제를 공약."
+        ],
+        "date": "2026-11-06",
+        "guid": "naver:invest:40734",
+        "title": "(Spot)미 중간선거 이후 증시 급락 comment",
+        "link": "https://stock.naver.com/research/invest/40734",
+        "by": "유진투자증권"
+      }
     ]
   },
   "reports_used": [
@@ -2950,6 +3025,7 @@
     "naver:economy:13986",
     "naver:economy:13988",
     "naver:economy:13993",
+    "naver:economy:13995",
     "naver:economy:13997",
     "naver:invest:40559",
     "naver:invest:40569",
@@ -2965,15 +3041,18 @@
     "naver:invest:40682",
     "naver:invest:40704",
     "naver:invest:40716",
+    "naver:invest:40734",
     "naver:market:38041",
     "naver:market:38056",
+    "naver:market:38071",
     "naver:market:38076"
   ],
   "sent": [
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "markets_history": {
     "2026-11-05": {
@@ -3047,6 +3126,30 @@
       "금": "$4,073.60",
       "구리 (경기 선행)": "$6.2595",
       "VIX (공포 지수)": "24.73"
+    },
+    "2026-11-08": {
+      "KOSPI": "5,059.69",
+      "KOSDAQ": "644.27",
+      "KR 3Y": "3.62%",
+      "US 2Y": "4.51%",
+      "US 10Y": "4.86%",
+      "US 30Y": "5.26%",
+      "10Y-2Y spread": "+35bp",
+      "USD/KRW": "1,358.7",
+      "USD/JPY": "158.33",
+      "USD/EUR": "0.8957",
+      "S&P 500": "7,376.86",
+      "나스닥": "24,579.43",
+      "다우": "51,285.73",
+      "유로스톡스 50": "6,170.49",
+      "니케이 225": "57,434.77",
+      "상해종합": "3,649.18",
+      "항셍": "24,481.86",
+      "WTI": "$90.83",
+      "브렌트유": "$98.32",
+      "금": "$4,074.90",
+      "구리 (경기 선행)": "$6.2375",
+      "VIX (공포 지수)": "25.64"
     }
   }
 }

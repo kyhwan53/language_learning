@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-08 1] EN Business | Office English: Suggestions and advice</title>
+      <guid isPermaLink="false">2026-11-08:urn:bbc:podcast:p0nd46l6</guid>
+      <pubDate>Sun, 08 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nd46l6</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nd45w4.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>480</itunes:duration>
+    </item>
+    <item>
+      <title>[11-08 2] EN Life Kit | How to reclaim joy without seeking out newness</title>
+      <guid isPermaLink="false">2026-11-08:4d985ce9-5201-4ddd-a360-c5d03fe9e3df</guid>
+      <pubDate>Sun, 08 Nov 2026 05:00:00 +0000</pubDate>
+      <link>https://www.npr.org/2026/11/03/nx-s1-6023372/how-to-reclaim-joy-without-seeking-out-newness</link>
+      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/f6c90179-0967-4a0c-b9ae-28e1bbf5f853/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=f6c90179-0967-4a0c-b9ae-28e1bbf5f853&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6023372&amp;p=510338&amp;d=1341&amp;size=21465174" type="audio/mpeg" length="0" />
+      <itunes:duration>1320</itunes:duration>
+    </item>
+    <item>
       <title>[11-07 1] EN Easy | Could vaccines cure cancer?</title>
       <guid isPermaLink="false">2026-11-07:urn:bbc:podcast:p0pldm3h</guid>
       <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
@@ -113,29 +129,6 @@
       <pubDate>Mon, 02 Nov 2026 05:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/20/23%e5%a4%8f%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei23.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[11-01 1] EN Business | Office English: Career development</title>
-      <guid isPermaLink="false">2026-11-01:urn:bbc:podcast:p0nkkrlk</guid>
-      <pubDate>Sun, 01 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nkkrlk</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nkknj8.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>480</itunes:duration>
-    </item>
-    <item>
-      <title>[11-01 2] EN Life Kit | Dear Life Kit: Why are they like this?!</title>
-      <guid isPermaLink="false">2026-11-01:c34daca1-9947-4c31-90ad-1410a24f66a2</guid>
-      <pubDate>Sun, 01 Nov 2026 05:00:00 +0000</pubDate>
-      <link>https://www.npr.org/2026/10/27/nx-s1-6018577/dear-life-kit-why-are-they-like-this</link>
-      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/22f99de8-2c93-403c-9a6c-6b23a73db132/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=22f99de8-2c93-403c-9a6c-6b23a73db132&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6018577&amp;p=510338&amp;d=883&amp;size=14129198" type="audio/mpeg" length="0" />
-      <itunes:duration>900</itunes:duration>
-    </item>
-    <item>
-      <title>[11-01 3] JP Beginner | #22どこの国の食べ物が好きですか？</title>
-      <guid isPermaLink="false">2026-11-01:http://nihongoconteppei.com/?p=121</guid>
-      <pubDate>Sun, 01 Nov 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/19/22%e3%81%a9%e3%81%93%e3%81%ae%e5%9b%bd%e3%81%ae%e9%a3%9f%e3%81%b9%e7%89%a9%e3%81%8c%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei22.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
