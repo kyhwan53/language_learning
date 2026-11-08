@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-09 1] EN Business | Office English: Ideas</title>
+      <guid isPermaLink="false">2026-11-09:urn:bbc:podcast:p0nb7z27</guid>
+      <pubDate>Mon, 09 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0nb7z27</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nb7x78.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>540</itunes:duration>
+    </item>
+    <item>
+      <title>[11-09 2] EN All Ears | AEE: Beware of the Loaded Pause</title>
+      <guid isPermaLink="false">2026-11-09:c6cd6bc2-cabb-11f1-9927-93a5be7305c3</guid>
+      <pubDate>Mon, 09 Nov 2026 05:00:00 +0000</pubDate>
+      <link>https://www.allearsenglish.com/fluencyscore</link>
+      <enclosure url="https://traffic.megaphone.fm/ALLE4067129412.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1200</itunes:duration>
+    </item>
+    <item>
       <title>[11-08 1] EN Business | Office English: Suggestions and advice</title>
       <guid isPermaLink="false">2026-11-08:urn:bbc:podcast:p0nd46l6</guid>
       <pubDate>Sun, 08 Nov 2026 06:00:00 +0000</pubDate>
@@ -114,21 +130,6 @@
       <pubDate>Tue, 03 Nov 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/21/24%e3%83%86%e3%83%ac%e3%83%93%e3%81%af%e8%a6%8b%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei24.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[11-02 1] EN Business | Office English: Writing notes</title>
-      <guid isPermaLink="false">2026-11-02:urn:bbc:podcast:p0nhvnx3</guid>
-      <pubDate>Mon, 02 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nhvnx3</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nhvlxh.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>600</itunes:duration>
-    </item>
-    <item>
-      <title>[11-02 2] JP Beginner | #23夏は好きですか？</title>
-      <guid isPermaLink="false">2026-11-02:http://nihongoconteppei.com/?p=124</guid>
-      <pubDate>Mon, 02 Nov 2026 05:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/20/23%e5%a4%8f%e3%81%af%e5%a5%bd%e3%81%8d%e3%81%a7%e3%81%99%e3%81%8b%ef%bc%9f/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei23.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
