@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-10 1] EN Easy | Who does the housework?</title>
+      <guid isPermaLink="false">2026-11-10:urn:bbc:podcast:p0p478fw</guid>
+      <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0p478fw</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p4779b.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[11-10 2] EN Talk | How to rewire your brain — and find your flow | Heather Berlin</title>
+      <guid isPermaLink="false">2026-11-10:6af1eb82e0d89bd85412a56b</guid>
+      <pubDate>Tue, 10 Nov 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/heatherberlin</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af1eb82e0d89bd85412a56b/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
       <title>[11-09 1] EN Business | Office English: Ideas</title>
       <guid isPermaLink="false">2026-11-09:urn:bbc:podcast:p0nb7z27</guid>
       <pubDate>Mon, 09 Nov 2026 06:00:00 +0000</pubDate>
@@ -107,29 +123,6 @@
       <pubDate>Wed, 04 Nov 2026 04:00:00 +0000</pubDate>
       <link>https://nihongoconteppei.com/2019/07/22/25%e6%96%b0%e8%81%9e%e3%81%af%e8%aa%ad%e3%81%bf%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
       <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei25.mp3" type="audio/mpeg" length="0" />
-    </item>
-    <item>
-      <title>[11-03 1] EN Easy | How do we describe smells?</title>
-      <guid isPermaLink="false">2026-11-03:urn:bbc:podcast:p0p6j3xx</guid>
-      <pubDate>Tue, 03 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0p6j3xx</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p6j2hz.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>420</itunes:duration>
-    </item>
-    <item>
-      <title>[11-03 2] EN Talk | The couples therapists who nearly got divorced | Harville Hendrix</title>
-      <guid isPermaLink="false">2026-11-03:6ae258f70a9b7b8b95b17566</guid>
-      <pubDate>Tue, 03 Nov 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/harvillehendrix</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae258f70a9b7b8b95b17566/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1020</itunes:duration>
-    </item>
-    <item>
-      <title>[11-03 3] JP Beginner | #24テレビは見ますか？</title>
-      <guid isPermaLink="false">2026-11-03:http://nihongoconteppei.com/?p=127</guid>
-      <pubDate>Tue, 03 Nov 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/21/24%e3%83%86%e3%83%ac%e3%83%93%e3%81%af%e8%a6%8b%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei24.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>
