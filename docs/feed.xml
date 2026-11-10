@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-11 1] EN Business | Office English: Describing your job</title>
+      <guid isPermaLink="false">2026-11-11:urn:bbc:podcast:p0n9js6w</guid>
+      <pubDate>Wed, 11 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0n9js6w</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0n9jr7f.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[11-11 2] EN Talk | Your phone is disgusting. Here's how to clean it | Lotti Tajouri</title>
+      <guid isPermaLink="false">2026-11-11:6af23934e1219d878fcb3b47</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/lottitajouri</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af23934e1219d878fcb3b47/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
       <title>[11-10 1] EN Easy | Who does the housework?</title>
       <guid isPermaLink="false">2026-11-10:urn:bbc:podcast:p0p478fw</guid>
       <pubDate>Tue, 10 Nov 2026 06:00:00 +0000</pubDate>
@@ -100,29 +116,6 @@
       <link>https://www.allearsenglish.com/fluencyscore</link>
       <enclosure url="https://traffic.megaphone.fm/ALLE3455647051.mp3" type="audio/mpeg" length="0" />
       <itunes:duration>1140</itunes:duration>
-    </item>
-    <item>
-      <title>[11-04 1] EN Business | Office English: Extra work</title>
-      <guid isPermaLink="false">2026-11-04:urn:bbc:podcast:p0ngtcgx</guid>
-      <pubDate>Wed, 04 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0ngtcgx</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0ngtc2g.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>600</itunes:duration>
-    </item>
-    <item>
-      <title>[11-04 2] EN Talk | What kids wish their parents knew about fun | Mila Rojas</title>
-      <guid isPermaLink="false">2026-11-04:6ae8b9cd008b613dfe44544a</guid>
-      <pubDate>Wed, 04 Nov 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/milarojas</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6ae8b9cd008b613dfe44544a/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>540</itunes:duration>
-    </item>
-    <item>
-      <title>[11-04 3] JP Beginner | #25新聞は読みますか？</title>
-      <guid isPermaLink="false">2026-11-04:http://nihongoconteppei.com/?p=130</guid>
-      <pubDate>Wed, 04 Nov 2026 04:00:00 +0000</pubDate>
-      <link>https://nihongoconteppei.com/2019/07/22/25%e6%96%b0%e8%81%9e%e3%81%af%e8%aa%ad%e3%81%bf%e3%81%be%e3%81%99%e3%81%8b%ef%bc%9f/</link>
-      <enclosure url="http://media.blubrry.com/nihongo_con_teppei/nihongoconteppei.com/wp-content/uploads/2019/07/Beginners-con-Teppei25.mp3" type="audio/mpeg" length="0" />
     </item>
   </channel>
 </rss>

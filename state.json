@@ -18,7 +18,8 @@
       "urn:bbc:podcast:p0ngtcgx",
       "urn:bbc:podcast:p0nfhtp6",
       "urn:bbc:podcast:p0nd46l6",
-      "urn:bbc:podcast:p0nb7z27"
+      "urn:bbc:podcast:p0nb7z27",
+      "urn:bbc:podcast:p0n9js6w"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -34,7 +35,8 @@
       "6ae258f70a9b7b8b95b17566",
       "6ae8b9cd008b613dfe44544a",
       "6aeb94a69f528791af8c1bc2",
-      "6af1eb82e0d89bd85412a56b"
+      "6af1eb82e0d89bd85412a56b",
+      "6af23934e1219d878fcb3b47"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -1158,6 +1160,32 @@
         "minutes": 17,
         "pub": "2026-11-09T16:07:29+00:00"
       }
+    ],
+    "2026-11-11": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0n9js6w",
+        "show": "Learning English For Work",
+        "title": "Office English: Describing your job",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0n9jr7f.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0n9js6w",
+        "minutes": 7,
+        "pub": "2026-03-30T08:51:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6af23934e1219d878fcb3b47",
+        "show": "TED Talks Daily",
+        "title": "Your phone is disgusting. Here's how to clean it | Lotti Tajouri",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af23934e1219d878fcb3b47/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/lottitajouri",
+        "minutes": 17,
+        "pub": "2026-11-10T17:34:47+00:00"
+      }
     ]
   },
   "articles": {
@@ -1698,6 +1726,29 @@
         "link": "https://www.theguardian.com/environment/2026/nov/10/leadbeaters-possum-victoria-endangered-species-australia-wildlife-conservation-haining-farm",
         "summary": "Exclusive: With only a handful of lowland Leadbeater’s possums left in Victorian forests, conservationists hope a bespoke sanctuary will help the acrobatic marsupials bounce back Sign up for climate and environment editor Adam Morton’s free…"
       }
+    ],
+    "2026-11-11": [
+      {
+        "label": "Guardian Top Stories",
+        "guid": "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live",
+        "title": "Inter v Manchester City: Women’s Champions League – live",
+        "link": "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live",
+        "summary": "Women’s Champions League updates, 8pm GMT kick-off Live scores | Table | Kerstin Casparij interview | Mail Billy Final scores in the early kick-offs: Häcken 0-0 Chelsea Real Madrid 3-0 Paris FC (Caruso 55, Beerensteyn 65, Caicedo 81) Contin…"
+      },
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/world/2026/nov/10/french-police-raid-ritz-hotel-in-mohamed-al-fayed-sexual-abuse-investigation",
+        "title": "French police raid Ritz hotel in Mohamed Al Fayed sexual abuse investigation",
+        "link": "https://www.theguardian.com/world/2026/nov/10/french-police-raid-ritz-hotel-in-mohamed-al-fayed-sexual-abuse-investigation",
+        "summary": "Arrests made after three properties were searched in relation to inquiry into late businessman French police have made arrests after raiding three properties, including the Ritz hotel in Paris , in relation to an investigation into sexual a…"
+      },
+      {
+        "label": "NPR Climate",
+        "guid": "https://www.npr.org/2026/11/09/nx-s1-5996456/turkey-hosts-world-climate-summit-but-some-critics-accuse-it-of-greenwashing",
+        "title": "Turkey hosts world climate summit, but some critics accuse it of 'greenwashing'",
+        "link": "https://www.npr.org/2026/11/09/nx-s1-5996456/turkey-hosts-world-climate-summit-but-some-critics-accuse-it-of-greenwashing",
+        "summary": "Thousands of diplomats, executives and leaders are gathering in Turkey for a global climate summit. In recent years, Turkey has moved to be more eco-conscious, but some say that hasn't been enough."
+      }
     ]
   },
   "articles_used": [
@@ -1743,6 +1794,7 @@
     "https://www.npr.org/2026/11/05/nx-s1-6009269/in-california-some-towns-are-already-dealing-with-impacts-from-el-nino",
     "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
     "https://www.npr.org/2026/11/06/nx-s1-6030867/jobs-labor-market-economy-wages-inflation",
+    "https://www.npr.org/2026/11/09/nx-s1-5996456/turkey-hosts-world-climate-summit-but-some-critics-accuse-it-of-greenwashing",
     "https://www.npr.org/2026/11/09/nx-s1-6032701/economist-discusses-taxing-the-ultra-wealthy-and-their-impact-on-the-economy",
     "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
@@ -1761,6 +1813,7 @@
     "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
     "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
+    "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live",
     "https://www.theguardian.com/music/2026/nov/01/bbc-young-musician-teenage-violinist-sofia-demetriades",
     "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
@@ -1770,6 +1823,7 @@
     "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
     "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
     "https://www.theguardian.com/world/2026/nov/07/paraguay-ueno-bank-collapse-santiago-pena",
+    "https://www.theguardian.com/world/2026/nov/10/french-police-raid-ritz-hotel-in-mohamed-al-fayed-sexual-abuse-investigation",
     "https://www.theguardian.com/world/2026/oct/10/isaias-weakens-to-post-tropical-cyclone",
     "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
     "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates"
@@ -1945,20 +1999,20 @@
         "previous": "-13"
       },
       {
-        "title": "Trade Balance",
-        "country": "CNY",
-        "date": "2026-11-09T22:03:00-05:00",
-        "impact": "Low",
-        "forecast": "859B",
-        "previous": "906B"
-      },
-      {
         "title": "USD-Denominated Trade Balance",
         "country": "CNY",
-        "date": "2026-11-09T22:04:00-05:00",
+        "date": "2026-11-09T21:32:00-05:00",
         "impact": "Low",
         "forecast": "126.5B",
         "previous": "133.5B"
+      },
+      {
+        "title": "Trade Balance",
+        "country": "CNY",
+        "date": "2026-11-09T21:33:00-05:00",
+        "impact": "Low",
+        "forecast": "855B",
+        "previous": "906B"
       },
       {
         "title": "30-y Bond Auction",
@@ -1973,7 +2027,7 @@
         "country": "JPY",
         "date": "2026-11-10T00:00:00-05:00",
         "impact": "Low",
-        "forecast": "46.9",
+        "forecast": "47.1",
         "previous": "47.0"
       },
       {
@@ -1993,22 +2047,6 @@
         "previous": ""
       },
       {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-11-10T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "7.3%",
-        "previous": "7.2%"
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-11-10T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "80B",
-        "previous": "1080B"
-      },
-      {
         "title": "G7 Meetings",
         "country": "All",
         "date": "2026-11-10T04:45:00-05:00",
@@ -2017,20 +2055,20 @@
         "previous": ""
       },
       {
+        "title": "30-y Bond Auction",
+        "country": "GBP",
+        "date": "2026-11-10T05:02:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "5.52|3.8"
+      },
+      {
         "title": "NFIB Small Business Index",
         "country": "USD",
         "date": "2026-11-10T06:00:00-05:00",
         "impact": "Low",
-        "forecast": "97.7",
+        "forecast": "98.0",
         "previous": "97.9"
-      },
-      {
-        "title": "30-y Bond Auction",
-        "country": "GBP",
-        "date": "2026-11-10T06:32:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "5.52|3.8"
       },
       {
         "title": "MPC Member Lombardelli Speaks",
@@ -2043,18 +2081,18 @@
       {
         "title": "ADP Weekly Employment Change",
         "country": "USD",
-        "date": "2026-11-10T08:15:00-05:00",
+        "date": "2026-11-10T08:14:00-05:00",
         "impact": "Low",
         "forecast": "",
-        "previous": ""
+        "previous": "16.8K"
       },
       {
         "title": "ADP Weekly Employment Change",
         "country": "USD",
-        "date": "2026-11-10T08:16:00-05:00",
+        "date": "2026-11-10T08:15:00-05:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "16.8K"
+        "previous": "19.5K"
       },
       {
         "title": "Core CPI m/m",
@@ -2193,6 +2231,22 @@
         "previous": "-1.3%"
       },
       {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-11-11T04:03:00-05:00",
+        "impact": "Low",
+        "forecast": "7.2%",
+        "previous": "7.2%"
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-11-11T04:03:00-05:00",
+        "impact": "Low",
+        "forecast": "80B",
+        "previous": "1080B"
+      },
+      {
         "title": "ECB President Lagarde Speaks",
         "country": "EUR",
         "date": "2026-11-11T04:45:00-05:00",
@@ -2253,7 +2307,7 @@
         "country": "GBP",
         "date": "2026-11-11T19:01:00-05:00",
         "impact": "Low",
-        "forecast": "-32%",
+        "forecast": "-33%",
         "previous": "-32%"
       },
       {
@@ -2317,7 +2371,7 @@
         "country": "GBP",
         "date": "2026-11-12T02:00:00-05:00",
         "impact": "Low",
-        "forecast": "-0.3%",
+        "forecast": "0.4%",
         "previous": "1.7%"
       },
       {
@@ -2329,19 +2383,11 @@
         "previous": ""
       },
       {
-        "title": "EU Economic Forecasts",
-        "country": "EUR",
-        "date": "2026-11-12T05:00:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": ""
-      },
-      {
         "title": "Building Permits m/m",
         "country": "CAD",
         "date": "2026-11-12T08:30:00-05:00",
         "impact": "Low",
-        "forecast": "-3.9%",
+        "forecast": "-4.0%",
         "previous": "8.8%"
       },
       {
@@ -2365,7 +2411,7 @@
         "country": "USD",
         "date": "2026-11-12T10:00:00-05:00",
         "impact": "Low",
-        "forecast": "3.86M",
+        "forecast": "3.89M",
         "previous": "3.99M"
       },
       {
@@ -2445,7 +2491,7 @@
         "country": "USD",
         "date": "2026-11-12T14:00:00-05:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "-286.3B",
         "previous": "-26.9B"
       },
       {
@@ -2501,7 +2547,7 @@
         "country": "EUR",
         "date": "2026-11-13T04:00:00-05:00",
         "impact": "Low",
-        "forecast": "1.85B",
+        "forecast": "2.84B",
         "previous": "1.77B"
       },
       {
@@ -2593,6 +2639,14 @@
         "previous": ""
       },
       {
+        "title": "German Buba President Nagel Speaks",
+        "country": "EUR",
+        "date": "2026-11-13T11:00:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": ""
+      },
+      {
         "title": "FOMC Member Daly Speaks",
         "country": "USD",
         "date": "2026-11-13T12:00:00-05:00",
@@ -2619,26 +2673,6 @@
     ]
   },
   "reports": {
-    "2026-10-28": [
-      {
-        "label": "증권사 경제분석",
-        "summary": "Review: 물가 상방 위험 속 AI 투자와 성장 기대 재평가 - 미국 주요 지표 발표 제한된 가운데 지정학 불확실성과 AI 자금조달 우려 부각. 미국 사우디 주재 공관 인력 철수 명령과 중간선거 이후 대이란 공격 재개 검토 보도가 유가 상승 및 긴축 장기화 우려 자극. 반면 AI 인프라 기업 회사채 금리 상승은 투자 지속 가능성 의구심 높이며 성장 기대 약화 - 연준은 FOMC 회의 앞두고 블랙아웃 기간에 진입. …",
-        "date": "2026-10-26",
-        "guid": "naver:economy:13942",
-        "title": "신한 Econ Check-up",
-        "link": "https://stock.naver.com/research/economy/13942",
-        "by": "신한투자증권"
-      },
-      {
-        "label": "증권사 투자전략",
-        "summary": "글로벌 이익 동향 및 실적추정치 상, 하향 종목 반도체 위주 실적 상향 지속 vs AI 센티먼트 훼손, 실적이 후행적인 구간인가? Nvidia와 AMD 등이 실적 상향 기여 최상위에 위치하고 있지만 반도체 관련 주가는 급락을 지속. 다만 여전히 시스템 리스크가 반영된 것은 아니라는 판단. 근거는 1) 지난주 기간 프리미엄 급락(듀레이션 매수), 2) TED 스프레드 -0.05(1주 -0.28, 1개월 -0.55)로 달러 자금시장의 스트레스가 사실상 없다는 점. …",
-        "date": "2026-10-26",
-        "guid": "naver:invest:40591",
-        "title": "[Quant Comment] 국내외 주간 이익 동향 체크",
-        "link": "https://stock.naver.com/research/invest/40591",
-        "by": "하나증권"
-      }
-    ],
     "2026-10-29": [
       {
         "label": "증권사 경제분석",
@@ -3073,10 +3107,71 @@
         "link": "https://stock.naver.com/research/invest/40743",
         "by": "키움증권"
       }
+    ],
+    "2026-11-11": [
+      {
+        "label": "밤사이 미국 시장",
+        "slot": "overnight",
+        "summary": [
+          "KOSPI 5,018pt (-0.81%), KOSDAQ 638pt (-0.82%)",
+          "지수 초반 약세 이후 반등 시도했으나, 장 후반 상승폭 반납하며 나란히 하락 마감",
+          "증시는 AI 데이터센터 규제 우려에 급락했던 반도체 저가 매수에 나스닥 +1%대, 필리 +4%대 반등.",
+          "국내 증시 역시 반도체 중심 반발 매수세 유입, KRX 반도체 업종 +1%대.",
+          "2028년 미국 대선까지 민주당의 AI 데이터센터 정책은 전면적인 건설 제한보다 조건부 규제에 무게가 실릴 가능성이 높음 (11/9, 김동원)"
+        ],
+        "date": "2026-11-10",
+        "guid": "naver:market:38094",
+        "title": "11/9 KB 리서치 장마감코멘트",
+        "link": "https://stock.naver.com/research/market/38094",
+        "by": "KB증권"
+      },
+      {
+        "label": "증권사 경제분석",
+        "slot": "",
+        "summary": [
+          "월 고용 한 달 만에 서프라이즈 반전",
+          "미국 고용은 한 달 만에 서프라이즈로 반전되었다.",
+          "10 월 비농업 취업자는 +16.5 만 명 증가해 시장 예상치를 10 만 명 정도 상회했다.",
+          "지난 2 개월 고용도 +8.4 만 명 상향되었다.",
+          "현재 3 개월 평균 고용 증감은 +13.7 만 명이다."
+        ],
+        "date": "2026-11-09",
+        "guid": "naver:economy:14011",
+        "title": "미국 고용: 물가에 집중하기 좋은 상태",
+        "link": "https://stock.naver.com/research/economy/14011",
+        "by": "대신증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "slot": "",
+        "summary": [
+          "신규 상장 ETF(11/10) - KODEX 미국 나스닥100 미국채 혼합50",
+          "KODEX 미국 나스닥100 미국채 혼합50: 미국 나스닥100 종목들과 미국 초단기 국채에 각각 50%씩 투자하는 채권혼합형 패시브 ETF이다.",
+          "주식 부문은 NVIDIA, Apple, Microsoft 등 나스닥 거래소에 상장된 대표 기업들을 통해 AI와 반도체, 소프트웨어 등 주요 산업의 성장 기회에 투자한다.",
+          "기초지수인 ‘Nasdaq-100 US T-Bills 1-3 Month 50/50 Index’는 주식 부문인 ‘Nasdaq 100 Index’와 채권 부문인 ‘Nasdaq US T-Bill …",
+          "주식 부문의 편입 비중은 수정시가총액 가중방식으로 결정한다."
+        ],
+        "date": "2026-11-09",
+        "guid": "naver:invest:40768",
+        "title": "[New K-ETF] 나스닥100 + 미국채 채권혼합",
+        "link": "https://stock.naver.com/research/invest/40768",
+        "by": "하나증권"
+      },
+      {
+        "label": "한국은행 통화정책",
+        "slot": "",
+        "summary": [],
+        "date": "2026-11-10",
+        "guid": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11066447&menuNo=200690",
+        "title": "금융통화위원회 의사록(2026년 제20차)(2026.10.22)",
+        "link": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11066447&menuNo=200690",
+        "by": ""
+      }
     ]
   },
   "reports_used": [
     "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11065823&menuNo=200690",
+    "https://www.bok.or.kr/portal/bbs/P0000559/view.do?nttId=11066447&menuNo=200690",
     "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11065913&menuNo=200433",
     "https://www.bok.or.kr/portal/bbs/P0002353/view.do?nttId=11065979&menuNo=200433",
     "naver:economy:13935",
@@ -3095,6 +3190,7 @@
     "naver:economy:13995",
     "naver:economy:13997",
     "naver:economy:13998",
+    "naver:economy:14011",
     "naver:economy:14012",
     "naver:invest:40559",
     "naver:invest:40569",
@@ -3113,12 +3209,14 @@
     "naver:invest:40726",
     "naver:invest:40734",
     "naver:invest:40743",
+    "naver:invest:40768",
     "naver:market:38041",
     "naver:market:38056",
     "naver:market:38069",
     "naver:market:38071",
     "naver:market:38076",
-    "naver:market:38080"
+    "naver:market:38080",
+    "naver:market:38094"
   ],
   "sent": [
     "2026-11-04",
@@ -3127,7 +3225,8 @@
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-10",
+    "2026-11-11"
   ],
   "markets_history": {
     "2026-11-05": {
@@ -3273,6 +3372,30 @@
       "금": "$4,149.20",
       "구리 (경기 선행)": "$6.3740",
       "VIX (공포 지수)": "19.90"
+    },
+    "2026-11-11": {
+      "KOSPI": "5,239.13",
+      "KOSDAQ": "667.61",
+      "KR 3Y": "3.63%",
+      "US 2Y": "4.73%",
+      "US 10Y": "4.98%",
+      "US 30Y": "5.35%",
+      "10Y-2Y spread": "+25bp",
+      "USD/KRW": "1,339.0",
+      "USD/JPY": "158.18",
+      "USD/EUR": "0.8917",
+      "S&P 500": "7,521.11",
+      "나스닥": "25,065.87",
+      "다우": "52,233.32",
+      "유로스톡스 50": "6,327.87",
+      "니케이 225": "60,459.58",
+      "상해종합": "3,663.72",
+      "항셍": "24,557.04",
+      "WTI": "$86.36",
+      "브렌트유": "$91.93",
+      "금": "$4,042.10",
+      "구리 (경기 선행)": "$6.2740",
+      "VIX (공포 지수)": "19.81"
     }
   }
 }
