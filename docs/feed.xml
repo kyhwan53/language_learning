@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-12 1] EN Easy | How do climate scientists make predictions?</title>
+      <guid isPermaLink="false">2026-11-12:urn:bbc:podcast:p0p2yh63</guid>
+      <pubDate>Thu, 12 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0p2yh63</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p2ygrc.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[11-12 2] EN All Ears | AEE 2720: Are You Spiteful? How to Discuss Revenge in English</title>
+      <guid isPermaLink="false">2026-11-12:0a7cf9c2-d11b-11f1-a28a-d79820cd68d1</guid>
+      <pubDate>Thu, 12 Nov 2026 05:00:00 +0000</pubDate>
+      <link>https://www.allearsenglish.com/fluencyscore</link>
+      <enclosure url="https://traffic.megaphone.fm/ALLE8451433385.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>1140</itunes:duration>
+    </item>
+    <item>
       <title>[11-11 1] EN Business | Office English: Describing your job</title>
       <guid isPermaLink="false">2026-11-11:urn:bbc:podcast:p0n9js6w</guid>
       <pubDate>Wed, 11 Nov 2026 06:00:00 +0000</pubDate>
@@ -100,22 +116,6 @@
       <link>http://go.ted.com/alexdavidrobert</link>
       <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aeb94a69f528791af8c1bc2/media.mp3" type="audio/mpeg" length="0" />
       <itunes:duration>1020</itunes:duration>
-    </item>
-    <item>
-      <title>[11-05 1] EN Easy | Sharing the road with driverless cars</title>
-      <guid isPermaLink="false">2026-11-05:urn:bbc:podcast:p0p5h8tg</guid>
-      <pubDate>Thu, 05 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0p5h8tg</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0p5h6cg.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>420</itunes:duration>
-    </item>
-    <item>
-      <title>[11-05 2] EN All Ears | AEE 2716: This is Us Breaking Down English Grammar</title>
-      <guid isPermaLink="false">2026-11-05:d41b97f0-cab5-11f1-aac7-ff4501a63172</guid>
-      <pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
-      <link>https://www.allearsenglish.com/fluencyscore</link>
-      <enclosure url="https://traffic.megaphone.fm/ALLE3455647051.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1140</itunes:duration>
     </item>
   </channel>
 </rss>
