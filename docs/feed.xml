@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-13 1] EN Business | Office English: Socialising</title>
+      <guid isPermaLink="false">2026-11-13:urn:bbc:podcast:p0n87yym</guid>
+      <pubDate>Fri, 13 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0n87yym</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0n87y2b.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>480</itunes:duration>
+    </item>
+    <item>
+      <title>[11-13 2] EN Talk | How we’ll actually ditch fossil fuels — by the numbers | Michael Liebreich</title>
+      <guid isPermaLink="false">2026-11-13:6af5e8e843d8776fbbb21b34</guid>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <link>http://go.ted.com/michaelliebreich</link>
+      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5e8e843d8776fbbb21b34/media.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>900</itunes:duration>
+    </item>
+    <item>
       <title>[11-12 1] EN Easy | How do climate scientists make predictions?</title>
       <guid isPermaLink="false">2026-11-12:urn:bbc:podcast:p0p2yh63</guid>
       <pubDate>Thu, 12 Nov 2026 06:00:00 +0000</pubDate>
@@ -100,22 +116,6 @@
       <link>https://www.npr.org/2026/11/05/nx-s1-6029822/how-to-plan-your-workouts-for-the-week</link>
       <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/db8da660-02d6-4d92-b23f-ee0d1d944680/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=db8da660-02d6-4d92-b23f-ee0d1d944680&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6029822&amp;p=510338&amp;d=1340&amp;size=21441393" type="audio/mpeg" length="0" />
       <itunes:duration>1320</itunes:duration>
-    </item>
-    <item>
-      <title>[11-06 1] EN Business | Office English: Clear communication</title>
-      <guid isPermaLink="false">2026-11-06:urn:bbc:podcast:p0nfhtp6</guid>
-      <pubDate>Fri, 06 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nfhtp6</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nfhsht.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>540</itunes:duration>
-    </item>
-    <item>
-      <title>[11-06 2] EN Talk | Why great art requires risk | Alex Van Halen, David Lee Roth, Robert Vargas</title>
-      <guid isPermaLink="false">2026-11-06:6aeb94a69f528791af8c1bc2</guid>
-      <pubDate>Fri, 06 Nov 2026 05:00:00 +0000</pubDate>
-      <link>http://go.ted.com/alexdavidrobert</link>
-      <enclosure url="https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6aeb94a69f528791af8c1bc2/media.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>1020</itunes:duration>
     </item>
   </channel>
 </rss>

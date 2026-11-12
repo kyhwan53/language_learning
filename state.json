@@ -19,7 +19,8 @@
       "urn:bbc:podcast:p0nfhtp6",
       "urn:bbc:podcast:p0nd46l6",
       "urn:bbc:podcast:p0nb7z27",
-      "urn:bbc:podcast:p0n9js6w"
+      "urn:bbc:podcast:p0n9js6w",
+      "urn:bbc:podcast:p0n87yym"
     ],
     "talk": [
       "6ac7af6ae2a72faefc1e8d10",
@@ -36,7 +37,8 @@
       "6ae8b9cd008b613dfe44544a",
       "6aeb94a69f528791af8c1bc2",
       "6af1eb82e0d89bd85412a56b",
-      "6af23934e1219d878fcb3b47"
+      "6af23934e1219d878fcb3b47",
+      "6af5e8e843d8776fbbb21b34"
     ],
     "jp": [
       "http://nihongoconteppei.com/?p=9",
@@ -1214,6 +1216,32 @@
         "minutes": 19,
         "pub": "2026-11-11T06:00:00"
       }
+    ],
+    "2026-11-13": [
+      {
+        "key": "biz",
+        "label": "EN Business",
+        "guid": "urn:bbc:podcast:p0n87yym",
+        "show": "Learning English For Work",
+        "title": "Office English: Socialising",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0n87y2b.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0n87yym",
+        "minutes": 8,
+        "pub": "2026-03-23T09:47:00+00:00"
+      },
+      {
+        "key": "talk",
+        "label": "EN Talk",
+        "guid": "6af5e8e843d8776fbbb21b34",
+        "show": "TED Talks Daily",
+        "title": "How we’ll actually ditch fossil fuels — by the numbers | Michael Liebreich",
+        "audio": "https://sphinx.acast.com/p/open/s/67587e77c705e441797aff96/e/6af5e8e843d8776fbbb21b34/media.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://go.ted.com/michaelliebreich",
+        "minutes": 15,
+        "pub": "2026-11-12T16:57:16+00:00"
+      }
     ]
   },
   "articles": {
@@ -1800,6 +1828,29 @@
         "link": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
         "summary": "Mackenzie Crook directs the story of the British professor whose probe lost contact upon touchdown."
       }
+    ],
+    "2026-11-13": [
+      {
+        "label": "NPR News",
+        "guid": "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years",
+        "title": "'Punch in the gut': Homes sales fall to their lowest in 16 years",
+        "link": "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years",
+        "summary": "Existing homes sales in October declined 8.8% from a year earlier, according to the National Association of Realtors."
+      },
+      {
+        "label": "NPR Economy",
+        "guid": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
+        "title": "Why is gasoline suddenly under $4 a gallon?",
+        "link": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
+        "summary": "The average price of a gallon of gasoline dipped below $4 this week for the first time in months. Does that mean more relief is coming for drivers?"
+      },
+      {
+        "label": "Guardian Environment",
+        "guid": "https://www.theguardian.com/film/2026/nov/12/to-hold-a-mountain-film-mileva-gara-jovanovic",
+        "title": "‘Goats are good. They listen’: the herder who defeated Montenegro’s military – and can identify her cows’ herby burps",
+        "link": "https://www.theguardian.com/film/2026/nov/12/to-hold-a-mountain-film-mileva-gara-jovanovic",
+        "summary": "To Hold a Mountain tells the incredible story of a woman whose way of life was threatened when she heard her pastures were set to become a Nato training zone The star of To Hold a Mountain is having trouble with her goats, which keep escapi…"
+      }
     ]
   },
   "articles_used": [
@@ -1851,6 +1902,8 @@
     "https://www.npr.org/2026/11/09/nx-s1-5996456/turkey-hosts-world-climate-summit-but-some-critics-accuse-it-of-greenwashing",
     "https://www.npr.org/2026/11/09/nx-s1-6032701/economist-discusses-taxing-the-ultra-wealthy-and-their-impact-on-the-economy",
     "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+    "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
+    "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
     "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
@@ -1865,6 +1918,7 @@
     "https://www.theguardian.com/environment/2026/nov/06/uk-dairy-farmers-face-squeeze-as-milk-processor-cuts-prices",
     "https://www.theguardian.com/environment/2026/nov/10/leadbeaters-possum-victoria-endangered-species-australia-wildlife-conservation-haining-farm",
     "https://www.theguardian.com/environment/2026/oct/20/jackdaw-north-sea-gas-field-to-get-go-ahead-in-blow-to-climate-campaigners",
+    "https://www.theguardian.com/film/2026/nov/12/to-hold-a-mountain-film-mileva-gara-jovanovic",
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
     "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
     "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live",
@@ -2421,22 +2475,6 @@
         "previous": ""
       },
       {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-11-12T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "7.2%",
-        "previous": "7.2%"
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-11-12T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "80B",
-        "previous": "1080B"
-      },
-      {
         "title": "Building Permits m/m",
         "country": "CAD",
         "date": "2026-11-12T08:30:00-05:00",
@@ -2475,14 +2513,6 @@
         "impact": "Low",
         "forecast": "",
         "previous": ""
-      },
-      {
-        "title": "Mortgage Delinquencies",
-        "country": "USD",
-        "date": "2026-11-12T10:00:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "4.37%"
       },
       {
         "title": "CB Leading Index m/m",
@@ -2629,6 +2659,22 @@
         "previous": "-6.8B"
       },
       {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-11-13T05:03:00-05:00",
+        "impact": "Low",
+        "forecast": "7.2%",
+        "previous": "7.2%"
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-11-13T05:03:00-05:00",
+        "impact": "Low",
+        "forecast": "80B",
+        "previous": "1080B"
+      },
+      {
         "title": "Manufacturing Sales m/m",
         "country": "CAD",
         "date": "2026-11-13T08:30:00-05:00",
@@ -2685,6 +2731,14 @@
         "previous": ""
       },
       {
+        "title": "Mortgage Delinquencies",
+        "country": "USD",
+        "date": "2026-11-13T10:15:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "4.37%"
+      },
+      {
         "title": "Natural Gas Storage",
         "country": "USD",
         "date": "2026-11-13T10:30:00-05:00",
@@ -2735,26 +2789,6 @@
     ]
   },
   "reports": {
-    "2026-10-30": [
-      {
-        "label": "증권사 경제분석",
-        "summary": "[미국] AI 투자는 지속, 증가율은 둔화 - 미국 경제에서 AI 투자가 차지하는 비중은 꾸준히 상승. 2027년 성장률에 있어서도 AI 투자의 지속 가능성과 증가율 수준이 중요 변수가될 전망. 다만 AI 투자금액 중 상당 부분은 해외 자본재 수입 형태로 유입되며 성장률에 중립적인 측면이 있음 - 하이퍼스케일러 기업들의 Capex 전망치는 내년에도 금액으로 보면 증가세가 유지. 다만 증가율 자체는 올해 4분기 컨센서스 기준 둔화될 것으로 전망",
-        "date": "2026-10-27",
-        "guid": "naver:economy:13952",
-        "title": "2027년 경제/환율 전망, 높아진 리스크, 지속될 사이클",
-        "link": "https://stock.naver.com/research/economy/13952",
-        "by": "교보증권"
-      },
-      {
-        "label": "증권사 투자전략",
-        "summary": "Summary: AI 현금흐름 우려를 완화시킨 앤트로픽 10/26(월) 공개된 앤트로픽(Anthropic)의 S-1 을 두고 시장의 반응은 극명하게 갈렸다. 나스닥이 +0.8%, 필라델피아 반도체지수(SOX)가 +2.8% 상승한 가운데 NVDA·AMD·AVGO·MU 가 2~3%, SK 하이닉스 ADR 이 4% 오른 반면, S-1 공개 두 시간 전 최대 $95B 규모의 증자를 발표한 Meta 는 1.9% 하락했다. 동일한 문건을 두고 AI 하드웨어 공급망은 '확정된 매출'로, 앤트로픽 및 빅테크 투자자는 '비용 부담'으로 해석한 결과다. …",
-        "date": "2026-10-28",
-        "guid": "naver:invest:40607",
-        "title": "[미국은 지금] Anthropic S-1, AI 밸류체인 자금 우려 완화, 자체 마진은 시험대",
-        "link": "https://stock.naver.com/research/invest/40607",
-        "by": "키움증권"
-      }
-    ],
     "2026-10-31": [
       {
         "label": "증권사 경제분석",
@@ -3246,6 +3280,53 @@
         "link": "https://stock.naver.com/research/invest/40778",
         "by": "유진투자증권"
       }
+    ],
+    "2026-11-13": [
+      {
+        "label": "밤사이 미국 시장",
+        "slot": "overnight",
+        "summary": [
+          "엔비디아(NVDA) CEO 스캔들과 이사회 조사로 AI 대장주가 홀로 밀렸지만, AMD·브로드컴과 반도체 장비주로 매수세가 번지며 4대 지수가 일제히 2% 넘게 반등했습니다.",
+          "중소형주(러셀2000 +3.15%)까지 가세하며 랠리의 저변이 넓어진 하루였습니다."
+        ],
+        "date": "2026-11-11",
+        "guid": "naver:market:38119",
+        "title": "유안타 AI 미국 주식시장 마감 시황 (26.11.10)",
+        "link": "https://stock.naver.com/research/market/38119",
+        "by": "유안타증권"
+      },
+      {
+        "label": "증권사 경제분석",
+        "slot": "",
+        "summary": [
+          "미국 경제, 소비 뿐만 아니라 투자도 K자형으로 양극화",
+          "미국 경제는 내수 중심으로 견조한 흐름을 이어가며 잠재성장률 이상의 성장률을 달성할 것으로 기대한다.",
+          "다만 성장을 주도하는 소비와 투자 모두 양극화되며 K자형 경제 구도는 점차 강화될 가능성이 높다.",
+          "한편 최근 4분기 동안 미국 GDP는 비주거용 투자의 기여도가 높아졌고, 이는 AI 관련 데이터센터 및 인프라 구축 수요 영향이 컸다.",
+          "AI 투자 사이클이 지속되는 동안 투자 중심의 경제 성장은 이어질 전망이다."
+        ],
+        "date": "2026-11-10",
+        "guid": "naver:economy:14017",
+        "title": "AI 시대의 미국, 과도기 국면 중 세 가지 구조적 변화",
+        "link": "https://stock.naver.com/research/economy/14017",
+        "by": "하나증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "slot": "",
+        "summary": [
+          "민주당 전환 주요 5개 주에 개발 계획 49% 집중",
+          "이번 선거로 민주당이 주지사 직을 새로 확보한 5개 주에 개발 계획 49%(92.2GW) 집중 → 이들 지역의 정책 변화가 미국 신규 공급의 핵심 변수",
+          "텍사스 50.2GW, 조지아 18.5GW, 오하이오 11.5GW가 전체 계획의 43% 차지 → 세주의 신규 승인 요건과 계약 조건을 우선 점검할 필요",
+          "선거 전부터 양당이 추진한 비용 분담에 승인 중단과 세제 축소 공약이 추가될 경우 → 신규 사업의 개발 비와 승인 대기 부담 확대 가능성",
+          "텍사스 당선인은 신규 승인 제한에서 착공 사업을 제외하는 구상을 제시했으나, 전력이나 환경 승인이 남은 사업은 기존 승인 보류의 영향받을 가능성 잔존"
+        ],
+        "date": "2026-11-10",
+        "guid": "naver:invest:40781",
+        "title": "미국 중간선거 이후 매크로, 시장 및 섹터별 영향",
+        "link": "https://stock.naver.com/research/invest/40781",
+        "by": "대신증권"
+      }
     ]
   },
   "reports_used": [
@@ -3271,6 +3352,7 @@
     "naver:economy:13998",
     "naver:economy:14011",
     "naver:economy:14012",
+    "naver:economy:14017",
     "naver:economy:14023",
     "naver:invest:40559",
     "naver:invest:40569",
@@ -3291,6 +3373,7 @@
     "naver:invest:40743",
     "naver:invest:40768",
     "naver:invest:40778",
+    "naver:invest:40781",
     "naver:market:38041",
     "naver:market:38056",
     "naver:market:38069",
@@ -3298,6 +3381,7 @@
     "naver:market:38076",
     "naver:market:38080",
     "naver:market:38094",
+    "naver:market:38119",
     "naver:market:38121"
   ],
   "sent": [
@@ -3309,7 +3393,8 @@
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
   ],
   "markets_history": {
     "2026-11-05": {
@@ -3503,6 +3588,30 @@
       "금": "$3,994.40",
       "구리 (경기 선행)": "$6.2720",
       "VIX (공포 지수)": "17.56"
+    },
+    "2026-11-13": {
+      "KOSPI": "5,342.73",
+      "KOSDAQ": "696.53",
+      "KR 3Y": "3.73%",
+      "US 2Y": "4.86%",
+      "US 10Y": "5.10%",
+      "US 30Y": "5.43%",
+      "10Y-2Y spread": "+24bp",
+      "USD/KRW": "1,334.1",
+      "USD/JPY": "159.70",
+      "USD/EUR": "0.9024",
+      "S&P 500": "7,592.95",
+      "나스닥": "25,366.09",
+      "다우": "52,299.11",
+      "유로스톡스 50": "6,398.98",
+      "니케이 225": "60,819.36",
+      "상해종합": "3,655.83",
+      "항셍": "24,008.55",
+      "WTI": "$88.89",
+      "브렌트유": "$96.02",
+      "금": "$3,882.90",
+      "구리 (경기 선행)": "$6.1860",
+      "VIX (공포 지수)": "18.93"
     }
   }
 }
