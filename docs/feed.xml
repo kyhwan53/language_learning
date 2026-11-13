@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-14 1] EN Easy | Learning from different generations</title>
+      <guid isPermaLink="false">2026-11-14:urn:bbc:podcast:p0pmkr5c</guid>
+      <pubDate>Sat, 14 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0pmkr5c</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmkqml.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>420</itunes:duration>
+    </item>
+    <item>
+      <title>[11-14 2] EN Life Kit | Life is easier with neighbors. Here’s how to get to know them</title>
+      <guid isPermaLink="false">2026-11-14:94b722c0-0d7e-4b01-bd70-5e5e9a99a0d7</guid>
+      <pubDate>Sat, 14 Nov 2026 05:00:00 +0000</pubDate>
+      <link>https://www.npr.org/2026/11/12/nx-s1-6037839/life-is-easier-with-neighbors-heres-how-to-get-to-know-them</link>
+      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/4433f11c-95df-4e64-971c-f6802d3386b9/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=4433f11c-95df-4e64-971c-f6802d3386b9&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6037839&amp;p=510338&amp;d=1145&amp;size=18327137" type="audio/mpeg" length="0" />
+      <itunes:duration>1140</itunes:duration>
+    </item>
+    <item>
       <title>[11-13 1] EN Business | Office English: Socialising</title>
       <guid isPermaLink="false">2026-11-13:urn:bbc:podcast:p0n87yym</guid>
       <pubDate>Fri, 13 Nov 2026 06:00:00 +0000</pubDate>
@@ -99,22 +115,6 @@
       <pubDate>Sun, 08 Nov 2026 05:00:00 +0000</pubDate>
       <link>https://www.npr.org/2026/11/03/nx-s1-6023372/how-to-reclaim-joy-without-seeking-out-newness</link>
       <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/f6c90179-0967-4a0c-b9ae-28e1bbf5f853/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=f6c90179-0967-4a0c-b9ae-28e1bbf5f853&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6023372&amp;p=510338&amp;d=1341&amp;size=21465174" type="audio/mpeg" length="0" />
-      <itunes:duration>1320</itunes:duration>
-    </item>
-    <item>
-      <title>[11-07 1] EN Easy | Could vaccines cure cancer?</title>
-      <guid isPermaLink="false">2026-11-07:urn:bbc:podcast:p0pldm3h</guid>
-      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0pldm3h</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pldlfg.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>420</itunes:duration>
-    </item>
-    <item>
-      <title>[11-07 2] EN Life Kit | How to plan your workouts for the week</title>
-      <guid isPermaLink="false">2026-11-07:3ce2013b-3030-4558-8228-5882682e46bf</guid>
-      <pubDate>Sat, 07 Nov 2026 05:00:00 +0000</pubDate>
-      <link>https://www.npr.org/2026/11/05/nx-s1-6029822/how-to-plan-your-workouts-for-the-week</link>
-      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/db8da660-02d6-4d92-b23f-ee0d1d944680/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=db8da660-02d6-4d92-b23f-ee0d1d944680&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6029822&amp;p=510338&amp;d=1340&amp;size=21441393" type="audio/mpeg" length="0" />
       <itunes:duration>1320</itunes:duration>
     </item>
   </channel>

@@ -92,7 +92,8 @@
       "urn:bbc:podcast:p0p5h8tg",
       "urn:bbc:podcast:p0pldm3h",
       "urn:bbc:podcast:p0p478fw",
-      "urn:bbc:podcast:p0p2yh63"
+      "urn:bbc:podcast:p0p2yh63",
+      "urn:bbc:podcast:p0pmkr5c"
     ],
     "lifekit": [
       "93729555-5746-4f8a-853c-aaa632e9c57a",
@@ -100,7 +101,8 @@
       "31ec22ec-be36-4955-b8c0-c5277859b64e",
       "c34daca1-9947-4c31-90ad-1410a24f66a2",
       "3ce2013b-3030-4558-8228-5882682e46bf",
-      "4d985ce9-5201-4ddd-a360-c5d03fe9e3df"
+      "4d985ce9-5201-4ddd-a360-c5d03fe9e3df",
+      "94b722c0-0d7e-4b01-bd70-5e5e9a99a0d7"
     ]
   },
   "days": {
@@ -1242,6 +1244,32 @@
         "minutes": 15,
         "pub": "2026-11-12T16:57:16+00:00"
       }
+    ],
+    "2026-11-14": [
+      {
+        "key": "easy",
+        "label": "EN Easy",
+        "guid": "urn:bbc:podcast:p0pmkr5c",
+        "show": "6 Minute English",
+        "title": "Learning from different generations",
+        "audio": "http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pmkqml.mp3",
+        "mime": "audio/mpeg",
+        "page": "http://www.bbc.co.uk/programmes/p0pmkr5c",
+        "minutes": 7,
+        "pub": "2026-11-12T09:59:00+00:00"
+      },
+      {
+        "key": "lifekit",
+        "label": "EN Life Kit",
+        "guid": "94b722c0-0d7e-4b01-bd70-5e5e9a99a0d7",
+        "show": "Life Kit",
+        "title": "Life is easier with neighbors. Here’s how to get to know them",
+        "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/4433f11c-95df-4e64-971c-f6802d3386b9/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&awEpisodeId=4433f11c-95df-4e64-971c-f6802d3386b9&feed=XkY2SBZJ&t=podcast&e=nx-s1-6037839&p=510338&d=1145&size=18327137",
+        "mime": "audio/mpeg",
+        "page": "https://www.npr.org/2026/11/12/nx-s1-6037839/life-is-easier-with-neighbors-heres-how-to-get-to-know-them",
+        "minutes": 19,
+        "pub": "2026-11-12T08:00:03+00:00"
+      }
     ]
   },
   "articles": {
@@ -1851,6 +1879,29 @@
         "link": "https://www.theguardian.com/film/2026/nov/12/to-hold-a-mountain-film-mileva-gara-jovanovic",
         "summary": "To Hold a Mountain tells the incredible story of a woman whose way of life was threatened when she heard her pastures were set to become a Nato training zone The star of To Hold a Mountain is having trouble with her goats, which keep escapi…"
       }
+    ],
+    "2026-11-14": [
+      {
+        "label": "Guardian Top Stories",
+        "guid": "https://www.theguardian.com/football/live/2026/nov/13/scotland-v-north-macedonia-nations-league-live",
+        "title": "Scotland v North Macedonia: Nations League – live",
+        "link": "https://www.theguardian.com/football/live/2026/nov/13/scotland-v-north-macedonia-nations-league-live",
+        "summary": "Nations League updates from 7.45pm GMT kick-off Live scores | Follow us on BlueSky | And email Scott 3 min: Robertson is into the action quickly. He crosses from the left. The ball’s deflected and sent on a strange arc towards the top-left …"
+      },
+      {
+        "label": "Guardian Business",
+        "guid": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+        "title": "Microsoft outage live: company ‘deeply sorry’ for disruption affecting millions and says it’s ‘not related to cyber or AI’",
+        "link": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
+        "summary": "Microsoft says services are improving after millions of customers around the world suffered disruption Tell us: have you been affected by the Microsoft outage? Microsoft struggles to fix huge outage affecting Outlook and Teams What happened…"
+      },
+      {
+        "label": "NPR Climate",
+        "guid": "https://www.npr.org/2026/11/13/nx-s1-6032777/rivers-in-the-sky-are-raining-down-on-the-pacific-northwest-what-are-they",
+        "title": "Rivers in the sky are raining down on the Pacific Northwest. What are they?",
+        "link": "https://www.npr.org/2026/11/13/nx-s1-6032777/rivers-in-the-sky-are-raining-down-on-the-pacific-northwest-what-are-they",
+        "summary": "Atmospheric rivers are large bands of water vapor in the sky. They are dumping trillions of gallons of water on Washington and Oregon, just as high tides and winds batter shorelines."
+      }
     ]
   },
   "articles_used": [
@@ -1904,6 +1955,7 @@
     "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
     "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
     "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years",
+    "https://www.npr.org/2026/11/13/nx-s1-6032777/rivers-in-the-sky-are-raining-down-on-the-pacific-northwest-what-are-they",
     "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
     "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
     "https://www.npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
@@ -1922,11 +1974,13 @@
     "https://www.theguardian.com/football/2026/oct/10/why-premier-league-in-clutches-of-global-mega-rich",
     "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
     "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live",
+    "https://www.theguardian.com/football/live/2026/nov/13/scotland-v-north-macedonia-nations-league-live",
     "https://www.theguardian.com/music/2026/nov/01/bbc-young-musician-teenage-violinist-sofia-demetriades",
     "https://www.theguardian.com/politics/2026/oct/17/sarah-helm-jonathan-powell-palestine-action",
     "https://www.theguardian.com/sport/2026/oct/11/eliud-kipchoge-sends-message-melbourne-marathon-win-record",
     "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
     "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
+    "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
     "https://www.theguardian.com/us-news/2026/oct/23/father-killed-oregon-shooter-speaks-out",
     "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
     "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
@@ -2627,6 +2681,22 @@
         "previous": "0.4%"
       },
       {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-11-13T04:00:00-05:00",
+        "impact": "Low",
+        "forecast": "7.2%",
+        "previous": "7.2%"
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-11-13T04:00:00-05:00",
+        "impact": "Low",
+        "forecast": "80B",
+        "previous": "1080B"
+      },
+      {
         "title": "Italian Trade Balance",
         "country": "EUR",
         "date": "2026-11-13T04:00:00-05:00",
@@ -2657,22 +2727,6 @@
         "impact": "Low",
         "forecast": "-4.5B",
         "previous": "-6.8B"
-      },
-      {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-11-13T05:03:00-05:00",
-        "impact": "Low",
-        "forecast": "7.2%",
-        "previous": "7.2%"
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-11-13T05:03:00-05:00",
-        "impact": "Low",
-        "forecast": "80B",
-        "previous": "1080B"
       },
       {
         "title": "Manufacturing Sales m/m",
@@ -2731,14 +2785,6 @@
         "previous": ""
       },
       {
-        "title": "Mortgage Delinquencies",
-        "country": "USD",
-        "date": "2026-11-13T10:15:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "4.37%"
-      },
-      {
         "title": "Natural Gas Storage",
         "country": "USD",
         "date": "2026-11-13T10:30:00-05:00",
@@ -2789,26 +2835,6 @@
     ]
   },
   "reports": {
-    "2026-10-31": [
-      {
-        "label": "증권사 경제분석",
-        "summary": "ECB, 정책금리 동결 ECB, 재융자금리(정책금리) 2.65%로 동결. 예금금리(2.50%)와 한계 대출금리(2.90%)도 마찬가지로 유지. ECB는 최근 에너지 가격 상승 압력에도 기조적 물가 흐름이 안정적이라고 평가하며, 파급효과를 조금 더 확인할 필요가 있다고 설명. 또한 지난 9월 회의 이후 긴축적인 금융 여건이 물가와 성장을 동반 제약하고 있다는 점도 동결 배경으로 제시",
-        "date": "2026-10-30",
-        "guid": "naver:economy:13972",
-        "title": "ECB, 숨 고르기 후 다시 인상",
-        "link": "https://stock.naver.com/research/economy/13972",
-        "by": "한화투자증권"
-      },
-      {
-        "label": "증권사 투자전략",
-        "summary": "“11월 1주차 전략” 11월 3일 미국 중간선거, 정치적 불확실성 해소 기대 미국 중간선거, 대통령 집권 2년차 중간평가 및 의회 권련 재편 분기점 11월 3일 미국 중간선거는 집권 2년차인 트럼프 행정부에 대한 중간 평가이자. 의회 권력 재편으로 현 집권 행정부의 정책 강도와 속도에 영향을 미치는 중대한 이벤트이다. 최근 여론조사 결과 블루웨이브가 점쳐지고 있지만, 상원 다수당을 가를 경합주 7곳을 감안 시 하원만 민주당을 탈환하는 시나리오를 필자는 무게를 둔다. …",
-        "date": "2026-10-30",
-        "guid": "naver:invest:40648",
-        "title": "THE GLOBAL 주간 증시 전략",
-        "link": "https://stock.naver.com/research/invest/40648",
-        "by": "대신증권"
-      }
-    ],
     "2026-11-01": [
       {
         "label": "증권사 경제분석",
@@ -3327,6 +3353,52 @@
         "link": "https://stock.naver.com/research/invest/40781",
         "by": "대신증권"
       }
+    ],
+    "2026-11-14": [
+      {
+        "label": "밤사이 미국 시장",
+        "slot": "overnight",
+        "summary": [
+          "젠슨 황 CEO 사퇴에 따른 불확실성을 반영하며 약세.",
+          "AMD, 브로드컴 반사이익 기대감에 나란히 5% 급등.",
+          "젠슨 황 사태로 네오클라우드 기업에 대한 우려도 확대되는 가운데, 네비우스 매출 가이던스 부진에 -16%대",
+          "한편, 최근 이란에 유화적 분위기를 보여왔던 트럼프 대통령의 태도가 급변하며 유가 상승 및 국채금리 급등",
+          "미국 10년물 국채수익률 5.13% (+13.5bp), 미-이란 협상 기대 후퇴에 따른 유가 상승 영향에 급등"
+        ],
+        "date": "2026-11-13",
+        "guid": "naver:market:38143",
+        "title": "11/13 KB 리서치 모닝코멘트",
+        "link": "https://stock.naver.com/research/market/38143",
+        "by": "KB증권"
+      },
+      {
+        "label": "증권사 경제분석",
+        "slot": "",
+        "summary": [
+          "월에 이어 10 월에도 인플레이션 전방위 확산",
+          "미국 10 월 CPI 는 +0.4%MoM, Core CPI 는 +0.3%MoM 상승했다.",
+          "월 에너지 가격 상승률이 +5.2%MoM → +0.7%MoM 으로 크게 둔화되면서 헤드라인 인플레이션 상승 속도는 완만해졌으나, 그 외 품목들은 높은 상승세를 이어갔다.",
+          "Core 상품 부문은 9 월 보다는 상승세가 약간 낮아졌으나 +0.2%로 여전히 높은 수준을 지속했다.",
+          "서비스 물가에서도 주거비가 +0.4% → +0.3%로 둔화된 것을 제외하면 다른 부분에서는 여전히 우려되는 수준이었으며, 주거비 마저도 자가주거비는 2 개월 연속 +0.3% 상승했다."
+        ],
+        "date": "2026-11-11",
+        "guid": "naver:economy:14022",
+        "title": "미국 CPI: 뒤늦은 전쟁의 대가",
+        "link": "https://stock.naver.com/research/economy/14022",
+        "by": "대신증권"
+      },
+      {
+        "label": "증권사 투자전략",
+        "slot": "",
+        "summary": [
+          "Part II 글로벌 IT SW 16"
+        ],
+        "date": "2026-11-12",
+        "guid": "naver:invest:40808",
+        "title": "[2027 해외기업 전망] 글로벌 탑픽스 (Global Top Picks)",
+        "link": "https://stock.naver.com/research/invest/40808",
+        "by": "신한투자증권"
+      }
     ]
   },
   "reports_used": [
@@ -3353,6 +3425,7 @@
     "naver:economy:14011",
     "naver:economy:14012",
     "naver:economy:14017",
+    "naver:economy:14022",
     "naver:economy:14023",
     "naver:invest:40559",
     "naver:invest:40569",
@@ -3374,6 +3447,7 @@
     "naver:invest:40768",
     "naver:invest:40778",
     "naver:invest:40781",
+    "naver:invest:40808",
     "naver:market:38041",
     "naver:market:38056",
     "naver:market:38069",
@@ -3382,7 +3456,8 @@
     "naver:market:38080",
     "naver:market:38094",
     "naver:market:38119",
-    "naver:market:38121"
+    "naver:market:38121",
+    "naver:market:38143"
   ],
   "sent": [
     "2026-11-04",
@@ -3394,7 +3469,8 @@
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
   ],
   "markets_history": {
     "2026-11-05": {
@@ -3612,6 +3688,30 @@
       "금": "$3,882.90",
       "구리 (경기 선행)": "$6.1860",
       "VIX (공포 지수)": "18.93"
+    },
+    "2026-11-14": {
+      "KOSPI": "5,290.53",
+      "KOSDAQ": "699.66",
+      "KR 3Y": "3.76%",
+      "US 2Y": "4.88%",
+      "US 10Y": "5.15%",
+      "US 30Y": "5.47%",
+      "10Y-2Y spread": "+27bp",
+      "USD/KRW": "1,337.1",
+      "USD/JPY": "160.00",
+      "USD/EUR": "0.9048",
+      "S&P 500": "7,562.03",
+      "나스닥": "25,136.27",
+      "다우": "52,347.91",
+      "유로스톡스 50": "6,386.86",
+      "니케이 225": "61,142.35",
+      "상해종합": "3,634.35",
+      "항셍": "23,637.60",
+      "WTI": "$88.84",
+      "브렌트유": "$96.06",
+      "금": "$3,877.60",
+      "구리 (경기 선행)": "$6.0735",
+      "VIX (공포 지수)": "19.21"
     }
   }
 }
