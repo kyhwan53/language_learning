@@ -22,6 +22,7 @@ from pathlib import Path
 
 import indicators
 import cards
+import portfolio
 import reports
 from sources import ARTICLES, BASE_URL, FEED_DAYS, MAX_MINUTES, MEETINGS, RECIPIENT, REPORTS, SCHEDULE, SOURCES
 
@@ -179,7 +180,8 @@ def build_articles(day, state):
     return picks
 
 
-def render_email(queue, articles, day, markets_html="", reports_html="", cards_html="", weekly_html="", global_html=""):
+def render_email(queue, articles, day, markets_html="", reports_html="", cards_html="", weekly_html="", global_html="",
+                 portfolio_html=""):
     total = sum(e["minutes"] or 0 for e in queue)
     card = "background:#fff;border:1px solid #e3e6ea;border-radius:10px;padding:14px 16px;margin:0 0 10px"
     tag = "display:inline-block;font-size:11px;font-weight:600;color:#fff;background:#2f6fed;border-radius:4px;padding:2px 7px"
@@ -216,21 +218,21 @@ def render_email(queue, articles, day, markets_html="", reports_html="", cards_h
         f"{reports_html}"
         f"{global_html}"
         f"{markets_html}"
+        f"{portfolio_html}"
         "<div style='font-size:12px;color:#6b7280;margin-top:14px;line-height:1.5'>"
         "Tip: listen once without the transcript, then replay the hardest part. "
         "While reading, note 3 phrases you could reuse in a meeting or presentation.</div></div>"
     )
 
 
-def send_email(html, day):
+def send_email(html, day, to):
     # Strip BOM / zero-width chars / whitespace that sneak in when secrets are pasted or piped.
     clean = lambda v: "".join(c for c in v if c.isprintable() and not c.isspace() and c != "﻿")  # noqa: E731
     user, pw = clean(os.environ["GMAIL_USER"]), clean(os.environ["GMAIL_APP_PASSWORD"])
     msg = EmailMessage()
-    # Extra recipients come from the EXTRA_RECIPIENTS secret (comma-separated), never from the public config.
-    extra = [a.strip() for a in os.environ.get("EXTRA_RECIPIENTS", "").split(",") if a.strip()]
+    to = [a if a != "me" else (RECIPIENT or user) for a in to]
     msg["Subject"] = f"Daily study {day}"
-    msg["From"], msg["To"] = user, ", ".join([RECIPIENT or user] + extra)
+    msg["From"], msg["To"] = user, ", ".join(to)
     msg.set_content("HTML email")
     msg.add_alternative(html, subtype="html")
     # Gmail sometimes drops logins from cloud IPs: retry, alternating SSL(465) and STARTTLS(587).
@@ -283,12 +285,23 @@ def main():
     cards_html = cards.render_english(cards.english(day), day) + cards.render_japanese(cards.japanese(day), day)
     weekly_html = cards.render_weekly(state, day) if day.weekday() == 6 else ""
     global_html = indicators.render_global(markets, reports.render(korea, "overnight"))
-    html = render_email(queue, articles, day, indicators.render(markets), reports.render(korea), cards_html, weekly_html, global_html)
+    parts = (queue, articles, day, indicators.render(markets), reports.render(korea), cards_html, weekly_html, global_html)
+    html = render_email(*parts)
+    # Portfolio buy candidates go only into the owner's copy (never to EXTRA_RECIPIENTS, never printed: public repo)
+    mine_html = portfolio.render(portfolio.load(day))
+    html_me = render_email(*parts, portfolio_html=mine_html) if mine_html else html
+    print(f"  portfolio section: {'included (owner only)' if mine_html else 'none'}")
     OUT.mkdir(exist_ok=True)
-    (OUT / "email.html").write_text(html, encoding="utf-8")
+    (OUT / "email.html").write_text(html_me, encoding="utf-8")
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     if args.send:
-        send_email(html, day)
+        # Extra recipients come from the EXTRA_RECIPIENTS secret (comma-separated), never from the public config.
+        extra = [a.strip() for a in os.environ.get("EXTRA_RECIPIENTS", "").split(",") if a.strip()]
+        if mine_html and extra:
+            send_email(html_me, day, ["me"])
+            send_email(html, day, extra)
+        else:
+            send_email(html_me, day, ["me"] + extra)
         state["sent"] = sorted(set(state.get("sent", [])) | {str(day)})[-14:]
         STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"{day}: {len(queue)} items, {sum(e['minutes'] or 0 for e in queue)} min")

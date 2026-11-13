@@ -19,6 +19,7 @@
 | `content/*.toml` | 카드 내용: 업무 영어 표현(`business_english.toml`), 가나·여행 표현(`japanese.toml`). 직접 추가 가능 |
 | `reports.py` | 국내 리포트(네이버 증권 리서치의 증권사 리포트, 한국은행 RSS) 선정 → 메일 섹션 |
 | `manage.py` | 소스 추가/삭제/점검 CLI |
+| `portfolio.py` | 포트폴리오(비공개 저장소 portfolio_managing)의 알파 매수 후보 상위 10개 → **본인에게 가는 메일에만** 넣는 섹션. 로그·저장소에는 남기지 않음 |
 | `docs/feed.xml` | GitHub Pages로 게시되는 개인 피드 (안드로이드 AntennaPod 등에서 구독) |
 | `state.json` | 이미 쓴 에피소드/기사 기록 (git 제외, 로컬 전용) |
 | `out/email.html` | 마지막으로 만든 메일 미리보기 (git 제외) |
@@ -50,6 +51,8 @@
    중복 방지 기록이 이어집니다. 없으면 처음부터 시작합니다.
 6. **매일 자동 실행은 GitHub Actions가 합니다** (`.github/workflows/daily.yml`, 매일 06:00 KST = 21:00 UTC, PC 불필요).
    저장소 Settings → Secrets and variables → Actions에 `GMAIL_USER`, `GMAIL_APP_PASSWORD`를 등록해야 동작합니다.
+   (선택) `PORTFOLIO_TOKEN`: portfolio_managing 저장소만 선택한 fine-grained 토큰(권한 Actions: Read and write).
+   있으면 06:00에 portfolio_managing을 매수 후보 모드로 실행해 결과를 받아 본인 메일에만 넣습니다(약 1분 추가). 없거나 실패하면 그 섹션만 빠집니다.
    GitHub 예약 실행은 2~6시간씩 늦게 시작하므로, 실제 06:00 발송은 외부 스케줄러(cron-job.org, 무료)가 05:50 KST에
    API로 `scheduled=true` 실행을 요청해서 맞춥니다. 내장 cron은 예비용이고, 그날 이미 보냈으면 건너뜁니다(`state.json`의 `sent`).
    수동 실행: 저장소 Actions 탭 → Daily language plan → Run workflow (체크박스를 비워 두면 즉시 발송).

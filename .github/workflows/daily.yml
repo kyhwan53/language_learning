@@ -44,6 +44,34 @@ jobs:
         run: |
           wait=$(( $(TZ=KST-9 date -d "06:00" +%s) - $(date +%s) ))
           if [ "$wait" -gt 0 ]; then echo "waiting ${wait}s"; sleep "$wait"; else echo "already past 06:00 KST"; fi
+      - name: Fetch portfolio buy candidates (owner's copy only; nothing is printed)
+        # Runs portfolio_managing (private) in candidates mode and downloads its artifact to portfolio_out/.
+        # Needs the PORTFOLIO_TOKEN secret: fine-grained token, that repo only, Actions read & write.
+        # Any failure just leaves the section out of the email.
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          GH_TOKEN: ${{ secrets.PORTFOLIO_TOKEN }}
+          REPO: kyhwan53/portfolio_managing
+          SKIP_IF_SENT: ${{ (github.event_name == 'schedule' || inputs.scheduled) && '1' || '' }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "PORTFOLIO_TOKEN not set; skipping"; exit 0; fi
+          today=$(TZ=KST-9 date +%F)
+          if [ -n "$SKIP_IF_SENT" ] && python -c "import json,sys; sys.exit(0 if '$today' in json.load(open('state.json')).get('sent', []) else 1)"; then
+            echo "already sent today; skipping"; exit 0
+          fi
+          since=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          gh workflow run dashboard.yml -R "$REPO" -f mode=candidates
+          id=""
+          for i in $(seq 1 24); do
+            sleep 5
+            id=$(gh run list -R "$REPO" -w dashboard.yml -e workflow_dispatch -L 5 --json databaseId,createdAt,displayTitle                  --jq "[.[] | select(.createdAt >= \"$since\" and (.displayTitle | contains(\"candidates\")))][0].databaseId // empty")
+            [ -n "$id" ] && break
+          done
+          if [ -z "$id" ]; then echo "candidates run not found"; exit 1; fi
+          gh run watch "$id" -R "$REPO" --exit-status --interval 10 > /dev/null
+          gh run download "$id" -R "$REPO" -n candidates -D portfolio_out
+          echo "candidates downloaded"
       - name: Build queue, update feed, send email
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
