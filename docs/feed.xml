@@ -6,6 +6,22 @@
     <language>en</language>
     <description>Personal daily listening queue (links to original podcasts).</description>
     <item>
+      <title>[11-15 1] EN Business | Office English: Disagreements</title>
+      <guid isPermaLink="false">2026-11-15:urn:bbc:podcast:p0n6xmrn</guid>
+      <pubDate>Sun, 15 Nov 2026 06:00:00 +0000</pubDate>
+      <link>http://www.bbc.co.uk/programmes/p0n6xmrn</link>
+      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0n6xlsx.mp3" type="audio/mpeg" length="0" />
+      <itunes:duration>360</itunes:duration>
+    </item>
+    <item>
+      <title>[11-15 2] EN Life Kit | I got what I wanted. Why am I unhappy?</title>
+      <guid isPermaLink="false">2026-11-15:f807523d-469d-46dc-908b-654e114f53fb</guid>
+      <pubDate>Sun, 15 Nov 2026 05:00:00 +0000</pubDate>
+      <link>https://www.npr.org/2026/11/10/nx-s1-6034949/i-got-what-i-wanted-why-am-i-unhappy</link>
+      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/3267271c-7c17-46f9-a00a-63448aab0018/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=3267271c-7c17-46f9-a00a-63448aab0018&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6034949&amp;p=510338&amp;d=1024&amp;size=16386133" type="audio/mpeg" length="0" />
+      <itunes:duration>1020</itunes:duration>
+    </item>
+    <item>
       <title>[11-14 1] EN Easy | Learning from different generations</title>
       <guid isPermaLink="false">2026-11-14:urn:bbc:podcast:p0pmkr5c</guid>
       <pubDate>Sat, 14 Nov 2026 06:00:00 +0000</pubDate>
@@ -100,22 +116,6 @@
       <link>https://www.allearsenglish.com/fluencyscore</link>
       <enclosure url="https://traffic.megaphone.fm/ALLE4067129412.mp3" type="audio/mpeg" length="0" />
       <itunes:duration>1200</itunes:duration>
-    </item>
-    <item>
-      <title>[11-08 1] EN Business | Office English: Suggestions and advice</title>
-      <guid isPermaLink="false">2026-11-08:urn:bbc:podcast:p0nd46l6</guid>
-      <pubDate>Sun, 08 Nov 2026 06:00:00 +0000</pubDate>
-      <link>http://www.bbc.co.uk/programmes/p0nd46l6</link>
-      <enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0nd45w4.mp3" type="audio/mpeg" length="0" />
-      <itunes:duration>480</itunes:duration>
-    </item>
-    <item>
-      <title>[11-08 2] EN Life Kit | How to reclaim joy without seeking out newness</title>
-      <guid isPermaLink="false">2026-11-08:4d985ce9-5201-4ddd-a360-c5d03fe9e3df</guid>
-      <pubDate>Sun, 08 Nov 2026 05:00:00 +0000</pubDate>
-      <link>https://www.npr.org/2026/11/03/nx-s1-6023372/how-to-reclaim-joy-without-seeking-out-newness</link>
-      <enclosure url="https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510338/npr.simplecastaudio.com/8ae5a040-e346-4b89-ba6b-625f91f1fbd4/episodes/f6c90179-0967-4a0c-b9ae-28e1bbf5f853/audio/128/default.mp3?awCollectionId=8ae5a040-e346-4b89-ba6b-625f91f1fbd4&amp;awEpisodeId=f6c90179-0967-4a0c-b9ae-28e1bbf5f853&amp;feed=XkY2SBZJ&amp;t=podcast&amp;e=nx-s1-6023372&amp;p=510338&amp;d=1341&amp;size=21465174" type="audio/mpeg" length="0" />
-      <itunes:duration>1320</itunes:duration>
     </item>
   </channel>
 </rss>
